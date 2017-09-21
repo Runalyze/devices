@@ -1,0 +1,30 @@
+<?php
+
+namespace Runalyze\Devices\Tests\Device;
+
+use Runalyze\Devices\Device\DeviceInterface;
+use Runalyze\Devices\Device\DeviceProfile;
+
+class DeviceProfileTest extends \PHPUnit_Framework_TestCase
+{
+    public function testThatAllClassesExist()
+    {
+        foreach (DeviceProfile::getEnum() as $enum) {
+            $device = DeviceProfile::get($enum);
+
+            $this->assertInstanceOf(DeviceInterface::class, $device);
+            $this->assertEquals($enum, $device->getEnum());
+            $this->assertNotEmpty($device->getName());
+        }
+    }
+
+    public function testThatDeviceNamesDoNotStartWithDistributorName()
+    {
+        foreach (DeviceProfile::getEnum() as $enum) {
+            $device = DeviceProfile::get($enum);
+            $distributorName = $device->getDistributor()->getName();
+
+            $this->assertNotEquals($distributorName, substr($device->getName(), 0, strlen($distributorName)));
+        }
+    }
+}
