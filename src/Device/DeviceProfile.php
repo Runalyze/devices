@@ -128,4 +128,43 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_EDGE_20 = 37;
+
+    /** @var int */
+    const POLAR_A_300 = 38;
+
+    /** @var int */
+    const POLAR_A_360 = 39;
+
+    /** @var int */
+    const POLAR_A_730 = 40;
+
+    /** @var int */
+    const POLAR_M_200 = 41;
+
+    /** @var int */
+    const POLAR_M_400 = 42;
+
+    /** @var int */
+    const POLAR_M_430 = 43;
+
+    /** @var int */
+    const POLAR_M_450 = 44;
+
+    /** @var int */
+    const POLAR_M_460 = 45;
+
+    /** @var int */
+    const POLAR_M_600 = 46;
+
+    /** @var int */
+    const POLAR_V_650 = 47;
+
+    /** @var int */
+    const POLAR_V_800 = 48;
+
+    /** @var int */
+    const POLAR_RS_300_X = 49;
+
+    /** @var int */
+    const POLAR_RS_800_CX = 50;
 }
