@@ -163,8 +163,140 @@ class DeviceProfile extends AbstractEnum
     const POLAR_V_800 = 48;
 
     /** @var int */
-    const POLAR_RS_300_X = 49;
+    const POLAR_R_S_300_X = 49;
 
     /** @var int */
-    const POLAR_RS_800_CX = 50;
+    const POLAR_R_S_800_C_X = 50;
+
+    /** @var int */
+    const GARMIN_UNKNOWN = 51;
+
+    /** @var int */
+    const POLAR_UNKNOWN = 52;
+
+    /** @var int */
+    const EPSON_UNKNOWN = 53;
+
+    /** @var int */
+    const SUUNTO_UNKNOWN = 54;
+
+    /** @var int */
+    const TOM_TOM_UNKNOWN = 55;
+
+    /** @var int */
+    const TIMEX_UNKNOWN = 56;
+
+    /** @var int */
+    const SIGMA_UNKNOWN = 57;
+
+    /** @var int */
+    const WAHOO_UNKNOWN = 58;
+
+    /** @var int */
+    const BRYTON_UNKNOWN = 59;
+
+    /** @var int */
+    const EPSON_S_F_310 = 60;
+
+    /** @var int */
+    const EPSON_S_F_510 = 61;
+
+    /** @var int */
+    const EPSON_S_F_510_F = 62;
+
+    /** @var int */
+    const EPSON_S_F_710_S = 63;
+
+    /** @var int */
+    const EPSON_S_F_810 = 64;
+
+    /** @var int */
+    const SUUNTO_AMBIT_2_R = 65;
+
+    /** @var int */
+    const SUUNTO_AMBIT_3_RUN = 66;
+
+    /** @var int */
+    const SUUNTO_AMBIT_3_PEAK = 67;
+
+    /** @var int */
+    const SUUNTO_AMBIT_SPARTAN_ULTRA = 68;
+
+    /** @var int */
+    const POLAR_LOOP = 69;
+
+    /** @var int */
+    const POLAR_LOOP_2 = 70;
+
+    /** @var int */
+    const GARMIN_SWIM = 71;
+
+    /** @var int */
+    const TWONAV_UNKNOWN = 72;
+
+    /** @var int */
+    const TWONAV_ADVENTURA = 73;
+
+    /** @var int */
+    const TWONAV_SPORTIVA = 74;
+
+    /** @var int */
+    const TWONAV_SPORTIVA_2 = 75;
+
+    /** @var int */
+    const TWONAV_TRAVERSE = 76;
+
+    /** @var int */
+    const TWONAV_ULTRA = 77;
+
+    /** @var int */
+    const GARMIN_EDGE_305 = 78;
+
+    /** @var int */
+    const GARMIN_EDGE_605 = 79;
+
+    /** @var int */
+    const GARMIN_EDGE_820 = 80;
+
+    /** @var int */
+    const GARMIN_FENIX_3_H_R = 81;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_301 = 82;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_405_C_X = 83;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_50 = 84;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_60 = 85;
+
+    /** @var int */
+    const SUUNTO_AMBIT_3_SPORT = 86;
+
+    /** @var int */
+    const SUUNTO_AMBIT_3_VERTICAL = 87;
+
+    /** @var int */
+    const SUUNTO_AMBIT_2_S = 88;
+
+    /** @var int */
+    const SUUNTO_T_6_C = 89;
+
+    /** @var int */
+    const SUUNTO_T_6_D = 90;
+
+    /** @var int */
+    const APP_RUNTASTIC = 91;
+
+    /** @var int */
+    const APP_RUNMETER = 92;
+
+    /** @var int */
+    const APP_RUNNERUP = 93;
+    
+    /** @var int */
+    const GARMIN_FORERUNNER_30 = 94;
 }

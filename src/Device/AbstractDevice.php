@@ -29,4 +29,12 @@ abstract class AbstractDevice implements DeviceInterface
     {
         return false;
     }
+
+   /**
+    * @return string
+    */
+   public function getNameOfClass()
+   {
+       return static::class;
+   }
 }

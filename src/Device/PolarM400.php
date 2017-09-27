@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Device;
 
 class PolarM400 extends AbstractDevice
 {
-    use GarminDeviceTrait;
+    use PolarDeviceTrait;
 
     public function getEnum()
     {

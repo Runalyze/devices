@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class Suunto implements DistributorInterface
+class Suunto extends AbstractDistributor
 {
     public function getEnum()
     {

@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class Polar implements DistributorInterface
+class Polar extends AbstractDistributor
 {
     public function getEnum()
     {

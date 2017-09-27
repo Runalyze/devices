@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class Epson implements DistributorInterface
+class Epson extends AbstractDistributor
 {
     public function getEnum()
     {

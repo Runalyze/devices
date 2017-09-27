@@ -32,4 +32,25 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const EPSON = 5;
+
+    /** @var int */
+    const APP = 6;
+
+    /** @var int */
+    const TIMEX = 7;
+
+    /** @var int */
+    const OSYNCE = 8;
+
+    /** @var int */
+    const SIGMA = 9;
+
+    /** @var int */
+    const WAHOO = 10;
+
+    /** @var int */
+    const BRYTON = 11;
+
+    /** @var int */
+    const TWONAV = 12;
 }

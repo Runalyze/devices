@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class TomTom implements DistributorInterface
+class TomTom extends AbstractDistributor
 {
     public function getEnum()
     {

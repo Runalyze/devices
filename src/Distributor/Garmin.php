@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class Garmin implements DistributorInterface
+class Garmin extends AbstractDistributor
 {
     public function getEnum()
     {

@@ -13,11 +13,11 @@ namespace Runalyze\Devices\Device;
 
 class PolarRS300X extends AbstractDevice
 {
-    use GarminDeviceTrait;
+    use PolarDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_RS_300_X;
+        return DeviceProfile::POLAR_R_S_300_X;
     }
 
     public function getName()
