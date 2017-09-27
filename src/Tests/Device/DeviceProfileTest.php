@@ -34,7 +34,7 @@ class DeviceProfileTest extends \PHPUnit_Framework_TestCase
         foreach (DeviceProfile::getEnum() as $enum) {
             $device = DeviceProfile::get($enum);
             $distributorName = $device->getDistributor()->getName();
-            
+
             $this->assertNotEquals($distributorName, substr($device->getName(), 0, strlen($distributorName)));
         }
     }

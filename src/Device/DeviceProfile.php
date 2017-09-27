@@ -296,7 +296,22 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APP_RUNNERUP = 93;
-    
+
     /** @var int */
     const GARMIN_FORERUNNER_30 = 94;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE = 95;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE_H_R = 96;
+
+    /** @var int */
+    const GARMIN_EPIX = 97;
+
+    /** @var int */
+    const GARMIN_EDGE_510 = 98;
+
+    /** @var int */
+    const GARMIN_EDGE_TOURING = 99;
 }
