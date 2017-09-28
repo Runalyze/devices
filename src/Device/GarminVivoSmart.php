@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminApproachS20 extends AbstractDevice
+class GarminVivoSmart extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_APPROACH_S_20;
+        return DeviceProfile::GARMIN_VIVO_SMART;
     }
 
     public function getName()
     {
-        return 'Approach S20';
+        return 'Vivosmart';
     }
 }

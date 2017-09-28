@@ -314,4 +314,64 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_EDGE_TOURING = 99;
+
+    /** @var int */
+    const GARMIN_VIVO_FIT_3 = 100;
+
+    /** @var int */
+    const GARMIN_VIVO_FIT = 101;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART = 102;
+
+    /** @var int */
+    const GARMIN_ETREX_TOUCH = 103;
+
+    /** @var int */
+    const GARMIN_VIVO_FIT_2 = 104;
+
+    /** @var int */
+    const GARMIN_D_2_BRAVO = 105;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_20 = 106;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_60 = 107;
+
+    /** @var int */
+    const GARMIN_APPROACH_X_40 = 108;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE = 109;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART_H_R = 110;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART_GPS_H_R = 111;
+
+    /** @var int */
+    const GARMIN_EDGE_EXPLORE_820 = 112;
+
+    /** @var int */
+    const GARMIN_VIVO_FIT_JR = 113;
+
+    /** @var int */
+    const GARMIN_D_2_BRAVO_TITANIUM = 114;
+    
+    /** @var int */
+    const GARMIN_APPROACH_S_6 = 115;
+    
+    /** @var int */
+    const GARMIN_EDGE_EXPLORE_1000 = 116;
+    
+    /** @var int */
+    const GARMIN_FENIX = 117;
+    
+    /** @var int */
+    const GARMIN_EDGE_1030 = 118;
+    
+    /** @var int */
+    const GARMIN_VIVO_FIT_JR_2 = 119;
 }
