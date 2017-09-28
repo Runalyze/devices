@@ -359,19 +359,37 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_D_2_BRAVO_TITANIUM = 114;
-    
+
     /** @var int */
     const GARMIN_APPROACH_S_6 = 115;
-    
+
     /** @var int */
     const GARMIN_EDGE_EXPLORE_1000 = 116;
-    
+
     /** @var int */
     const GARMIN_FENIX = 117;
-    
+
     /** @var int */
     const GARMIN_EDGE_1030 = 118;
-    
+
     /** @var int */
     const GARMIN_VIVO_FIT_JR_2 = 119;
+
+    /** @var int */
+    const OSYNCE_UNKNOWN = 120;
+
+    /** @var int */
+    const OSYNCE_NAVI_2_COACH = 121;
+
+    /** @var int */
+    const OSYNCE_NAVI_2_MOVE = 122;
+
+    /** @var int */
+    const OSYNCE_MIX_FREE = 123;
+
+    /** @var int */
+    const OSYNCE_MIX_PRO = 124;
+
+    /** @var int */
+    const OSYNCE_COACH_SMART = 125;
 }
