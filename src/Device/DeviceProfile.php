@@ -392,10 +392,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const OSYNCE_COACH_SMART = 125;
-    
+
     /** @var int */
     const APPLE_UNKNOWN = 126;
-    
+
     /** @var int */
     const APPLE_WATCH = 127;
 }
