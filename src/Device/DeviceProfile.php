@@ -392,28 +392,34 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const OSYNCE_COACH_SMART = 125;
-    
+
     /** @var int */
     const APPLE_UNKNOWN = 126;
-    
+
     /** @var int */
     const APPLE_WATCH = 127;
-    
+
     /** @var int */
     const APP_GARMIN_CONNECT = 128;
-    
+
     /** @var int */
     const APP_EPSON_NEO_RUN = 129;
-    
+
     /** @var int */
     const APP_POLAR_FLOW = 130;
-    
+
     /** @var int */
     const APP_POLAR_PERSONAL_TRAINER = 131;
-    
+
     /** @var int */
     const APP_MOVESCOUNT = 132;
-    
+
     /** @var int */
     const APP_STRAVA = 133;
+
+    /** @var int */
+    const APP_I_SMOOTH_RUN = 134;
+
+    /** @var int */
+    const APP_ENDOMONDO = 135;
 }
