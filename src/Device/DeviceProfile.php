@@ -422,4 +422,28 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APP_ENDOMONDO = 135;
+
+    /** @var int */
+    const APP_RUN_GPS_TRAINER = 136;
+
+    /** @var int */
+    const APP_DECATHLON_COACH = 137;
+
+    /** @var int */
+    const APP_SPORTRACTIVE = 138;
+
+    /** @var int */
+    const APP_GPS_MASTER = 139;
+
+    /** @var int */
+    const APP_TRAILS = 140;
+
+    /** @var int */
+    const APP_TRAIL_RUNNER = 141;
+
+    /** @var int */
+    const APP_MOTI_FIT = 142;
+
+    /** @var int */
+    const APP_RUNKEEPER = 143;
 }
