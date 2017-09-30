@@ -35,7 +35,9 @@ class DeviceProfileTest extends \PHPUnit_Framework_TestCase
             $device = DeviceProfile::get($enum);
             $distributorName = $device->getDistributor()->getName();
 
-            $this->assertNotEquals($distributorName, substr($device->getName(), 0, strlen($distributorName)));
+            if ('' !== $distributorName) {
+                $this->assertNotEquals($distributorName, substr($device->getName(), 0, strlen($distributorName)));
+            }
         }
     }
 }
