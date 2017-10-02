@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class FITMapping
+class FitSdkMapping
 {
     public static $mappingArray = [
         2266 => DeviceProfile::GARMIN_APPROACH_S_20,

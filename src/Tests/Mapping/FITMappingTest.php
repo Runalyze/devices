@@ -11,14 +11,14 @@
 
 namespace Runalyze\Devices\Tests\Mapping;
 
-use Runalyze\Devices\Mapping\FITMapping;
+use Runalyze\Devices\Mapping\FitSdkMapping;
 
 class FITMappingTest extends \PHPUnit_Framework_TestCase
 {
     public function testThatAllClassesExist()
     {
-        $this->assertEquals(22, FITMapping::getEnum(2132));
-        $this->assertEquals(23, FITMapping::getEnum(2691));
-        $this->assertEquals(82, FITMapping::getEnum(474));
+        $this->assertEquals(22, FitSdkMapping::getEnum(2132));
+        $this->assertEquals(23, FitSdkMapping::getEnum(2691));
+        $this->assertEquals(82, FitSdkMapping::getEnum(474));
     }
 }

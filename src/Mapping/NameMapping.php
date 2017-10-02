@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class TCXGPXMapping
+class NameMapping
 {
     public static $mappingArray = [
         'neorun' => DeviceProfile::APP_EPSON_NEO_RUN,
@@ -21,7 +21,7 @@ class TCXGPXMapping
         'runtastic' => DeviceProfile::APP_RUNTASTIC,
         'smashrun' => DeviceProfile::APP_SMASHRUN,
         'trails' => DeviceProfile::APP_TRAILS,
-        'sports tracke' => DeviceProfile::APP_SPORTS_TRACKER,
+        'sports tracker' => DeviceProfile::APP_SPORTS_TRACKER,
         'runkeeper' => DeviceProfile::APP_RUNKEEPER,
         'runmeter' => DeviceProfile::APP_RUNMETER,
         'decathlon' => DeviceProfile::APP_DECATHLON_COACH,
