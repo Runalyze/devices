@@ -57,4 +57,6 @@ class DistributorProfile extends AbstractEnum
     /** @var int */
     const APPLE = 13;
 
+    /** @var int */
+    const ARIVAL = 14;
 }
