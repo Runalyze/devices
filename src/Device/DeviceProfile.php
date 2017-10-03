@@ -479,4 +479,13 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const ARIVAL_UNKNOWN = 154;
+
+    /** @var int */
+    const APP_RUN_GAP = 155;
+
+    /** @var int */
+    const APP_GLOBAL_SAT = 156;
+
+    /** @var int */
+    const APP_OUTDOOR_ACTIVE = 157;
 }

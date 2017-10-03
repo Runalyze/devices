@@ -15,7 +15,15 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class NameMapping
 {
-    public static $mappingArray = [
+    /** @var int[]|string[] */
+    protected $Mapping = [];
+
+    /**
+     * @return array
+     */
+    protected function getMapping()
+    {
+        return [
         'neorun' => DeviceProfile::APP_EPSON_NEO_RUN,
         'kompass' => DeviceProfile::APP_KOMPASS,
         'runtastic' => DeviceProfile::APP_RUNTASTIC,
@@ -40,15 +48,25 @@ class NameMapping
         'navime' => DeviceProfile::APP_NAVIME,
         'http://www.polarpersonaltrainer.com' => DeviceProfile::APP_POLAR_PERSONAL_TRAINER,
         'a-rival' => DeviceProfile::ARIVAL_UNKNOWN,
+        'rungap' => DeviceProfile::APP_RUN_GAP,
+        'globalsat' => DeviceProfile::APP_GLOBAL_SAT,
+        'garmin connect' => DeviceProfile::APP_GARMIN_CONNECT,
+        'outdooractive' => DeviceProfile::APP_OUTDOOR_ACTIVE,
     ];
+    }
+
+    public function __construct()
+    {
+        $this->Mapping = $this->getMapping();
+    }
 
     /**
-     * @param  string   $creator
-     * @return int|null
+     * @param  int|string $creator
+     * @return int|string
      */
-    public static function getEnum($creator)
+    public function toInternal($creator)
     {
-        foreach (self::$mappingArray as $startsWith => $id) {
+        foreach ($this->Mapping as $startsWith => $id) {
             if (strtolower(substr($creator, 0, strlen($startsWith))) === $startsWith) {
                 return $id;
             }
