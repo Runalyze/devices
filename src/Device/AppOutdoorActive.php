@@ -22,6 +22,6 @@ class AppOutdoorActive extends AbstractDevice
 
     public function getName()
     {
-        return 'outdoortactive';
+        return 'outdooractive';
     }
 }

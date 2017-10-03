@@ -20,7 +20,7 @@ class FitSdkMapping
 
     protected function getMapping()
     {
-        return $Mapping = [
+        return [
             2266 => DeviceProfile::GARMIN_APPROACH_S_20,
             1936 => DeviceProfile::GARMIN_APPROACH_S_6,
             2262 => DeviceProfile::GARMIN_D_2_BRAVO,
