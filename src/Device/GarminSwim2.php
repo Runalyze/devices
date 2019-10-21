@@ -24,5 +24,4 @@ class GarminSwim2 extends AbstractDevice
     {
         return 'Swim 2';
     }
-
 }

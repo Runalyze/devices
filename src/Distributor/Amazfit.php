@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class Coros extends AbstractDistributor
+class Amazfit extends AbstractDistributor
 {
     public function getEnum()
     {

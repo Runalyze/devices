@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitStratos extends AbstractDevice
+class AmazfitStratosPlus extends AbstractDevice
 {
     use AmazfitDeviceTrait;
 
