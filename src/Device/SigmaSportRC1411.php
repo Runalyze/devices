@@ -17,7 +17,7 @@ class SigmaSportRC1411 extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::SIGMA_SPORT_RC_14_11;
+        return DeviceProfile::SIGMA_SPORT_RC_1411;
     }
 
     public function getName()

@@ -17,7 +17,7 @@ class SigmaSportPC2213 extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::SIGMA_SPORT_PC_22_13;
+        return DeviceProfile::SIGMA_SPORT_PC_2213;
     }
 
     public function getName()

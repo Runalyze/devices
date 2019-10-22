@@ -17,7 +17,7 @@ class FitbitChargeHR extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::FITBIT_CHARGE_HR;
+        return DeviceProfile::FITBIT_CHARGE_H_R;
     }
 
     public function getName()

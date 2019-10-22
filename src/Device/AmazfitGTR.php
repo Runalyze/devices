@@ -17,7 +17,7 @@ class AmazfitGTR extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_GTR;
+        return DeviceProfile::AMAZFIT_G_T_R;
     }
 
     public function getName()

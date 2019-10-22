@@ -520,7 +520,7 @@ class DeviceProfile extends AbstractEnum
     const AMAZFIT_GTR = 167;
 
     /** @var int */
-    const AMAZFIT_GTS = 168;
+    const AMAZFIT_G_T_S = 168;
 
     /** @var int */
     const AMAZFIT_NEXO = 169;
@@ -544,7 +544,7 @@ class DeviceProfile extends AbstractEnum
     const SIGMA_SPORT_ID_LIFE = 175;
 
     /** @var int */
-    const SIGMA_SPORT_ID_RUN_HR = 176;
+    const SIGMA_SPORT_ID_RUN_H_R = 176;
 
     /** @var int */
     const SIGMA_SPORT_ONYX_EASY = 177;
@@ -565,22 +565,22 @@ class DeviceProfile extends AbstractEnum
     const SIGMA_SPORT_PC_15 = 182;
 
     /** @var int */
-    const SIGMA_SPORT_PC_3_11 = 183;
+    const SIGMA_SPORT_PC_311 = 183;
 
     /** @var int */
-    const SIGMA_SPORT_PC_22_13 = 184;
+    const SIGMA_SPORT_PC_2213 = 184;
 
     /** @var int */
-    const SIGMA_SPORT_PC_25_10 = 185;
+    const SIGMA_SPORT_PC_2510 = 185;
 
     /** @var int */
-    const SIGMA_SPORT_PC_26_14 = 186;
+    const SIGMA_SPORT_PC_2614 = 186;
 
     /** @var int */
     const SIGMA_SPORT_RC_1209 = 187;
 
     /** @var int */
-    const SIGMA_SPORT_RC_14_11 = 188;
+    const SIGMA_SPORT_RC_1411 = 188;
 
     /** @var int */
     const SIGMA_SPORT_RC_MOVE = 189;
@@ -601,7 +601,7 @@ class DeviceProfile extends AbstractEnum
     const FITBIT_ALTA = 194;
 
     /** @var int */
-    const FITBIT_ALTA_HR = 195;
+    const FITBIT_ALTA_H_R = 195;
 
     /** @var int */
     const FITBIT_BLAZE = 196;
@@ -616,7 +616,7 @@ class DeviceProfile extends AbstractEnum
     const FITBIT_CHARGE_3 = 199;
 
     /** @var int */
-    const FITBIT_CHARGE_HR = 200;
+    const FITBIT_CHARGE_H_R = 200;
 
     /** @var int */
     const FITBIT_FLEX = 201;

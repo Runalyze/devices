@@ -17,7 +17,7 @@ class SigmaSportIDRunHR extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::SIGMA_SPORT_ID_RUN_HR;
+        return DeviceProfile::SIGMA_SPORT_ID_RUN_H_R;
     }
 
     public function getName()
