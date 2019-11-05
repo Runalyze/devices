@@ -72,6 +72,6 @@ class NameMapping
             }
         }
 
-        return null;
+        return;
     }
 }

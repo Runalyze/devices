@@ -674,5 +674,4 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_SWIM_2 = 219;
-
 }
