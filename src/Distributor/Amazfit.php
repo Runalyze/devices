@@ -11,13 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-abstract class AbstractDistributor implements DistributorInterface
+class Amazfit extends AbstractDistributor
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getEnum()
     {
-        return static::class;
+        return DistributorProfile::AMAZFIT;
+    }
+
+    public function getName()
+    {
+        return 'Amazfit';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }

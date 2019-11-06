@@ -59,4 +59,28 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const ARIVAL = 14;
+
+    /** @var int */
+    const COROS = 15;
+
+    /** @var int */
+    const FITBIT = 16;
+
+    /** @var int */
+    const AMAZFIT = 17;
+
+    /** @var int */
+    const SOLEUS = 18;
+
+    /** @var int */
+    const SONY = 19;
+
+    /** @var int */
+    const HUAWEI = 20;
+
+    /** @var int */
+    const MISFIT = 21;
+
+    /** @var int */
+    const SAMSUNG = 22;
 }

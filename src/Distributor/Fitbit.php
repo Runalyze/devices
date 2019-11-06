@@ -11,13 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-abstract class AbstractDistributor implements DistributorInterface
+class Fitbit extends AbstractDistributor
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getEnum()
     {
-        return static::class;
+        return DistributorProfile::FITBIT;
+    }
+
+    public function getName()
+    {
+        return 'Fitbit';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }

@@ -488,4 +488,190 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APP_OUTDOOR_ACTIVE = 157;
+
+    /** @var int */
+    const COROS_VERTIX = 158;
+
+    /** @var int */
+    const COROS_APEX_PRO = 159;
+
+    /** @var int */
+    const COROS_APEX = 160;
+
+    /** @var int */
+    const COROS_PACE = 161;
+
+    /** @var int */
+    const COROS_UNKNOWN = 162;
+
+    /** @var int */
+    const FITBIT_UNKNOWN = 163;
+
+    /** @var int */
+    const AMAZFIT_UNKNOWN = 164;
+
+    /** @var int */
+    const AMAZFIT_BIP = 165;
+
+    /** @var int */
+    const AMAZFIT_BIP_LITE = 166;
+
+    /** @var int */
+    const AMAZFIT_G_T_R = 167;
+
+    /** @var int */
+    const AMAZFIT_G_T_S = 168;
+
+    /** @var int */
+    const AMAZFIT_NEXO = 169;
+
+    /** @var int */
+    const AMAZFIT_VERGE_LITE = 170;
+
+    /** @var int */
+    const AMAZFIT_PACE = 171;
+
+    /** @var int */
+    const AMAZFIT_STRATOS = 172;
+
+    /** @var int */
+    const AMAZFIT_STRATOS_PLUS = 173;
+
+    /** @var int */
+    const SIGMA_SPORT_ACTIVO = 174;
+
+    /** @var int */
+    const SIGMA_SPORT_ID_LIFE = 175;
+
+    /** @var int */
+    const SIGMA_SPORT_ID_RUN_H_R = 176;
+
+    /** @var int */
+    const SIGMA_SPORT_ONYX_EASY = 177;
+
+    /** @var int */
+    const SIGMA_SPORT_ONYX_FIT = 178;
+
+    /** @var int */
+    const SIGMA_SPORT_ONYX_PRO = 179;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_3 = 180;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_9 = 181;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_15 = 182;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_311 = 183;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_2213 = 184;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_2510 = 185;
+
+    /** @var int */
+    const SIGMA_SPORT_PC_2614 = 186;
+
+    /** @var int */
+    const SIGMA_SPORT_RC_1209 = 187;
+
+    /** @var int */
+    const SIGMA_SPORT_RC_1411 = 188;
+
+    /** @var int */
+    const SIGMA_SPORT_RC_MOVE = 189;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_645 = 190;
+
+    /** @var int */
+    const GARMIN_VIVO_FIT_4 = 191;
+
+    /** @var int */
+    const GARMIN_QUATIX_5 = 192;
+
+    /** @var int */
+    const FITBIT_ACE = 193;
+
+    /** @var int */
+    const FITBIT_ALTA = 194;
+
+    /** @var int */
+    const FITBIT_ALTA_H_R = 195;
+
+    /** @var int */
+    const FITBIT_BLAZE = 196;
+
+    /** @var int */
+    const FITBIT_CHARGE = 197;
+
+    /** @var int */
+    const FITBIT_CHARGE_2 = 198;
+
+    /** @var int */
+    const FITBIT_CHARGE_3 = 199;
+
+    /** @var int */
+    const FITBIT_CHARGE_H_R = 200;
+
+    /** @var int */
+    const FITBIT_FLEX = 201;
+
+    /** @var int */
+    const FITBIT_FLEX_2 = 202;
+
+    /** @var int */
+    const FITBIT_FORCE = 203;
+
+    /** @var int */
+    const FITBIT_IONIC = 204;
+
+    /** @var int */
+    const FITBIT_ONE = 205;
+
+    /** @var int */
+    const FITBIT_SURGE = 206;
+
+    /** @var int */
+    const FITBIT_ULTRA = 207;
+
+    /** @var int */
+    const FITBIT_VERSA = 208;
+
+    /** @var int */
+    const FITBIT_ZIP = 209;
+
+    /** @var int */
+    const GARMIN_FENIX_5_PLUS = 210;
+
+    /** @var int */
+    const GARMIN_FENIX_5_S_PLUS = 211;
+
+    /** @var int */
+    const GARMIN_FENIX_5_X_PLUS = 212;
+
+    /** @var int */
+    const GARMIN_FENIX_6 = 213;
+
+    /** @var int */
+    const GARMIN_FENIX_6_PRO = 214;
+
+    /** @var int */
+    const GARMIN_FENIX_6_S = 215;
+
+    /** @var int */
+    const GARMIN_FENIX_6_S_PRO = 216;
+
+    /** @var int */
+    const GARMIN_FENIX_6_X = 217;
+
+    /** @var int */
+    const GARMIN_FENIX_6_X_PRO = 218;
+
+    /** @var int */
+    const GARMIN_SWIM_2 = 219;
 }

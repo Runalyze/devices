@@ -13,21 +13,21 @@ namespace Runalyze\Devices\Tests\Mapping;
 
 use Runalyze\Devices\Mapping\FitSdkMapping;
 
-class FitSdkMappingTest extends \PHPUnit_Framework_TestCase
+class FitSdkMappingTest extends \PHPUnit\Framework\TestCase
 {
     /** @var FitSdkMapping */
     protected $Mapping;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->Mapping = new FitSdkMapping();
     }
 
-    public function testThatAllClassesExist()
+    public function testSomeExamples()
     {
         $this->assertEquals(22, $this->Mapping->toInternal(2132));
         $this->assertEquals(23, $this->Mapping->toInternal(2691));
         $this->assertEquals(82, $this->Mapping->toInternal(474));
-        $this->assertEquals(null, $this->Mapping->toInternal(1));
+        $this->assertNull($this->Mapping->toInternal(1));
     }
 }

@@ -11,13 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-abstract class AbstractDistributor implements DistributorInterface
+class Soleus extends AbstractDistributor
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getEnum()
     {
-        return static::class;
+        return DistributorProfile::SOLEUS;
+    }
+
+    public function getName()
+    {
+        return 'Soleus';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }

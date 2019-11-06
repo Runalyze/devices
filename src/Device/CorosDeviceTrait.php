@@ -9,15 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Distributor;
+namespace Runalyze\Devices\Device;
 
-abstract class AbstractDistributor implements DistributorInterface
+use Runalyze\Devices\Distributor\DistributorProfile;
+
+trait CorosDeviceTrait
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getDistributorEnum()
     {
-        return static::class;
+        return DistributorProfile::COROS;
     }
 }

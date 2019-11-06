@@ -11,13 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-abstract class AbstractDistributor implements DistributorInterface
+class Coros extends AbstractDistributor
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getEnum()
     {
-        return static::class;
+        return DistributorProfile::COROS;
+    }
+
+    public function getName()
+    {
+        return 'Coros';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }

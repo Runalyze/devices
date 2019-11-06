@@ -146,6 +146,6 @@ class FitSdkMapping
             return $this->Mapping[$value];
         }
 
-        return null;
+        return;
     }
 }

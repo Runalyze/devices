@@ -11,13 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-abstract class AbstractDistributor implements DistributorInterface
+class Huawei extends AbstractDistributor
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getEnum()
     {
-        return static::class;
+        return DistributorProfile::HUAWEI;
+    }
+
+    public function getName()
+    {
+        return 'Huawei';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }

@@ -11,13 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-abstract class AbstractDistributor implements DistributorInterface
+class Samsung extends AbstractDistributor
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getEnum()
     {
-        return static::class;
+        return DistributorProfile::SAMSUNG;
+    }
+
+    public function getName()
+    {
+        return 'Samsung';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }

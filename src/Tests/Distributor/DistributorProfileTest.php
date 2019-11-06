@@ -14,7 +14,7 @@ namespace Runalyze\Devices\Tests\Distributor;
 use Runalyze\Devices\Distributor\DistributorInterface;
 use Runalyze\Devices\Distributor\DistributorProfile;
 
-class DistributorProfileTest extends \PHPUnit_Framework_TestCase
+class DistributorProfileTest extends \PHPUnit\Framework\TestCase
 {
     public function testThatAllClassesExist()
     {
