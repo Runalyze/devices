@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoAmbit3 extends AbstractDevice
+class SuuntoAmbit extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_AMBIT_3_RUN;
+        return DeviceProfile::SUUNTO_AMBIT;
     }
 
     public function getName()
     {
-        return 'Ambit 3';
+        return 'Ambit';
     }
 }

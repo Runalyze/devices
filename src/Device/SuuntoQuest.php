@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoAmbitSpartanUltra extends AbstractDevice
+class SuuntoQuest extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_AMBIT_SPARTAN_ULTRA;
+        return DeviceProfile::SUUNTO_QUEST;
     }
 
     public function getName()
     {
-        return 'Ambit Spartan Ultra';
+        return 'Smart Quest';
     }
 }
