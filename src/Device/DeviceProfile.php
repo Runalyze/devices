@@ -517,7 +517,7 @@ class DeviceProfile extends AbstractEnum
     const AMAZFIT_BIP_LITE = 166;
 
     /** @var int */
-    const AMAZFIT_GTR = 167;
+    const AMAZFIT_G_T_R = 167;
 
     /** @var int */
     const AMAZFIT_G_T_S = 168;

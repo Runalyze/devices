@@ -14,10 +14,10 @@ namespace Runalyze\Devices\Distributor;
 abstract class AbstractDistributor implements DistributorInterface
 {
     /**
-    * @return string
-    */
-   public function getNameOfClass()
-   {
-       return static::class;
-   }
+     * @return string
+     */
+    public function getNameOfClass()
+    {
+        return static::class;
+    }
 }

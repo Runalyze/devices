@@ -9,19 +9,21 @@ This source file is subject to the MIT license that is bundled
 with this source code in the file LICENSE.
 EOF;
 
-Symfony\CS\Fixer\Contrib\HeaderCommentFixer::setHeader($header);
-
-return Symfony\CS\Config\Config::create()
-    ->fixers(array(
-        'header_comment',
-        'ordered_use',
-        'php_unit_construct',
-        'strict',
-        'strict_param',
-        '-phpdoc_separation',
+return PhpCsFixer\Config::create()
+    ->setRules(array(
+        '@Symfony' => true,
+        'header_comment' => array(
+            'header' => $header
+        ),
+        'ordered_imports' => true,
+        'php_unit_construct' => true,
+        'strict_comparison' => true,
+        'strict_param' => true,
+        'phpdoc_separation' => false,
     ))
-    ->finder(
-        Symfony\CS\Finder\DefaultFinder::create()
+    ->setRiskyAllowed(true)
+    ->setFinder(
+        PhpCsFixer\Finder::create()
             ->in(__DIR__.DIRECTORY_SEPARATOR.'src')
     )
 ;

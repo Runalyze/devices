@@ -17,7 +17,7 @@ class AmazfitUnknown extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::COROS_APEX;
+        return DeviceProfile::AMAZFIT_UNKNOWN;
     }
 
     public function getName()

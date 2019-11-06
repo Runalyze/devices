@@ -17,7 +17,7 @@ class CorosUnknown extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::COROS_APEX;
+        return DeviceProfile::COROS_UNKNOWN;
     }
 
     public function getName()

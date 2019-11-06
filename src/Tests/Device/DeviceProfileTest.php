@@ -14,7 +14,7 @@ namespace Runalyze\Devices\Tests\Device;
 use Runalyze\Devices\Device\DeviceInterface;
 use Runalyze\Devices\Device\DeviceProfile;
 
-class DeviceProfileTest extends \PHPUnit_Framework_TestCase
+class DeviceProfileTest extends \PHPUnit\Framework\TestCase
 {
     public function testThatAllClassesExist()
     {

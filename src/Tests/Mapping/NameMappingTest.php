@@ -13,21 +13,21 @@ namespace Runalyze\Devices\Tests\Mapping;
 
 use Runalyze\Devices\Mapping\NameMapping;
 
-class NameMappingTest extends \PHPUnit_Framework_TestCase
+class NameMappingTest extends \PHPUnit\Framework\TestCase
 {
     /** @var NameMapping */
     protected $Mapping;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->Mapping = new NameMapping();
     }
 
-    public function testThatAllClassesExist()
+    public function testSomeExamples()
     {
         $this->assertEquals(144, $this->Mapping->toInternal('Navime - http://www.navime.pl'));
         $this->assertEquals(152, $this->Mapping->toInternal('Smashrun'));
         $this->assertEquals(136, $this->Mapping->toInternal('Run.GPS Community Server'));
-        $this->assertEquals(null, $this->Mapping->toInternal('foobla'));
+        $this->assertNull($this->Mapping->toInternal('foobla'));
     }
 }
