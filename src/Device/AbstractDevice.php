@@ -17,7 +17,7 @@ abstract class AbstractDevice implements DeviceInterface
 {
     public function getFullName()
     {
-        return $this->getDistributor.' '.$this->getName();
+        return $this->getDistributor()->getName().' '.$this->getName();
     }
 
     public function getDistributor()
