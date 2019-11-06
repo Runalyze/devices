@@ -764,5 +764,4 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const SUUNTO_D_5 = 249;
-
 }

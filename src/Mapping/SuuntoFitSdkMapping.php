@@ -59,7 +59,7 @@ class SuuntoFitSdkMapping
             36 => DeviceProfile::SUUNTO_5,
             37 => DeviceProfile::SUUNTO_EON_CORE,
             38 => DeviceProfile::SUUNTO_EON_STEEL,
-            39 => DeviceProfile::SUUNTO_D_5
+            39 => DeviceProfile::SUUNTO_D_5,
         ];
     }
 
