@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class SigmaSportRC1411 extends AbstractDevice
+class SigmaSportIdRunHR extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SIGMA_SPORT_RC_1411;
+        return DeviceProfile::SIGMA_SPORT_ID_RUN_H_R;
     }
 
     public function getName()
     {
-        return 'Sport RC 14.11';
+        return 'Sport ID RUN HR';
     }
 }
