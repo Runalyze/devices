@@ -220,7 +220,7 @@ class DeviceProfile extends AbstractEnum
     const SUUNTO_AMBIT_3_PEAK = 67;
 
     /** @var int */
-    const SUUNTO_AMBIT_SPARTAN_ULTRA = 68;
+    const SUUNTO_SPARTAN_ULTRA = 68;
 
     /** @var int */
     const POLAR_LOOP = 69;
@@ -674,4 +674,100 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_SWIM_2 = 219;
+
+    /** @var int */
+    const SUUNTO_X_9 = 220;
+
+    /** @var int */
+    const SUUNTO_X_10 = 221;
+
+    /** @var int */
+    const SUUNTO_X_6 = 222;
+
+    /** @var int */
+    const SUUNTO_MEMORY_BELT = 223;
+
+    /** @var int */
+    const SUUNTO_SMART_BELT = 224;
+
+    /** @var int */
+    const SUUNTO_T_6 = 225;
+
+    /** @var int */
+    const SUUNTO_T_4 = 226;
+
+    /** @var int */
+    const SUUNTO_T_4_C = 227;
+
+    /** @var int */
+    const SUUNTO_T_4_D = 228;
+
+    /** @var int */
+    const SUUNTO_T_3 = 229;
+
+    /** @var int */
+    const SUUNTO_T_3_C = 230;
+
+    /** @var int */
+    const SUUNTO_T_3_D = 231;
+
+    /** @var int */
+    const SUUNTO_M_4 = 232;
+
+    /** @var int */
+    const SUUNTO_M_5 = 233;
+
+    /** @var int */
+    const SUUNTO_QUEST = 234;
+
+    /** @var int */
+    const SUUNTO_AMBIT = 235;
+
+    /** @var int */
+    const SUUNTO_AMBIT_2 = 236;
+
+    /** @var int */
+    const SUUNTO_TRAVERSE = 237;
+
+    /** @var int */
+    const SUUNTO_TRAVERSE_ALPHA = 238;
+
+    /** @var int */
+    const SUUNTO_SPARTAN_SPORT = 239;
+
+    /** @var int */
+    const SUUNTO_SPARTAN_SPORT_WRIST_H_R = 240;
+
+    /** @var int */
+    const SUUNTO_SPARTAN_TRAINER_WRIST_H_R = 241;
+
+    /** @var int */
+    const SUUNTO_SPARTAN_SPORT_WRIST_H_R_BARO = 242;
+
+    /** @var int */
+    const SUUNTO_3_FITNESS = 243;
+
+    /** @var int */
+    const SUUNTO_9_BARO = 244;
+
+    /** @var int */
+    const SUUNTO_9 = 245;
+
+    /** @var int */
+    const SUUNTO_5 = 246;
+
+    /** @var int */
+    const SUUNTO_EON_CORE = 247;
+
+    /** @var int */
+    const SUUNTO_EON_STEEL = 248;
+
+    /** @var int */
+    const SUUNTO_D_5 = 249;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_945 = 250;
+
+    /** @var int */
+    const GARMIN_VENU = 251;
 }

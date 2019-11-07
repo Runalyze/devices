@@ -24,4 +24,9 @@ class GarminForerunner645 extends AbstractDevice
     {
         return 'Forerunner 645';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

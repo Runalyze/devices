@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoAmbit3Peak extends AbstractDevice
+class SuuntoT4C extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_AMBIT_3_PEAK;
+        return DeviceProfile::SUUNTO_T_4_C;
     }
 
     public function getName()
     {
-        return 'Ambit 3 Peak';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 't4c';
     }
 }

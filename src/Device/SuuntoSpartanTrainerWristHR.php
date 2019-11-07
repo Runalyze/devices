@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoAmbit3Peak extends AbstractDevice
+class SuuntoSpartanTrainerWristHR extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_AMBIT_3_PEAK;
+        return DeviceProfile::SUUNTO_SPARTAN_TRAINER_WRIST_H_R;
     }
 
     public function getName()
     {
-        return 'Ambit 3 Peak';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Spartan Trainer Wrist HR';
     }
 }

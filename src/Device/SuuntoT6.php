@@ -11,17 +11,22 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoAmbitSpartanUltra extends AbstractDevice
+class SuuntoT6 extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_AMBIT_SPARTAN_ULTRA;
+        return DeviceProfile::SUUNTO_T_6;
     }
 
     public function getName()
     {
-        return 'Ambit Spartan Ultra';
+        return 't6';
+    }
+
+    public function hasBarometer()
+    {
+        return true;
     }
 }

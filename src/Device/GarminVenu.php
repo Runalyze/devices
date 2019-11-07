@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoAmbit3Peak extends AbstractDevice
+class GarminVenu extends AbstractDevice
 {
-    use SuuntoDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_AMBIT_3_PEAK;
+        return DeviceProfile::GARMIN_VENU;
     }
 
     public function getName()
     {
-        return 'Ambit 3 Peak';
+        return 'Venu';
     }
 
     public function hasBarometer()

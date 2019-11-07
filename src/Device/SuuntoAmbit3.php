@@ -22,6 +22,6 @@ class SuuntoAmbit3 extends AbstractDevice
 
     public function getName()
     {
-        return 'Ambit 3 Run';
+        return 'Ambit 3';
     }
 }
