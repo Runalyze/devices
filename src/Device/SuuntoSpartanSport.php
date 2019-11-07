@@ -17,7 +17,7 @@ class SuuntoSpartanSport extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_TRAVERSE;
+        return DeviceProfile::SUUNTO_SPARTAN_SPORT;
     }
 
     public function getName()
