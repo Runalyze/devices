@@ -24,4 +24,9 @@ class SuuntoX9 extends AbstractDevice
     {
         return 'x9';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

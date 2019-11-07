@@ -24,4 +24,9 @@ class SuuntoSpartanUltra extends AbstractDevice
     {
         return 'Spartan Ultra';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

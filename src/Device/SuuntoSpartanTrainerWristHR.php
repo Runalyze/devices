@@ -17,7 +17,7 @@ class SuuntoSpartanTrainerWristHR extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::SUUNTO_SPARTAN_TRAINER_WRIST_HR;
+        return DeviceProfile::SUUNTO_SPARTAN_TRAINER_WRIST_H_R;
     }
 
     public function getName()

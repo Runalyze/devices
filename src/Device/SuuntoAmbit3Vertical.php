@@ -24,4 +24,9 @@ class SuuntoAmbit3Vertical extends AbstractDevice
     {
         return 'Ambit 3 Vertical';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

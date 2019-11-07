@@ -24,4 +24,9 @@ class SuuntoTraverse extends AbstractDevice
     {
         return 'Traverse';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

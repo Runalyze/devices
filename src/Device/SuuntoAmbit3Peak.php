@@ -24,4 +24,9 @@ class SuuntoAmbit3Peak extends AbstractDevice
     {
         return 'Ambit 3 Peak';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

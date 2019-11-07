@@ -736,13 +736,13 @@ class DeviceProfile extends AbstractEnum
     const SUUNTO_SPARTAN_SPORT = 239;
 
     /** @var int */
-    const SUUNTO_SPARTAN_SPORT_WRIST_HR = 240;
+    const SUUNTO_SPARTAN_SPORT_WRIST_H_R = 240;
 
     /** @var int */
-    const SUUNTO_SPARTAN_TRAINER_WRIST_HR = 241;
+    const SUUNTO_SPARTAN_TRAINER_WRIST_H_R = 241;
 
     /** @var int */
-    const SUUNTO_SPARTAN_SPORT_WRIST_HR_BARO = 242;
+    const SUUNTO_SPARTAN_SPORT_WRIST_H_R_BARO = 242;
 
     /** @var int */
     const SUUNTO_3_FITNESS = 243;

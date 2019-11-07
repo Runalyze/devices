@@ -24,4 +24,9 @@ class SuuntoT6C extends AbstractDevice
     {
         return 'T6C';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

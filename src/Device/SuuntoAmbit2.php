@@ -24,4 +24,9 @@ class SuuntoAmbit2 extends AbstractDevice
     {
         return 'Ambit 2';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
