@@ -28,6 +28,6 @@ class SuuntoFitSdkMappingTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(232, $this->Mapping->toInternal(15));
         $this->assertEquals(88, $this->Mapping->toInternal(20));
         $this->assertEquals(87, $this->Mapping->toInternal(25));
-        $this->assertNull($this->Mapping->toInternal(1));
+        $this->assertNull($this->Mapping->toInternal(500));
     }
 }
