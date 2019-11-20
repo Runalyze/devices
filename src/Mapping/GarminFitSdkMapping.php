@@ -69,6 +69,7 @@ class GarminFitSdkMapping
             2697 => DeviceProfile::GARMIN_FENIX_5,
             2544 => DeviceProfile::GARMIN_FENIX_5_S,
             2604 => DeviceProfile::GARMIN_FENIX_5_X,
+            3290 => DeviceProfile::GARMIN_FENIX_6_PRO, //Sapphire
             1482 => DeviceProfile::GARMIN_FORERUNNER_10,
             1688 => DeviceProfile::GARMIN_FORERUNNER_10,
             1124 => DeviceProfile::GARMIN_FORERUNNER_110,
