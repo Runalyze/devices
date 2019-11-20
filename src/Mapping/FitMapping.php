@@ -11,12 +11,10 @@
 
 namespace Runalyze\Devices\Mapping;
 
-use Runalyze\Devices\Device\DeviceProfile;
-
 class FitMapping
 {
-    public static function guessDevice($manufactorId, $productId) {
-
+    public static function guessDevice($manufactorId, $productId)
+    {
         switch ($manufactorId) {
             case 1:
                 return self::getGarminDevice($productId);
@@ -32,20 +30,24 @@ class FitMapping
         }
     }
 
-    public function getGarminDevice($productId) {
+    public function getGarminDevice($productId)
+    {
         $garmin = new GarminFitSdkMapping();
+
         return $garmin->toInternal($productId);
     }
 
-    public function getCorosDevice($productId) {
+    public function getCorosDevice($productId)
+    {
         $coros = new CorosFitSdkMapping();
+
         return $coros->toInternal($productId);
     }
 
-    public function getSuuntoDevice($productId) {
+    public function getSuuntoDevice($productId)
+    {
         $suunto = new SuuntoFitSdkMapping();
+
         return $suunto->toInternal($productId);
     }
-
-
 }
