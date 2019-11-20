@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class FitSdkMapping
+class GarminFitSdkMapping
 {
     /** @var int[]|string[] */
     protected $Mapping = [];

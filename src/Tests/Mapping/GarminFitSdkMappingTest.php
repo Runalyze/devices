@@ -11,16 +11,16 @@
 
 namespace Runalyze\Devices\Tests\Mapping;
 
-use Runalyze\Devices\Mapping\FitSdkMapping;
+use Runalyze\Devices\Mapping\GarminFitSdkMapping;
 
 class FitSdkMappingTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var FitSdkMapping */
+    /** @var GarminFitSdkMapping */
     protected $Mapping;
 
     public function setUp(): void
     {
-        $this->Mapping = new FitSdkMapping();
+        $this->Mapping = new GarminFitSdkMapping();
     }
 
     public function testSomeExamples()
