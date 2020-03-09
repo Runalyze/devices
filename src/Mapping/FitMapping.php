@@ -25,6 +25,8 @@ class FitMapping
             case 294:
                 return self::getCorosDevice($productId);
                 break;
+            case 32:
+                return self::getWahooDevice($productId);
             default:
                 return null;
         }
@@ -47,6 +49,13 @@ class FitMapping
     public function getSuuntoDevice($productId)
     {
         $suunto = new SuuntoFitSdkMapping();
+
+        return $suunto->toInternal($productId);
+    }
+
+    public function getWahooDevice($productId)
+    {
+        $suunto = new WahooFitSdkMapping();
 
         return $suunto->toInternal($productId);
     }

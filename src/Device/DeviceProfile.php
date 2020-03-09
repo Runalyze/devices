@@ -770,4 +770,28 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_VENU = 251;
+
+    /** @var int */
+    const APP_THE_SUFFERFEST = 252;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_645_MUSIC = 253;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART_4 = 254;
+
+    /** @var int */
+    const GARMIN_EDGE_520_PLUS = 255;
+
+    /** @var int */
+    const GARMIN_EDGE_830 = 256;
+
+    /** @var int */
+    const WAHOO_ELEMNT = 257;
+
+    /** @var int */
+    const WAHOO_ELEMNT_BOLT = 258;
+
+    /** @var int */
+    const SUUNTO_7 = 259;
 }
