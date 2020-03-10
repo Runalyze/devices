@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AppGarminConnect extends AbstractDevice
+class AppGarminTrainingCenter extends AbstractDevice
 {
     use AppDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::APP_GARMIN_CONNECT;
+        return DeviceProfile::APP_GARMIN_TRAINING_CENTER;
     }
 
     public function getName()
     {
-        return 'Connect';
+        return 'Training Center';
     }
 }

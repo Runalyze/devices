@@ -27,6 +27,8 @@ class FitMapping
                 break;
             case 32:
                 return self::getWahooDevice($productId);
+            case 38:
+                return self::getOsynceDevice($productId);
             default:
                 return null;
         }
@@ -55,8 +57,15 @@ class FitMapping
 
     public function getWahooDevice($productId)
     {
-        $suunto = new WahooFitSdkMapping();
+        $wahoo = new WahooFitSdkMapping();
 
-        return $suunto->toInternal($productId);
+        return $wahoo->toInternal($productId);
+    }
+
+    public function getOsynceDevice($productId)
+    {
+        $osynce = new OsynceFitSdkMapping();
+
+        return $osynce->toInternal($productId);
     }
 }
