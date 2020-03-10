@@ -24,5 +24,4 @@ class GarminForerunner645Music extends AbstractDevice
     {
         return 'Forerunner 645 Music';
     }
-
 }
