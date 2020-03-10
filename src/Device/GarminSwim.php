@@ -24,9 +24,4 @@ class GarminSwim extends AbstractDevice
     {
         return 'Swim';
     }
-
-    public function hasBarometer()
-    {
-        return true;
-    }
 }
