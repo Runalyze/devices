@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class WahooElement extends AbstractDevice
+class WahooElemntBolt extends AbstractDevice
 {
     use WahooDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::WAHOO_ELEMNT;
+        return DeviceProfile::WAHOO_ELEMNT_BOLT;
     }
 
     public function getName()
     {
-        return 'Wahoo ELEMNT';
+        return 'ELEMNT Bolt';
     }
 }
