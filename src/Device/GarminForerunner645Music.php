@@ -17,7 +17,7 @@ class GarminForerunner645Music extends AbstractDevice
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_FORERUNNER_645_MUSIC;
+        return DeviceProfile::GARMIN_FORERUNNER_645_MUSIC ;
     }
 
     public function getName()
