@@ -17,57 +17,23 @@ class FitMapping
     {
         switch ($manufactorId) {
             case 1:
-                return FitMapping::getGarminDevice($productId);
+                return (new GarminFitSdkMapping())->toInternal($productId);
                 break;
             case 23:
-                return self::getSuuntoDevice($productId);
+                return (new SuuntoFitSdkMapping())->toInternal($productId);
                 break;
             case 294:
-                return self::getCorosDevice($productId);
+                return (new CorosFitSdkMapping())->toInternal($productId);
                 break;
             case 32:
-                return self::getWahooDevice($productId);
+                return (new WahooFitSdkMapping())->toInternal($productId);
                 break;
             case 38:
-                return self::getOsynceDevice($productId);
+                return (new OsynceFitSdkMapping())->toInternal($productId);
                 break;
             default:
                 return null;
         }
     }
 
-    public static function getGarminDevice($productId)
-    {
-        $garmin = new GarminFitSdkMapping();
-
-        return $garmin->toInternal($productId);
-    }
-
-    public static function getCorosDevice($productId)
-    {
-        $coros = new CorosFitSdkMapping();
-
-        return $coros->toInternal($productId);
-    }
-
-    public static function getSuuntoDevice($productId)
-    {
-        $suunto = new SuuntoFitSdkMapping();
-
-        return $suunto->toInternal($productId);
-    }
-
-    public static function getWahooDevice($productId)
-    {
-        $wahoo = new WahooFitSdkMapping();
-
-        return $wahoo->toInternal($productId);
-    }
-
-    public static function getOsynceDevice($productId)
-    {
-        $osynce = new OsynceFitSdkMapping();
-
-        return $osynce->toInternal($productId);
-    }
 }

@@ -797,4 +797,25 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APP_GARMIN_TRAINING_CENTER = 260;
+
+    /** @var int */
+    const GARMIN_INSTINCT = 261;
+
+    /** @var int */
+    const GARMIN_MARQ_ATHLETE = 262;
+
+    /** @var int */
+    const GARMIN_MARQ_DRIVER = 263;
+
+    /** @var int */
+    const GARMIN_MARQ_CAPTAIN = 264;
+
+    /** @var int */
+    const GARMIN_MARQ_COMMANDER = 265;
+
+    /** @var int */
+    const GARMIN_MARQ_ADVENTURER = 266;
+
+    /** @var int */
+    const GARMIN_MARQ_AVIATOR = 267;
 }

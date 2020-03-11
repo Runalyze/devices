@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminVivoSmartHR extends AbstractDevice
+class GarminInstinct extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_VIVO_SMART_H_R;
+        return DeviceProfile::GARMIN_INSTINCT;
     }
 
     public function getName()
     {
-        return 'Vivosmart HR';
+        return 'Instinct';
     }
 
     public function hasBarometer()
