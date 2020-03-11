@@ -35,5 +35,4 @@ class FitMapping
                 return null;
         }
     }
-
 }

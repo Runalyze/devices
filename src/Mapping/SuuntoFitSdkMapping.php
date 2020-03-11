@@ -21,6 +21,7 @@ class SuuntoFitSdkMapping
     protected function getMapping()
     {
         return [
+            0 => DeviceProfile::SUUNTO_UNKNOWN,
             1 => DeviceProfile::SUUNTO_X_9,
             2 => DeviceProfile::SUUNTO_X_10,
             3 => DeviceProfile::SUUNTO_X_6,
