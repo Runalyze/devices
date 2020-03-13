@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminForerunner935XT extends AbstractDevice
+class GarminForerunner935 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_FORERUNNER_935_X_T;
+        return DeviceProfile::GARMIN_FORERUNNER_935;
     }
 
     public function getName()
     {
-        return 'Forerunner 935XT';
+        return 'Forerunner 935';
     }
 
     public function hasBarometer()

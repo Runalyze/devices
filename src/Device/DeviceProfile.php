@@ -85,7 +85,7 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_FORERUNNER_920_X_T = 22;
 
     /** @var int */
-    const GARMIN_FORERUNNER_935_X_T = 23;
+    const GARMIN_FORERUNNER_935 = 23;
 
     /** @var int */
     const GARMIN_EDGE_25 = 24;
@@ -818,4 +818,16 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_MARQ_AVIATOR = 267;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE_4 = 268;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE_3 = 269;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_245 = 270;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_245_MUSIC = 271;
 }
