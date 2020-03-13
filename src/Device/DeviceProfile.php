@@ -830,4 +830,23 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_FORERUNNER_245_MUSIC = 271;
+
+    /** @var int */
+    const GARMIN_EDGE_530 = 272;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE_4_S = 273;
+
+    /** @var int */
+    const GARMIN_VIVO_SPORT = 274;
+
+    /** @var int */
+    const GARMIN_SPEED_SENSOR_2 = 275;
+
+    /** @var int */
+    const GARMIN_FENIX_5_WIFI = 276;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE_3_MUSIC = 277;
+
 }
