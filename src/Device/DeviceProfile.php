@@ -849,4 +849,57 @@ class DeviceProfile extends AbstractEnum
     /** @var int */
     const GARMIN_VIVO_ACTIVE_3_MUSIC = 277;
 
+    /** @var int */
+    const APPLE_WATCH_V_38 = 278;
+
+    /** @var int */
+    const APPLE_WATCH_V_42 = 279;
+
+    /** @var int */
+    const APPLE_WATCH_1_V_38 = 280;
+
+    /** @var int */
+    const APPLE_WATCH_1_V_42 = 281;
+
+    /** @var int */
+    const APPLE_WATCH_2_V_38 = 282;
+
+    /** @var int */
+    const APPLE_WATCH_2_V_42 = 283;
+
+    /** @var int */
+    const APPLE_WATCH_3_V_38 = 284;
+
+    /** @var int */
+    const APPLE_WATCH_3_V_38_CELLULAR = 285;
+
+    /** @var int */
+    const APPLE_WATCH_3_V_42 = 286;
+
+    /** @var int */
+    const APPLE_WATCH_3_V_42_CELLULAR = 287;
+
+    /** @var int */
+    const APPLE_WATCH_4_V_40 = 288;
+
+    /** @var int */
+    const APPLE_WATCH_4_V_40_CELLULAR = 289;
+
+    /** @var int */
+    const APPLE_WATCH_4_V_44 = 290;
+
+    /** @var int */
+    const APPLE_WATCH_4_V_44_CELLULAR = 291;
+
+    /** @var int */
+    const APPLE_WATCH_5_V_40 = 292;
+
+    /** @var int */
+    const APPLE_WATCH_5_V_40_CELLULAR = 293;
+
+    /** @var int */
+    const APPLE_WATCH_5_V_44 = 294;
+
+    /** @var int */
+    const APPLE_WATCH_5_V_44_CELLULAR = 295;
 }
