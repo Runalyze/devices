@@ -160,7 +160,7 @@ class GarminFitSdkMapping
             2347 => DeviceProfile::GARMIN_VIVO_SMART_GPS_H_R,
             2348 => DeviceProfile::GARMIN_VIVO_SMART_H_R,
             3126 => DeviceProfile::GARMIN_INSTINCT,
-            3192 => DeviceProfile::GARMIN_SPEED_SENSOR_2
+            3192 => DeviceProfile::GARMIN_SPEED_SENSOR_2,
         ];
     }
 
