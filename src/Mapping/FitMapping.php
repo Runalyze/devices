@@ -33,6 +33,7 @@ class FitMapping
                 break;
             case 255:
                 return (new DevelopmentFitSdkMapping())->toInternal($productId);
+                break;
             default:
                 return null;
         }
