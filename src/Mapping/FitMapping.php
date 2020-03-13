@@ -31,6 +31,8 @@ class FitMapping
             case 38:
                 return (new OsynceFitSdkMapping())->toInternal($productId);
                 break;
+            case 255:
+                return (new DevelopmentFitSdkMapping())->toInternal($productId);
             default:
                 return null;
         }
