@@ -47,6 +47,7 @@ class GarminFitSdkMapping
             1742 => DeviceProfile::GARMIN_EDGE_510,
             1918 => DeviceProfile::GARMIN_EDGE_510,
             2067 => DeviceProfile::GARMIN_EDGE_520,
+            2260 => DeviceProfile::GARMIN_EDGE_520,
             3126 => DeviceProfile::GARMIN_EDGE_530,
             3121 => DeviceProfile::GARMIN_EDGE_530,
             1169 => DeviceProfile::GARMIN_EDGE_800,
@@ -105,7 +106,9 @@ class GarminFitSdkMapping
             14 => DeviceProfile::GARMIN_FORERUNNER_225,
             2157 => DeviceProfile::GARMIN_FORERUNNER_230,
             2431 => DeviceProfile::GARMIN_FORERUNNER_235,
+            2396 => DeviceProfile::GARMIN_FORERUNNER_235,
             3076 => DeviceProfile::GARMIN_FORERUNNER_245,
+            3145 => DeviceProfile::GARMIN_FORERUNNER_245,
             3321 => DeviceProfile::GARMIN_FORERUNNER_245_MUSIC,
             3077 => DeviceProfile::GARMIN_FORERUNNER_245_MUSIC,
             473 => DeviceProfile::GARMIN_FORERUNNER_301,
@@ -161,6 +164,8 @@ class GarminFitSdkMapping
             2348 => DeviceProfile::GARMIN_VIVO_SMART_H_R,
             3126 => DeviceProfile::GARMIN_INSTINCT,
             3192 => DeviceProfile::GARMIN_SPEED_SENSOR_2,
+            1438 => DeviceProfile::GARMIN_FIT_ANDROID,
+            1439 => DeviceProfile::GARMIN_FIT_IPHONE,
         ];
     }
 

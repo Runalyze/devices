@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Bryton extends AbstractDistributor
 {
     public function getEnum()
@@ -25,6 +27,18 @@ class Bryton extends AbstractDistributor
 
     public function getDeviceEnumList()
     {
-        return [];
+        return [
+            DeviceProfile::BRYTON_UNKNOWN,
+            DeviceProfile::BRYTON_RIDER_10,
+            DeviceProfile::BRYTON_RIDER_15,
+            DeviceProfile::BRYTON_RIDER_310,
+            DeviceProfile::BRYTON_RIDER_330,
+            DeviceProfile::BRYTON_RIDER_410,
+            DeviceProfile::BRYTON_RIDER_420,
+            DeviceProfile::BRYTON_RIDER_450,
+            DeviceProfile::BRYTON_RIDER_530,
+            DeviceProfile::BRYTON_RIDER_860,
+            DeviceProfile::BRYTON_RIDER_ONE,
+        ];
     }
 }

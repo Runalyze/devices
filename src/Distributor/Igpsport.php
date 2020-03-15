@@ -11,24 +11,20 @@
 
 namespace Runalyze\Devices\Distributor;
 
-use Runalyze\Devices\Device\DeviceProfile;
-
-class TomTom extends AbstractDistributor
+class Igpsport extends AbstractDistributor
 {
     public function getEnum()
     {
-        return DistributorProfile::TOM_TOM;
+        return DistributorProfile::IGPSPORT;
     }
 
     public function getName()
     {
-        return 'TomTom';
+        return 'iGPSPORT';
     }
 
     public function getDeviceEnumList()
     {
-        return [
-            DeviceProfile::TOM_TOM_UNKNOWN,
-        ];
+        return [];
     }
 }

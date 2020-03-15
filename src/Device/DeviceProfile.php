@@ -902,4 +902,43 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APPLE_WATCH_5_V_44_CELLULAR = 295;
+
+    /** @var int */
+    const GARMIN_FIT_ANDROID = 296;
+
+    /** @var int */
+    const GARMIN_FIT_IPHONE = 297;
+
+    /** @var int */
+    const GARMIN_MOBILE_IOS = 298;
+
+    /** @var int */
+    const BRYTON_RIDER_10 = 299;
+
+    /** @var int */
+    const BRYTON_RIDER_15 = 300;
+
+    /** @var int */
+    const BRYTON_RIDER_310 = 301;
+
+    /** @var int */
+    const BRYTON_RIDER_330 = 302;
+
+    /** @var int */
+    const BRYTON_RIDER_410 = 303;
+
+    /** @var int */
+    const BRYTON_RIDER_420 = 304;
+
+    /** @var int */
+    const BRYTON_RIDER_450 = 305;
+
+    /** @var int */
+    const BRYTON_RIDER_530 = 306;
+
+    /** @var int */
+    const BRYTON_RIDER_860 = 307;
+
+    /** @var int */
+    const BRYTON_RIDER_ONE = 308;
 }

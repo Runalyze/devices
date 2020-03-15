@@ -11,9 +11,7 @@
 
 namespace Runalyze\Devices\Mapping;
 
-use Runalyze\Devices\Device\DeviceProfile;
-
-class CorosFitSdkMapping
+class BkoolFitSdkMapping
 {
     /** @var int[]|string[] */
     protected $Mapping = [];
@@ -21,15 +19,19 @@ class CorosFitSdkMapping
     protected function getMapping()
     {
         return [
-            801 => DeviceProfile::COROS_PACE,
-            811 => DeviceProfile::COROS_APEX,
-            821 => DeviceProfile::COROS_APEX,
-            831 => DeviceProfile::COROS_VERTIX,
-            841 => DeviceProfile::COROS_APEX_PRO,
         ];
         /*
          * Unknown:
-         * 899
+         * 2
+         * 16
+         * 18
+         * 22
+         * 24
+         * 55
+         * 2240
+         * 2800
+         * 2900
+         *
          */
     }
 

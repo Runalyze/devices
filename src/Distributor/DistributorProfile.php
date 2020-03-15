@@ -83,4 +83,10 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const SAMSUNG = 22;
+
+    /** @var int */
+    const IGPSPORT = 23;
+
+    /** @var int */
+    const BKOOL = 24;
 }
