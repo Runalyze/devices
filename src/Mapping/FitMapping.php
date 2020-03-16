@@ -34,6 +34,9 @@ class FitMapping
             case 255:
                 return (new DevelopmentFitSdkMapping())->toInternal($productId);
                 break;
+            case 70:
+                return (new SigmaSportFitSdkMapping())->toInternal($productId);
+                break;
             default:
                 return null;
         }
