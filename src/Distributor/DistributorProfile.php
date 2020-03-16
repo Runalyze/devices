@@ -89,4 +89,10 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const BKOOL = 24;
+
+    /** @var int */
+    const LEZYNE = 25;
+
+    /** @var int */
+    const ELITE = 26;
 }

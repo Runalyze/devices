@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarM450 extends AbstractDevice
+class LezyneMacroPlusGps extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use LezyneDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_M_450;
+        return DeviceProfile::LEZYNE_MACRO_PLUS_GPS;
     }
 
     public function getName()
     {
-        return 'M450';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'MARCO PLUS GPS';
     }
 }

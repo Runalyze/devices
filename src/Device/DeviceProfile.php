@@ -1007,4 +1007,73 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const WAHOO_ELEMNT_MINI = 330;
+
+    /** @var int */
+    const POLAR_VANTAGE_M = 331;
+
+    /** @var int */
+    const POLAR_VANTAGE_V = 332;
+
+    /** @var int */
+    const GARMIN_APPROACH_X_10 = 333;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART_3 = 334;
+
+    /** @var int */
+    const GARMIN_QUATIX_3 = 335;
+
+    /** @var int */
+    const GARMIN_EDGE_130 = 336;
+
+    /** @var int */
+    const POLAR_A_370 = 337;
+
+    /** @var int */
+    const POLAR_IGNITE = 338;
+
+    /** @var int */
+    const SIGMA_SPORT_ROX_120_SPORT = 339;
+
+    /** @var int */
+    const SIGMA_SPORT_ROX_100_GPS = 340;
+
+    /** @var int */
+    const SIGMA_SPORT_ROX_110_GPS = 341;
+
+    /** @var int */
+    const IGSPORT_IGS_20_E = 342;
+
+    /** @var int */
+    const IGSPORT_IGS_50_E = 343;
+
+    /** @var int */
+    const IGSPORT_IGS_130 = 344;
+
+    /** @var int */
+    const IGSPORT_IGS_618 = 345;
+
+    /** @var int */
+    const IGSPORT_IGS_620 = 346;
+
+    /** @var int */
+    const LEZYNE_MACRO_EASY_GPS = 347;
+
+    /** @var int */
+    const LEZYNE_MACRO_PLUS_GPS = 348;
+
+    /** @var int */
+    const LEZYNE_MEGA_C_GPS = 349;
+
+    /** @var int */
+    const LEZYNE_MEGA_XL_GPS = 350;
+
+    /** @var int */
+    const LEZYNE_MINI_GPS = 351;
+
+    /** @var int */
+    const LEZYNE_SUPER_PRO_GPS = 352;
+
+    /** @var int */
+    const LEZYNE_COLOR_GPS = 347;
 }

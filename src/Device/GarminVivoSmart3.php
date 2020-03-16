@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarM450 extends AbstractDevice
+class GarminVivoSmart3 extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_M_450;
+        return DeviceProfile::GARMIN_VIVO_SMART_3;
     }
 
     public function getName()
     {
-        return 'M450';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Vivosmart 3';
     }
 }

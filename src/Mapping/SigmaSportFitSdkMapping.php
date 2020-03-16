@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Mapping;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class SigmaSportFitSdkMapping
 {
     /** @var int[]|string[] */
@@ -19,12 +21,12 @@ class SigmaSportFitSdkMapping
     protected function getMapping()
     {
         return [
+            44 => DeviceProfile::SIGMA_SPORT_ROX_120_SPORT,
+            41 => DeviceProfile::SIGMA_SPORT_ROX_110_GPS,
+            15 => DeviceProfile::SIGMA_SPORT_ROX_100_GPS,
         ];
         /*
          * Unknown:
-         * 15
-         * 41
-         * 44
          * 46
          */
     }

@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarM450 extends AbstractDevice
+class PolarVantageV extends AbstractDevice
 {
     use PolarDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_M_450;
+        return DeviceProfile::POLAR_VANTAGE_V;
     }
 
     public function getName()
     {
-        return 'M450';
+        return 'Vantage V';
     }
 
     public function hasBarometer()

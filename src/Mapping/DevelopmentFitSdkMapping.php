@@ -39,6 +39,15 @@ class DevelopmentFitSdkMapping
             'Watch5,2' => DeviceProfile::APPLE_WATCH_5_V_44,
             'Watch5,3' => DeviceProfile::APPLE_WATCH_5_V_40_CELLULAR,
             'Watch5,4' => DeviceProfile::APPLE_WATCH_5_V_44_CELLULAR,
+            'Polar A370' => DeviceProfile::POLAR_A_370,
+            'Polar M400' => DeviceProfile::POLAR_M_400,
+            'Polar M430' => DeviceProfile::POLAR_M_430,
+            'Polar M450' => DeviceProfile::POLAR_M_450,
+            'Polar M460' => DeviceProfile::POLAR_M_460,
+            'Polar M600' => DeviceProfile::POLAR_M_600,
+            'Polar Vantage V' => DeviceProfile::POLAR_VANTAGE_V,
+            'Polar Vantage M' => DeviceProfile::POLAR_VANTAGE_M,
+            'Polar Ignite' => DeviceProfile::POLAR_IGNITE,
         ];
     }
 

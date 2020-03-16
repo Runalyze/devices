@@ -24,4 +24,9 @@ class PolarM460 extends AbstractDevice
     {
         return 'M460';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

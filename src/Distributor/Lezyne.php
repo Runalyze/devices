@@ -9,24 +9,22 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Device;
+namespace Runalyze\Devices\Distributor;
 
-class PolarM450 extends AbstractDevice
+class Lezyne extends AbstractDistributor
 {
-    use PolarDeviceTrait;
-
     public function getEnum()
     {
-        return DeviceProfile::POLAR_M_450;
+        return DistributorProfile::LEZYNE;
     }
 
     public function getName()
     {
-        return 'M450';
+        return 'Lezyne';
     }
 
-    public function hasBarometer()
+    public function getDeviceEnumList()
     {
-        return true;
+        return [];
     }
 }

@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarM450 extends AbstractDevice
+class SigmaSportRox100Gps extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use SigmaDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_M_450;
+        return DeviceProfile::SIGMA_SPORT_ROX_100_GPS;
     }
 
     public function getName()
     {
-        return 'M450';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'ROX 10.0 GPS';
     }
 }
