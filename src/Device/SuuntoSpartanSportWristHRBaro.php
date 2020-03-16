@@ -22,7 +22,7 @@ class SuuntoSpartanSportWristHRBaro extends AbstractDevice
 
     public function getName()
     {
-        return 'Spartan Sport Wrist HR';
+        return 'Spartan Sport Wrist HR Baro';
     }
 
     public function hasBarometer()
