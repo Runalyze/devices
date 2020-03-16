@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Epson extends AbstractDistributor
 {
     public function getEnum()
@@ -25,6 +27,13 @@ class Epson extends AbstractDistributor
 
     public function getDeviceEnumList()
     {
-        return [];
+        return [
+            DeviceProfile::EPSON_S_F_310,
+            DeviceProfile::EPSON_S_F_510,
+            DeviceProfile::EPSON_S_F_510_F,
+            DeviceProfile::EPSON_S_F_710_S,
+            DeviceProfile::EPSON_S_F_810,
+            DeviceProfile::EPSON_UNKNOWN,
+        ];
     }
 }

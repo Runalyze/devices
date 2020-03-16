@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminVivoSport extends AbstractDevice
+class GarminMontana680T extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_VIVO_SPORT;
+        return DeviceProfile::GARMIN_MONTANA_680_T;
     }
 
     public function getName()
     {
-        return 'Vivosport';
+        return 'Montana 680t';
     }
 
     public function hasBarometer()

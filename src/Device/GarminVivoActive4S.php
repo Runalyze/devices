@@ -24,4 +24,9 @@ class GarminVivoActive4S extends AbstractDevice
     {
         return 'Vivo Active 4S';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

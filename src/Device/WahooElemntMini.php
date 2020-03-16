@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminVivoSport extends AbstractDevice
+class WahooElemntMini extends AbstractDevice
 {
-    use GarminDeviceTrait;
+    use WahooDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_VIVO_SPORT;
+        return DeviceProfile::WAHOO_ELEMNT_MINI;
     }
 
     public function getName()
     {
-        return 'Vivosport';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'ELEMNT Mini';
     }
 }

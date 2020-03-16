@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Osynce extends AbstractDistributor
 {
     public function getEnum()
@@ -25,6 +27,12 @@ class Osynce extends AbstractDistributor
 
     public function getDeviceEnumList()
     {
-        return [];
+        return [
+            DeviceProfile::OSYNCE_MIX_FREE,
+            DeviceProfile::OSYNCE_MIX_PRO,
+            DeviceProfile::OSYNCE_NAVI_2_COACH,
+            DeviceProfile::OSYNCE_NAVI_2_MOVE,
+            DeviceProfile::OSYNCE_UNKNOWN,
+        ];
     }
 }

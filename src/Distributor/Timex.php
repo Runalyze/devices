@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Timex extends AbstractDistributor
 {
     public function getEnum()
@@ -25,6 +27,8 @@ class Timex extends AbstractDistributor
 
     public function getDeviceEnumList()
     {
-        return [];
+        return [
+            DeviceProfile::TIMEX_UNKNOWN,
+        ];
     }
 }

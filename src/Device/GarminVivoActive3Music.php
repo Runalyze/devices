@@ -24,4 +24,9 @@ class GarminVivoActive3Music extends AbstractDevice
     {
         return 'Vivo Active 3 Music';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

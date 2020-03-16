@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Twonav extends AbstractDistributor
 {
     public function getEnum()
@@ -25,6 +27,13 @@ class Twonav extends AbstractDistributor
 
     public function getDeviceEnumList()
     {
-        return [];
+        return [
+            DeviceProfile::TWONAV_ADVENTURA,
+            DeviceProfile::TWONAV_SPORTIVA,
+            DeviceProfile::TWONAV_SPORTIVA_2,
+            DeviceProfile::TWONAV_TRAVERSE,
+            DeviceProfile::TWONAV_ULTRA,
+            DeviceProfile::TWONAV_UNKNOWN,
+        ];
     }
 }

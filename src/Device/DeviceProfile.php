@@ -941,4 +941,70 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const BRYTON_RIDER_ONE = 308;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_45 = 309;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_45_S = 310;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_10 = 311;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_40 = 312;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_62 = 313;
+
+    /** @var int */
+    const GARMIN_DESCENT_MK_1 = 314;
+
+    /** @var int */
+    const GARMIN_OREGON_300 = 315;
+
+    /** @var int */
+    const GARMIN_OREGON_400_T = 316;
+
+    /** @var int */
+    const GARMIN_OREGON_450 = 317;
+
+    /** @var int */
+    const GARMIN_OREGON_450_T = 318;
+
+    /** @var int */
+    const GARMIN_OREGON_550 = 319;
+
+    /** @var int */
+    const GARMIN_OREGON_600 = 320;
+
+    /** @var int */
+    const GARMIN_OREGON_700 = 321;
+
+    /** @var int */
+    const GARMIN_OREGON_750 = 322;
+
+    /** @var int */
+    const GARMIN_OREGON_750_T = 323;
+
+    /** @var int */
+    const GARMIN_TACTIX_CHARLIE = 324;
+
+    /** @var int */
+    const GARMIN_TACTIX_DELTA = 325;
+
+    /** @var int */
+    const GARMIN_MONTANA_610 = 326;
+
+    /** @var int */
+    const GARMIN_MONTANA_680 = 327;
+
+    /** @var int */
+    const GARMIN_MONTANA_680_T = 328;
+
+    /** @var int */
+    const WAHOO_ELEMNT_ROAM = 329;
+
+    /** @var int */
+    const WAHOO_ELEMNT_MINI = 330;
 }
