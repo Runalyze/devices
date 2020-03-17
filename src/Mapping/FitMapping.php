@@ -37,6 +37,9 @@ class FitMapping
             case 70:
                 return (new SigmaSportFitSdkMapping())->toInternal($productId);
                 break;
+            case 71:
+                return (new TomTomFitSdkMapping())->toInternal($productId);
+                break;
             default:
                 return null;
         }

@@ -1075,5 +1075,44 @@ class DeviceProfile extends AbstractEnum
     const LEZYNE_SUPER_PRO_GPS = 352;
 
     /** @var int */
-    const LEZYNE_COLOR_GPS = 347;
+    const LEZYNE_COLOR_GPS = 353;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_2 = 354;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_2_CARDIO = 355;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_2_CARDIO_MUSIC = 356;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_2_MUSIC = 357;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_3 = 358;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_3_CARDIO = 359;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_3_CARDIO_MUSIC = 360;
+
+    /** @var int */
+    const TOM_TOM_RUNNER_3_MUSIC = 361;
+
+    /** @var int */
+    const TOM_TOM_SPARK_3 = 362;
+
+    /** @var int */
+    const TOM_TOM_SPARK_3_CARDIO = 363;
+
+    /** @var int */
+    const TOM_TOM_SPARK_3_CARDIO_MUSIC = 364;
+
+    /** @var int */
+    const TOM_TOM_SPARK_3_MUSIC = 365;
+
+    /** @var int */
+    const TOM_TOM_ADVENTURER = 366;
 }
