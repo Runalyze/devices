@@ -1133,4 +1133,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const AMAZFIT_STRATOS_3 = 372;
+
+    /** @var int */
+    const COROS_APEX_42 = 373;
+
+    /** @var int */
+    const COROS_APEX_46 = 374;
 }

@@ -45,6 +45,7 @@ class DevelopmentFitSdkMapping
             'Polar M450' => DeviceProfile::POLAR_M_450,
             'Polar M460' => DeviceProfile::POLAR_M_460,
             'Polar M600' => DeviceProfile::POLAR_M_600,
+            'Polar V800' => DeviceProfile::POLAR_V_800,
             'Polar Vantage V' => DeviceProfile::POLAR_VANTAGE_V,
             'Polar Vantage M' => DeviceProfile::POLAR_VANTAGE_M,
             'Polar Ignite' => DeviceProfile::POLAR_IGNITE,
