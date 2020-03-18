@@ -1139,4 +1139,19 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const COROS_APEX_46 = 374;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE_H_R = 375;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE_3 = 376;
+
+    /** @var int */
+    const GARMIN_VIVO_LUXE = 377;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE_3_S = 378;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE_STYLE = 379;
 }
