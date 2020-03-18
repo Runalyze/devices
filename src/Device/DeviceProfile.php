@@ -1115,4 +1115,22 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const TOM_TOM_ADVENTURER = 366;
+
+    /** @var int */
+    const EPSON_PRO_SENSE_57 = 367;
+
+    /** @var int */
+    const EPSON_PRO_SENSE_307 = 368;
+
+    /** @var int */
+    const EPSON_PRO_SENSE_347 = 369;
+
+    /** @var int */
+    const EPSON_PRO_SENSE_367 = 370;
+
+    /** @var int */
+    const EPSON_PRO_SENSE_17 = 371;
+
+    /** @var int */
+    const AMAZFIT_STRATOS_3 = 372;
 }

@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class TomTomAdventurer extends AbstractDevice
+class EpsonProSense347 extends AbstractDevice
 {
-    use TomTomDeviceTrait;
+    use EpsonDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::TOM_TOM_ADVENTURER;
+        return DeviceProfile::EPSON_PRO_SENSE_347;
     }
 
     public function getName()
     {
-        return 'Adventurer';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'ProSense 347';
     }
 }

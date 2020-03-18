@@ -9,24 +9,22 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Device;
+namespace Runalyze\Devices\Distributor;
 
-class TomTomAdventurer extends AbstractDevice
+class Withings extends AbstractDistributor
 {
-    use TomTomDeviceTrait;
-
     public function getEnum()
     {
-        return DeviceProfile::TOM_TOM_ADVENTURER;
+        return DistributorProfile::WITHINGS;
     }
 
     public function getName()
     {
-        return 'Adventurer';
+        return 'Withings';
     }
 
-    public function hasBarometer()
+    public function getDeviceEnumList()
     {
-        return true;
+        return [];
     }
 }

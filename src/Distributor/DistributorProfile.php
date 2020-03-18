@@ -95,4 +95,7 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const ELITE = 26;
+
+    /** @var int */
+    const WITHINGS = 27;
 }

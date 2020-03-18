@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class TomTomAdventurer extends AbstractDevice
+class AmazfitStratos3 extends AbstractDevice
 {
-    use TomTomDeviceTrait;
+    use AmazfitDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::TOM_TOM_ADVENTURER;
+        return DeviceProfile::AMAZFIT_STRATOS_3;
     }
 
     public function getName()
     {
-        return 'Adventurer';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Stratos 3';
     }
 }
