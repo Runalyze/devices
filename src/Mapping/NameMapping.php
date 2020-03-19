@@ -55,7 +55,7 @@ class NameMapping
             'polar vantage m' => DeviceProfile::POLAR_VANTAGE_M,
             'polar vantage v' => DeviceProfile::POLAR_VANTAGE_V,
             'polar a370' => DeviceProfile::POLAR_A_370,
-            'polar m200' => DeviceProfile::POLAR_M_400,
+            'polar m200' => DeviceProfile::POLAR_M_200,
             'polar m400' => DeviceProfile::POLAR_M_400,
             'polar m430' => DeviceProfile::POLAR_M_430,
             'polar m450' => DeviceProfile::POLAR_M_450,
