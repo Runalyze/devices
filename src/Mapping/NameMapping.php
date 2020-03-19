@@ -12,7 +12,6 @@
 namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
-use UAParser\Result\Device;
 
 class NameMapping
 {
