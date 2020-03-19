@@ -1154,4 +1154,52 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_VIVO_MOVE_STYLE = 379;
+
+    /** @var int */
+    const GARMIN_FENIX_6_PRO_SAPPHIRE = 380;
+
+    /** @var int */
+    const GARMIN_FENIX_6_X_SAPPHIRE = 381;
+
+    /** @var int */
+    const GARMIN_D_2_CHARLIE = 382;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE_LUXE = 383;
+
+    /** @var int */
+    const GARMIN_LEGACY_HERO_FIRST_AVENGER = 384;
+
+    /** @var int */
+    const GARMIN_LEGACY_HERO_CAPTAIN_MARVEL = 385;
+
+    /** @var int */
+    const GARMIN_LEGACY_SAGA_DARTH_VADER = 386;
+
+    /** @var int */
+    const GARMIN_LEGACY_SAGA_REY = 387;
+
+    /** @var int */
+    const GARMIN_EDGE_EXPLORE = 388;
+
+    /** @var int */
+    const GARMIN_ETREX_20_X = 389;
+
+    /** @var int */
+    const GARMIN_ETREX_30_X = 390;
+
+    /** @var int */
+    const GARMIN_GPSMAP_66_I = 391;
+
+    /** @var int */
+    const GARMIN_GPSMAP_64_S = 392;
+
+    /** @var int */
+    const GARMIN_GPSMAP_64_S_T = 393;
+
+    /** @var int */
+    const GARMIN_GPSMAP_64 = 394;
+
+    /** @var int */
+    const GARMIN_GPSMAP_66_S = 395;
 }
