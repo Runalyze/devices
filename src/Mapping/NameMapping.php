@@ -54,7 +54,7 @@ class NameMapping
             'garmin connect' => DeviceProfile::APP_GARMIN_CONNECT,
             'outdooractive' => DeviceProfile::APP_OUTDOOR_ACTIVE,
             'polar vantage m' => DeviceProfile::POLAR_VANTAGE_M,
-            'polar vantage v' => DeviceProfile::POLAR_VANTAGE_M,
+            'polar vantage v' => DeviceProfile::POLAR_VANTAGE_V,
             'polar a370' => DeviceProfile::POLAR_A_370,
             'polar m200' => DeviceProfile::POLAR_M_400,
             'polar m400' => DeviceProfile::POLAR_M_400,
