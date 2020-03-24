@@ -22,7 +22,7 @@ class GarminVivoActive3Music extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivo Active 3 Music';
+        return 'vívoactive 3 Music';
     }
 
     public function hasBarometer()

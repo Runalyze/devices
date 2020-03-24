@@ -22,7 +22,7 @@ class GarminVivoSmartHR extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivosmart HR';
+        return 'vívosmart HR';
     }
 
     public function hasBarometer()

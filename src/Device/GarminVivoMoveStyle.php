@@ -22,6 +22,6 @@ class GarminVivoMoveStyle extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivomove Style';
+        return 'vívomove Style';
     }
 }

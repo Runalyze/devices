@@ -22,6 +22,6 @@ class GarminVivoFit2 extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivofit 2';
+        return 'vívofit 2';
     }
 }

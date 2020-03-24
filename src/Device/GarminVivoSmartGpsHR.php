@@ -22,6 +22,6 @@ class GarminVivoSmartGpsHR extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivosmart GPS HR';
+        return 'vívosmart GPS HR';
     }
 }

@@ -22,6 +22,6 @@ class GarminVivoSmart4 extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivosmart 4';
+        return 'vívosmart 4';
     }
 }

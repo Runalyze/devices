@@ -22,7 +22,7 @@ class GarminVivoActive4 extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivo Active 4';
+        return 'vívoactive 4';
     }
 
     public function hasBarometer()

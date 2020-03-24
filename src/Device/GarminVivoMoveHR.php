@@ -22,6 +22,6 @@ class GarminVivoMoveHR extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivomove HR';
+        return 'vívomove HR';
     }
 }

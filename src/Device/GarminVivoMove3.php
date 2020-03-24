@@ -22,6 +22,6 @@ class GarminVivoMove3 extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivomove 3';
+        return 'vívomove 3';
     }
 }

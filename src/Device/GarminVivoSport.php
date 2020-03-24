@@ -22,7 +22,7 @@ class GarminVivoSport extends AbstractDevice
 
     public function getName()
     {
-        return 'Vivosport';
+        return 'vívosport';
     }
 
     public function hasBarometer()
