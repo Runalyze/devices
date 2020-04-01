@@ -1202,4 +1202,7 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_GPSMAP_66_S = 395;
+
+    /** @var int */
+    const FITBIT_CHARGE_4 = 396;
 }

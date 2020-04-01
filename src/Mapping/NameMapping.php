@@ -50,6 +50,7 @@ class NameMapping
             'a-rival' => DeviceProfile::ARIVAL_UNKNOWN,
             'rungap' => DeviceProfile::APP_RUN_GAP,
             'globalsat' => DeviceProfile::APP_GLOBAL_SAT,
+            'the sufferfest training system' => DeviceProfile::APP_THE_SUFFERFEST,
             'garmin connect' => DeviceProfile::APP_GARMIN_CONNECT,
             'outdooractive' => DeviceProfile::APP_OUTDOOR_ACTIVE,
             'polar vantage m' => DeviceProfile::POLAR_VANTAGE_M,
