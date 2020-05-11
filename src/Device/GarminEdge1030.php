@@ -24,4 +24,9 @@ class GarminEdge1030 extends AbstractDevice
     {
         return 'Edge 1030';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
