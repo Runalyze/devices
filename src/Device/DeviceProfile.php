@@ -1205,4 +1205,13 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const FITBIT_CHARGE_4 = 396;
+
+    /** @var int */
+    const GARMIN_APPROACH_G_10 = 397;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART_2 = 398;
+
+    /** @var int */
+    const GARMIN_MARQ_EXPEDITION = 399;
 }
