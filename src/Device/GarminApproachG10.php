@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminApproachG10# extends AbstractDevice
+class GarminApproachG10 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
