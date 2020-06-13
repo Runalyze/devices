@@ -23,6 +23,7 @@ class WahooFitSdkMapping
         return [
             28 => DeviceProfile::WAHOO_ELEMNT,
             31 => DeviceProfile::WAHOO_ELEMNT_BOLT,
+            39 => DeviceProfile::WAHOO_ELEMNT_ROAM
         ];
     }
 
