@@ -1214,4 +1214,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_MARQ_EXPEDITION = 399;
+
+    /** @var int */
+    const GARMIN_EDGE_130_PLUS = 400;
+
+    /** @var int */
+    const GARMIN_EDGE_1030_PLUS = 401;
 }
