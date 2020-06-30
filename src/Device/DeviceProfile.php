@@ -1220,4 +1220,40 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_EDGE_1030_PLUS = 401;
+
+    /** @var int */
+    const GARMIN_VIVO_ACTIVE_3_DAIMLER = 402;
+
+    /** @var int */
+    const GARMIN_VENU_DAIMLER = 403;
+
+    /** @var int */
+    const GARMIN_APPROACH_G_80 = 404;
+
+    /** @var int */
+    const GARMIN_APPROACH_Z_80 = 405;
+
+    /** @var int */
+    const GARMIN_FORETREX_101 = 406;
+
+    /** @var int */
+    const GARMIN_FORETREX_201 = 407;
+
+    /** @var int */
+    const GARMIN_FORETREX_301 = 408;
+
+    /** @var int */
+    const GARMIN_FORETREX_401 = 409;
+
+    /** @var int */
+    const GARMIN_FORETREX_501 = 410;
+
+    /** @var int */
+    const GARMIN_FORETREX_601 = 411;
+
+    /** @var int */
+    const GARMIN_FORETREX_701 = 412;
+
+    /** @var int */
+    const GARMIN_GPSMAP_66 = 413;
 }
