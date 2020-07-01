@@ -23,7 +23,7 @@ class GarminFitSdkMapping
         return [
             2962 => DeviceProfile::GARMIN_APPROACH_X_10,
             2266 => DeviceProfile::GARMIN_APPROACH_S_20,
-            3049 => DeviceProfile::GARMIN_APPROACH_S10,
+            3049 => DeviceProfile::GARMIN_APPROACH_S_10,
             1936 => DeviceProfile::GARMIN_APPROACH_S_6,
             3085 => DeviceProfile::GARMIN_APPROACH_G_80,
             2292 => DeviceProfile::GARMIN_APPROACH_X_40,
