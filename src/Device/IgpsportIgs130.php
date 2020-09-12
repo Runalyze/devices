@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Device;
 
-class IgosportIgs130 extends AbstractDevice
+class IgpsportIgs130 extends AbstractDevice
 {
     use IgpsportDeviceTrait;
 
