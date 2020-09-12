@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Device;
 
-class WattbikeUnkown extends AbstractDevice
+class WattbikeUnknown extends AbstractDevice
 {
     use WattbikeDeviceTrait;
 

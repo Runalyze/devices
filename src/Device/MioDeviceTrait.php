@@ -11,17 +11,12 @@
 
 namespace Runalyze\Devices\Device;
 
-class StrydUnknown extends AbstractDevice
+use Runalyze\Devices\Distributor\DistributorProfile;
+
+trait MioDeviceTrait
 {
-    use StrydDeviceTrait;
-
-    public function getEnum()
+    public function getDistributorEnum()
     {
-        return DeviceProfile::STRYD_UNKNOWN;
-    }
-
-    public function getName()
-    {
-        return '';
+        return DistributorProfile::MIO;
     }
 }

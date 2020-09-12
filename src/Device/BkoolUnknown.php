@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Device;
 
-class Bkool extends AbstractDevice
+class BkoolUnknown extends AbstractDevice
 {
     use BkoolDeviceTrait;
 
