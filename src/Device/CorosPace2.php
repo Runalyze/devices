@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class IgsportIgs130 extends AbstractDevice
+class CorosPace2 extends AbstractDevice
 {
-    use IgsportDeviceTrait;
+    use CorosDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::IGSPORT_IGS_130;
+        return DeviceProfile::COROS_PACE_2;
     }
 
     public function getName()
     {
-        return 'iGS130';
+        return 'Pace2';
     }
 }

@@ -98,4 +98,22 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const WITHINGS = 27;
+
+    /** @var int */
+    const STRYD = 28;
+
+    /** @var int */
+    const ZWIFT = 29;
+
+    /** @var int */
+    const STAGES_CYCLING = 30;
+
+    /** @var int */
+    const CONCEPT_2 = 31;
+
+    /** @var int */
+    const WATTBIKE = 32;
+
+    /** @var int */
+    const MIO = 33;
 }

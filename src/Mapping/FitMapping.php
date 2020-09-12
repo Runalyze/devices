@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Mapping;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class FitMapping
 {
     public static function guessDevice($manufactorId, $productId)
@@ -34,11 +36,50 @@ class FitMapping
             case 255:
                 return (new DevelopmentFitSdkMapping())->toInternal($productId);
                 break;
+            case 267:
+                return DeviceProfile::BRYTON_UNKNOWN;
+                break;
             case 70:
                 return (new SigmaSportFitSdkMapping())->toInternal($productId);
                 break;
             case 71:
                 return (new TomTomFitSdkMapping())->toInternal($productId);
+                break;
+            case 95:
+                return DeviceProfile::STRYD_UNKNOWN;
+                break;
+            case 54:
+                return DeviceProfile::APP_IP_BIKE;
+                break;
+            case 69:
+                return DeviceProfile::STAGES_CYCLING_UNKNOWN;
+                break;
+            case 40:
+                return DeviceProfile::CONCEPT_2_UNKNOWN;
+                break;
+            case 67:
+                return DeviceProfile::BKOOL_UNKNOWN;
+                break;
+            case 260:
+                return DeviceProfile::ZWIFT;
+                break;
+            case 282:
+                return DeviceProfile::APP_THE_SUFFERFEST;
+                break;
+            case 281:
+                return DeviceProfile::APP_TRAINER_ROAD;
+                break;
+            case 115:
+                return DeviceProfile::IGPSPORT_UNKNOWN;
+                break;
+            case 258:
+                return DeviceProfile::LEZYNE_UNKNOWN;
+                break;
+            case 505:
+                return DeviceProfile::MIO_UNKNOWN;
+                break;
+            case 73:
+                return (new WattbikeFitSdkMapping())->toInternal($productId);
                 break;
             default:
                 return null;

@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class IgsportIgs20E extends AbstractDevice
+class LezyneUnknown extends AbstractDevice
 {
-    use IgsportDeviceTrait;
+    use LezyneDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::IGSPORT_IGS_20_E;
+        return DeviceProfile::LEZYNE_UNKNOWN;
     }
 
     public function getName()
     {
-        return 'iGS20E';
+        return '(Unknown)';
     }
 }

@@ -1042,19 +1042,19 @@ class DeviceProfile extends AbstractEnum
     const SIGMA_SPORT_ROX_110_GPS = 341;
 
     /** @var int */
-    const IGSPORT_IGS_20_E = 342;
+    const IGPSPORT_IGS_20_E = 342;
 
     /** @var int */
-    const IGSPORT_IGS_50_E = 343;
+    const IGPSPORT_IGS_50_E = 343;
 
     /** @var int */
-    const IGSPORT_IGS_130 = 344;
+    const IGPSPORT_IGS_130 = 344;
 
     /** @var int */
-    const IGSPORT_IGS_618 = 345;
+    const IGPSPORT_IGS_618 = 345;
 
     /** @var int */
-    const IGSPORT_IGS_620 = 346;
+    const IGPSPORT_IGS_620 = 346;
 
     /** @var int */
     const LEZYNE_MACRO_EASY_GPS = 347;
@@ -1256,4 +1256,115 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_GPSMAP_66 = 413;
+
+    /** @var int */
+    const STRYD_UNKNOWN = 414;
+
+    /** @var int */
+    const ZWIFT = 415;
+
+    /** @var int */
+    const APPLE_IPHONE_6_S_PLUS = 416;
+
+    /** @var int */
+    const APPLE_IPHONE_S_E = 417;
+
+    /** @var int */
+    const APPLE_IPHONE_7 = 418;
+
+    /** @var int */
+    const APPLE_IPHONE_7_PLUS = 419;
+
+    /** @var int */
+    const APPLE_IPHONE_8 = 420;
+
+    /** @var int */
+    const APPLE_IPHONE_8_PLUS = 421;
+
+    /** @var int */
+    const APPLE_IPHONE_11 = 422;
+
+    /** @var int */
+    const APPLE_IPHONE_11_PRO = 422;
+
+    /** @var int */
+    const APPLE_IPHONE_11_PRO_MAX = 423;
+
+    /** @var int */
+    const APPLE_IPHONE_S_E_2 = 424;
+
+    /** @var int */
+    const APPLE_IPHONE_X_R = 425;
+
+    /** @var int */
+    const APPLE_IPHONE_X_S = 426;
+
+    /** @var int */
+    const APPLE_IPHONE_X_GLOBAL = 427;
+
+    /** @var int */
+    const APPLE_IPHONE_6_PLUS = 428;
+
+    /** @var int */
+    const APPLE_IPHONE_6 = 429;
+
+    /** @var int */
+    const APPLE_IPHONE_6_S = 430;
+
+    /** @var int */
+    const APPLE_IPHONE_X_G_S_M = 431;
+
+    /** @var int */
+    const APPLE_IPHONE_X_S_MAX = 432;
+
+    /** @var int */
+    const APPLE_IPHONE_X_S_MAX_GLOBAL = 433;
+
+    /** @var int */
+    const STAGES_CYCLING_UNKNOWN = 434;
+
+    /** @var int */
+    const APP_IP_BIKE = 435;
+
+    /** @var int */
+    const CONCEPT_2_UNKNOWN = 436;
+
+    /** @var int */
+    const APP_TRAINER_ROAD = 437;
+
+    /** @var int */
+    const BKOOL_UNKNOWN = 438;
+
+    /** @var int */
+    const COROS_PACE_2 = 439;
+
+    /** @var int */
+    const IGPSPORT_UNKNOWN = 440;
+
+    /** @var int */
+    const LEZYNE_UNKNOWN = 441;
+
+    /** @var int */
+    const WATTBIKE_UNKNOWN = 442;
+
+    /** @var int */
+    const WATTBIKE_ATOM = 443;
+
+    /** @var int */
+    const SIGMA_SPORT_ID_TRI = 444;
+
+    /** @var int */
+    const MIO_UNKNOWN = 445;
+
+    /** @var int */
+    const POLAR_GRIT_X = 446;
+
+    /** @var int */
+    const POLAR_VANTAGE_V_TITAN = 447;
+
+    /** @var int */
+    const POLAR_O_H_1 = 448;
+
+    /** @var int */
+    const APP_NIKE_RUN_CLUB = 449;
 }

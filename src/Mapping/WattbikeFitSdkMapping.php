@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class WahooFitSdkMapping
+class WattbikeFitSdkMapping
 {
     /** @var int[]|string[] */
     protected $Mapping = [];
@@ -21,10 +21,8 @@ class WahooFitSdkMapping
     protected function getMapping()
     {
         return [
-            0 => DeviceProfile::WAHOO_UNKNOWN,
-            28 => DeviceProfile::WAHOO_ELEMNT,
-            31 => DeviceProfile::WAHOO_ELEMNT_BOLT,
-            37 => DeviceProfile::WAHOO_ELEMNT_ROAM,
+            0 => DeviceProfile::WATTBIKE_UNKNOWN,
+            26 => DeviceProfile::WATTBIKE_ATOM,
         ];
     }
 
