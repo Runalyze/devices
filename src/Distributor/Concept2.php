@@ -28,7 +28,7 @@ class Concept2 extends AbstractDistributor
     public function getDeviceEnumList()
     {
         return [
-            DeviceProfile::CONCEPT_2_UNKNOWN
+            DeviceProfile::CONCEPT_2_UNKNOWN,
             ];
     }
 }

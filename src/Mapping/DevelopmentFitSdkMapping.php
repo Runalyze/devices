@@ -76,7 +76,7 @@ class DevelopmentFitSdkMapping
             'Polar Ignite' => DeviceProfile::POLAR_IGNITE,
             'Polar Grit X' => DeviceProfile::POLAR_GRIT_X,
             'Runkeeper' => DeviceProfile::APP_RUNKEEPER,
-            'Nike Run Club' => DeviceProfile::APP_NIKE_RUN_CLUB
+            'Nike Run Club' => DeviceProfile::APP_NIKE_RUN_CLUB,
         ];
     }
 

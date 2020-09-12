@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Device;
 
 use Runalyze\Devices\Distributor\DistributorProfile;
 
-trait IgsportDeviceTrait
+trait IgpsportDeviceTrait
 {
     public function getDistributorEnum()
     {

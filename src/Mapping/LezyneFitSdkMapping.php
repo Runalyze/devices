@@ -11,8 +11,6 @@
 
 namespace Runalyze\Devices\Mapping;
 
-use Runalyze\Devices\Device\DeviceProfile;
-
 class LezyneFitSdkMapping
 {
     /** @var int[]|string[] */

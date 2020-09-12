@@ -28,7 +28,7 @@ class StagesCycling extends AbstractDistributor
     public function getDeviceEnumList()
     {
         return [
-            DeviceProfile::STAGES_CYCLING_UNKNOWN
+            DeviceProfile::STAGES_CYCLING_UNKNOWN,
         ];
     }
 }

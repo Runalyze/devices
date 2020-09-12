@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Device;
 
 class IgpsportUnknown extends AbstractDevice
 {
-    use IgsportDeviceTrait;
+    use IgpsportDeviceTrait;
 
     public function getEnum()
     {

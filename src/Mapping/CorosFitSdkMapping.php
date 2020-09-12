@@ -27,7 +27,7 @@ class CorosFitSdkMapping
             821 => DeviceProfile::COROS_APEX_46,
             831 => DeviceProfile::COROS_VERTIX,
             841 => DeviceProfile::COROS_APEX_PRO,
-            899 => DeviceProfile::COROS_UNKNOWN
+            899 => DeviceProfile::COROS_UNKNOWN,
         ];
         /*
          * Unknown:
