@@ -11,20 +11,24 @@
 
 namespace Runalyze\Devices\Distributor;
 
-class Bkool extends AbstractDistributor
+use Runalyze\Devices\Device\DeviceProfile;
+
+class StagesCycling extends AbstractDistributor
 {
     public function getEnum()
     {
-        return DistributorProfile::BKOOL;
+        return DistributorProfile::STAGES_CYCLING;
     }
 
     public function getName()
     {
-        return 'Bkool';
+        return 'Stages Cycling';
     }
 
     public function getDeviceEnumList()
     {
-        return [];
+        return [
+            DeviceProfile::STAGES_CYCLING_UNKNOWN,
+        ];
     }
 }

@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class IgsportIgs50E extends AbstractDevice
+class SigmaSportIdTri extends AbstractDevice
 {
-    use IgsportDeviceTrait;
+    use SigmaDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::IGSPORT_IGS_50_E;
+        return DeviceProfile::SIGMA_SPORT_ID_TRI;
     }
 
     public function getName()
     {
-        return 'iGS50E';
+        return 'Sport iD.TRI';
     }
 }

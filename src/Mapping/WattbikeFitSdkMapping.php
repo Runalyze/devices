@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class CorosFitSdkMapping
+class WattbikeFitSdkMapping
 {
     /** @var int[]|string[] */
     protected $Mapping = [];
@@ -21,18 +21,9 @@ class CorosFitSdkMapping
     protected function getMapping()
     {
         return [
-            801 => DeviceProfile::COROS_PACE,
-            802 => DeviceProfile::COROS_PACE_2,
-            811 => DeviceProfile::COROS_APEX_42,
-            821 => DeviceProfile::COROS_APEX_46,
-            831 => DeviceProfile::COROS_VERTIX,
-            841 => DeviceProfile::COROS_APEX_PRO,
-            899 => DeviceProfile::COROS_UNKNOWN,
+            0 => DeviceProfile::WATTBIKE_UNKNOWN,
+            26 => DeviceProfile::WATTBIKE_ATOM,
         ];
-        /*
-         * Unknown:
-         * 899
-         */
     }
 
     public function __construct()

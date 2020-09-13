@@ -31,6 +31,7 @@ class Sigma extends AbstractDistributor
             DeviceProfile::SIGMA_SPORT_ACTIVO,
             DeviceProfile::SIGMA_SPORT_ID_LIFE,
             DeviceProfile::SIGMA_SPORT_ID_RUN_H_R,
+            DeviceProfile::SIGMA_SPORT_ID_TRI,
             DeviceProfile::SIGMA_SPORT_ONYX_EASY,
             DeviceProfile::SIGMA_SPORT_ONYX_FIT,
             DeviceProfile::SIGMA_SPORT_ONYX_PRO,

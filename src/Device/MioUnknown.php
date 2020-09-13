@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class IgsportIgs130 extends AbstractDevice
+class MioUnknown extends AbstractDevice
 {
-    use IgsportDeviceTrait;
+    use MioDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::IGSPORT_IGS_130;
+        return DeviceProfile::MIO_UNKNOWN;
     }
 
     public function getName()
     {
-        return 'iGS130';
+        return '(unknown)';
     }
 }

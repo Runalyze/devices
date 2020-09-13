@@ -13,27 +13,22 @@ namespace Runalyze\Devices\Distributor;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class Igpsport extends AbstractDistributor
+class Concept2 extends AbstractDistributor
 {
     public function getEnum()
     {
-        return DistributorProfile::IGPSPORT;
+        return DistributorProfile::CONCEPT_2;
     }
 
     public function getName()
     {
-        return 'iGPSPORT';
+        return 'Concept 2';
     }
 
     public function getDeviceEnumList()
     {
         return [
-            DeviceProfile::IGPSPORT_IGS_20_E,
-            DeviceProfile::IGPSPORT_IGS_50_E,
-            DeviceProfile::IGPSPORT_IGS_130,
-            DeviceProfile::IGPSPORT_IGS_618,
-            DeviceProfile::IGPSPORT_IGS_620,
-            DeviceProfile::IGPSPORT_UNKNOWN,
-        ];
+            DeviceProfile::CONCEPT_2_UNKNOWN,
+            ];
     }
 }

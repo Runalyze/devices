@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class IgsportIgs618 extends AbstractDevice
+class AppNikeRunClub extends AbstractDevice
 {
-    use IgsportDeviceTrait;
+    use AppDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::IGSPORT_IGS_618;
+        return DeviceProfile::APP_NIKE_RUN_CLUB;
     }
 
     public function getName()
     {
-        return 'iGS618';
+        return 'Nike Run Club';
     }
 }

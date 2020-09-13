@@ -11,12 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-use Runalyze\Devices\Distributor\DistributorProfile;
-
-trait IgsportDeviceTrait
+class AppIpBike extends AbstractDevice
 {
-    public function getDistributorEnum()
+    use AppDeviceTrait;
+
+    public function getEnum()
     {
-        return DistributorProfile::IGPSPORT;
+        return DeviceProfile::APP_IP_BIKE;
+    }
+
+    public function getName()
+    {
+        return 'IpBike';
     }
 }

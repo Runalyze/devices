@@ -21,6 +21,7 @@ class WahooFitSdkMapping
     protected function getMapping()
     {
         return [
+            0 => DeviceProfile::WAHOO_UNKNOWN,
             28 => DeviceProfile::WAHOO_ELEMNT,
             31 => DeviceProfile::WAHOO_ELEMNT_BOLT,
             37 => DeviceProfile::WAHOO_ELEMNT_ROAM,

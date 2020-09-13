@@ -45,6 +45,23 @@ class Apple extends AbstractDistributor
             DeviceProfile::APPLE_WATCH_5_V_44,
             DeviceProfile::APPLE_WATCH_5_V_40_CELLULAR,
             DeviceProfile::APPLE_WATCH_5_V_44_CELLULAR,
+            DeviceProfile::APPLE_IPHONE_X_S,
+            DeviceProfile::APPLE_IPHONE_X_S_MAX_GLOBAL,
+            DeviceProfile::APPLE_IPHONE_X_S_MAX,
+            DeviceProfile::APPLE_IPHONE_X_R,
+            DeviceProfile::APPLE_IPHONE_S_E_2,
+            DeviceProfile::APPLE_IPHONE_S_E,
+            DeviceProfile::APPLE_IPHONE_6,
+            DeviceProfile::APPLE_IPHONE_6_S,
+            DeviceProfile::APPLE_IPHONE_6_S_PLUS,
+            DeviceProfile::APPLE_IPHONE_6_PLUS,
+            DeviceProfile::APPLE_IPHONE_7,
+            DeviceProfile::APPLE_IPHONE_7_PLUS,
+            DeviceProfile::APPLE_IPHONE_8,
+            DeviceProfile::APPLE_IPHONE_8_PLUS,
+            DeviceProfile::APPLE_IPHONE_11,
+            DeviceProfile::APPLE_IPHONE_11_PRO_MAX,
+            DeviceProfile::APPLE_IPHONE_11_PRO,
         ];
     }
 }
