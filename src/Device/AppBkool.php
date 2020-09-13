@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class Zwift extends AbstractDevice
+class AppBkool extends AbstractDevice
 {
-    use ZwiftDeviceTrait;
+    use AppDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::ZWIFT;
+        return DeviceProfile::APP_BKOOL;
     }
 
     public function getName()
     {
-        return '';
+        return 'BKOOL';
     }
 }

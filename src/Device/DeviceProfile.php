@@ -1261,7 +1261,7 @@ class DeviceProfile extends AbstractEnum
     const STRYD_UNKNOWN = 414;
 
     /** @var int */
-    const ZWIFT = 415;
+    const APP_ZWIFT = 415;
 
     /** @var int */
     const APPLE_IPHONE_6_S_PLUS = 416;
@@ -1333,7 +1333,7 @@ class DeviceProfile extends AbstractEnum
     const APP_TRAINER_ROAD = 437;
 
     /** @var int */
-    const BKOOL_UNKNOWN = 438;
+    const APP_BKOOL = 438;
 
     /** @var int */
     const COROS_PACE_2 = 439;

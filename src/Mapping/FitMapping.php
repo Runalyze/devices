@@ -58,10 +58,10 @@ class FitMapping
                 return DeviceProfile::CONCEPT_2_UNKNOWN;
                 break;
             case 67:
-                return DeviceProfile::BKOOL_UNKNOWN;
+                return DeviceProfile::APP_BKOOL;
                 break;
             case 260:
-                return DeviceProfile::ZWIFT;
+                return DeviceProfile::APP_ZWIFT;
                 break;
             case 282:
                 return DeviceProfile::APP_THE_SUFFERFEST;

@@ -9,22 +9,19 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Distributor;
+namespace Runalyze\Devices\Device;
 
-class Zwift extends AbstractDistributor
+class AppZwift extends AbstractDevice
 {
+    use AppDeviceTrait;
+
     public function getEnum()
     {
-        return DistributorProfile::ZWIFT;
+        return DeviceProfile::APP_ZWIFT;
     }
 
     public function getName()
     {
         return 'Zwift';
-    }
-
-    public function getDeviceEnumList()
-    {
-        return [];
     }
 }

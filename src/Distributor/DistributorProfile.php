@@ -88,9 +88,6 @@ class DistributorProfile extends AbstractEnum
     const IGPSPORT = 23;
 
     /** @var int */
-    const BKOOL = 24;
-
-    /** @var int */
     const LEZYNE = 25;
 
     /** @var int */
@@ -101,9 +98,6 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const STRYD = 28;
-
-    /** @var int */
-    const ZWIFT = 29;
 
     /** @var int */
     const STAGES_CYCLING = 30;
