@@ -20,8 +20,7 @@ class DeviceProfileTest extends \PHPUnit\Framework\TestCase
     {
         foreach (DeviceProfile::getEnum() as $enum) {
             $device = DeviceProfile::get($enum);
-
-
+            
             $this->assertInstanceOf(DeviceInterface::class, $device);
             $this->assertEquals($enum, $device->getEnum());
             if (!strpos($device->getNameOfClass(), 'Unknown')) {
