@@ -24,4 +24,9 @@ class CorosPace2 extends AbstractDevice
     {
         return 'Pace2';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
