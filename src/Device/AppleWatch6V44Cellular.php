@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitGTR extends AbstractDevice
+class AppleWatch6V44Cellular extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use AppleDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_G_T_R;
+        return DeviceProfile::APPLE_WATCH_6_V_44_CELLULAR;
     }
 
     public function getName()
     {
-        return 'GTR';
+        return 'Watch 6 (44mm) (Cellular)';
     }
 }

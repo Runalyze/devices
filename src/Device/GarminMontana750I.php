@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitGTS extends AbstractDevice
+class GarminMontana750I extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_G_T_S;
+        return DeviceProfile::GARMIN_MONTANA_750_I;
     }
 
     public function getName()
     {
-        return 'GTS';
+        return 'Montana 750i';
     }
 }

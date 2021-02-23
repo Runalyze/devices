@@ -11,12 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-use Runalyze\Devices\Distributor\DistributorProfile;
-
-trait AmazfitDeviceTrait
+class AppleWatch6V44 extends AbstractDevice
 {
-    public function getDistributorEnum()
+    use AppleDeviceTrait;
+
+    public function getEnum()
     {
-        return DistributorProfile::AMAZFIT;
+        return DeviceProfile::APPLE_WATCH_6_V_44;
+    }
+
+    public function getName()
+    {
+        return 'Watch 6 (44mm)';
     }
 }

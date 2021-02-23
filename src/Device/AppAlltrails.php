@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitBipLite extends AbstractDevice
+class AppAlltrails extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use AppDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_BIP_LITE;
+        return DeviceProfile::APP_ALLTRAILS;
     }
 
     public function getName()
     {
-        return 'Bip Lite';
+        return 'AllTrails.com';
     }
 }

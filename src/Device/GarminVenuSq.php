@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarGritX extends AbstractDevice
+class GarminVenuSq extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DeviceProfile::GARMIN_VENU_SQ;
     }
 
     public function getName()
     {
-        return 'Grit X';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Venu Sq';
     }
 }

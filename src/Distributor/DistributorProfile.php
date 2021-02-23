@@ -67,7 +67,7 @@ class DistributorProfile extends AbstractEnum
     const FITBIT = 16;
 
     /** @var int */
-    const AMAZFIT = 17;
+    const HUAMI = 17;
 
     /** @var int */
     const SOLEUS = 18;

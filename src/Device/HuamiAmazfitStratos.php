@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarGritX extends AbstractDevice
+class HuamiAmazfitStratos extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use HuamiDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DeviceProfile::HUAMI_AMAZFIT_STRATOS;
     }
 
     public function getName()
     {
-        return 'Grit X';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Amazfit Stratos';
     }
 }

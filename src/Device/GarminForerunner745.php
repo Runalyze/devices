@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarGritX extends AbstractDevice
+class GarminForerunner745 extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DeviceProfile::GARMIN_FORERUNNER_745;
     }
 
     public function getName()
     {
-        return 'Grit X';
+        return 'Forerunner 745';
     }
 
     public function hasBarometer()

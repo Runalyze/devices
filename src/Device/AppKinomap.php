@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarGritX extends AbstractDevice
+class AppKinomap extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use AppDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DeviceProfile::APP_KINOMAP;
     }
 
     public function getName()
     {
-        return 'Grit X';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Kinomap';
     }
 }

@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarGritX extends AbstractDevice
+class HuamiAmazfitVergeLite extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use HuamiDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DeviceProfile::HUAMI_AMAZFIT_VERGE_LITE;
     }
 
     public function getName()
     {
-        return 'Grit X';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Amazfit Verge Lite';
     }
 }

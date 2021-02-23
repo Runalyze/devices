@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitVerge extends AbstractDevice
+class HuamiAmazfitStratosPlus extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use HuamiDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_VERGE;
+        return DeviceProfile::HUAMI_AMAZFIT_STRATOS_PLUS;
     }
 
     public function getName()
     {
-        return 'Verge';
+        return 'Amazfit Stratos +';
     }
 }

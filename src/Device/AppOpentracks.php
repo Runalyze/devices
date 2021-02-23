@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitUnknown extends AbstractDevice
+class AppOpentracks extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use AppDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_UNKNOWN;
+        return DeviceProfile::APP_OPENTRACKS;
     }
 
     public function getName()
     {
-        return '';
+        return 'OpenTracks';
     }
 }

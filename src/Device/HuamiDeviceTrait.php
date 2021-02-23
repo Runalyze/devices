@@ -11,17 +11,12 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitBip extends AbstractDevice
+use Runalyze\Devices\Distributor\DistributorProfile;
+
+trait HuamiDeviceTrait
 {
-    use AmazfitDeviceTrait;
-
-    public function getEnum()
+    public function getDistributorEnum()
     {
-        return DeviceProfile::AMAZFIT_BIP;
-    }
-
-    public function getName()
-    {
-        return 'Bip';
+        return DistributorProfile::HUAMI;
     }
 }

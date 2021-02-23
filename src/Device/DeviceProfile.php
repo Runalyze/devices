@@ -508,34 +508,34 @@ class DeviceProfile extends AbstractEnum
     const FITBIT_UNKNOWN = 163;
 
     /** @var int */
-    const AMAZFIT_UNKNOWN = 164;
+    const HUAMI_UNKNOWN = 164;
 
     /** @var int */
-    const AMAZFIT_BIP = 165;
+    const HUAMI_AMAZFIT_BIP = 165;
 
     /** @var int */
-    const AMAZFIT_BIP_LITE = 166;
+    const HUAMI_AMAZFIT_BIP_LITE = 166;
 
     /** @var int */
-    const AMAZFIT_G_T_R = 167;
+    const HUAMI_AMAZFIT_G_T_R = 167;
 
     /** @var int */
-    const AMAZFIT_G_T_S = 168;
+    const HUAMI_AMAZFIT_G_T_S = 168;
 
     /** @var int */
-    const AMAZFIT_NEXO = 169;
+    const HUAMI_AMAZFIT_NEXO = 169;
 
     /** @var int */
-    const AMAZFIT_VERGE_LITE = 170;
+    const HUAMI_AMAZFIT_VERGE_LITE = 170;
 
     /** @var int */
-    const AMAZFIT_PACE = 171;
+    const HUAMI_AMAZFIT_PACE = 171;
 
     /** @var int */
-    const AMAZFIT_STRATOS = 172;
+    const HUAMI_AMAZFIT_STRATOS = 172;
 
     /** @var int */
-    const AMAZFIT_STRATOS_PLUS = 173;
+    const HUAMI_AMAZFIT_STRATOS_PLUS = 173;
 
     /** @var int */
     const SIGMA_SPORT_ACTIVO = 174;
@@ -1132,7 +1132,7 @@ class DeviceProfile extends AbstractEnum
     const EPSON_PRO_SENSE_17 = 371;
 
     /** @var int */
-    const AMAZFIT_STRATOS_3 = 372;
+    const HUAMI_AMAZFIT_STRATOS_3 = 372;
 
     /** @var int */
     const COROS_APEX_42 = 373;
@@ -1367,4 +1367,73 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APP_NIKE_RUN_CLUB = 449;
+
+    /** @var int */
+    const GARMIN_INSTINCT_SOLAR = 450;
+
+    /** @var int */
+    const GARMIN_VENU_SQ = 451;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_745 = 452;
+
+    /** @var int */
+    const GARMIN_LILY = 453;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_VERGE = 454;
+
+    /** @var int */
+    const APP_RELIVE = 455;
+
+    /** @var int */
+    const GARMIN_GPSMAP_65_S = 456;
+
+    /** @var int */
+    const GARMIN_GPSMAP_66_S_R = 457;
+
+    /** @var int */
+    const GARMIN_GPSMAP_64_S_X = 458;
+
+    /** @var int */
+    const GARMIN_ETREX_30 = 459;
+
+    /** @var int */
+    const APP_ALLTRAILS = 460;
+
+    /** @var int */
+    const APP_FITO_TRACK = 461;
+
+    /** @var int */
+    const APP_KINOMAP = 462;
+
+    /** @var int */
+    const APP_OPENTRACKS = 463;
+
+    /** @var int */
+    const APP_ROAD_GRANT_TOURS = 464;
+
+    /** @var int */
+    const GARMIN_DESCENT_MK_2_I = 465;
+
+    /** @var int */
+    const GARMIN_MONTANA_700 = 466;
+
+    /** @var int */
+    const GARMIN_MONTANA_700_I = 467;
+
+    /** @var int */
+    const GARMIN_MONTANA_750_I = 468;
+
+    /** @var int */
+    const APPLE_WATCH_6_V_40 = 469;
+
+    /** @var int */
+    const APPLE_WATCH_6_V_40_CELLULAR = 470;
+
+    /** @var int */
+    const APPLE_WATCH_6_V_44 = 471;
+
+    /** @var int */
+    const APPLE_WATCH_6_V_44_CELLULAR = 472;
 }

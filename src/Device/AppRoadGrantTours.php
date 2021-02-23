@@ -9,22 +9,19 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Distributor;
+namespace Runalyze\Devices\Device;
 
-class Amazfit extends AbstractDistributor
+class AppRoadGrantTours extends AbstractDevice
 {
+    use AppDeviceTrait;
+
     public function getEnum()
     {
-        return DistributorProfile::AMAZFIT;
+        return DeviceProfile::APP_ROAD_GRANT_TOURS;
     }
 
     public function getName()
     {
-        return 'Amazfit';
-    }
-
-    public function getDeviceEnumList()
-    {
-        return [];
+        return 'RoadGrantTours';
     }
 }

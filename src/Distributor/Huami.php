@@ -9,24 +9,22 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Device;
+namespace Runalyze\Devices\Distributor;
 
-class PolarGritX extends AbstractDevice
+class Huami extends AbstractDistributor
 {
-    use PolarDeviceTrait;
-
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DistributorProfile::HUAMI;
     }
 
     public function getName()
     {
-        return 'Grit X';
+        return 'Huami';
     }
 
-    public function hasBarometer()
+    public function getDeviceEnumList()
     {
-        return true;
+        return [];
     }
 }

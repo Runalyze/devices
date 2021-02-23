@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitPace extends AbstractDevice
+class GarminEtrex30 extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_PACE;
+        return DeviceProfile::GARMIN_ETREX_30;
     }
 
     public function getName()
     {
-        return 'Pace';
+        return 'Etrex 30';
     }
 }

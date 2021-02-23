@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class PolarGritX extends AbstractDevice
+class AppleWatch6V40Cellular extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use AppleDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::POLAR_GRIT_X;
+        return DeviceProfile::APPLE_WATCH_6_V_40_CELLULAR;
     }
 
     public function getName()
     {
-        return 'Grit X';
-    }
-
-    public function hasBarometer()
-    {
-        return true;
+        return 'Watch 6 (40mm) (Cellular)';
     }
 }

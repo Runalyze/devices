@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitStratosPlus extends AbstractDevice
+class GarminLily extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_STRATOS_PLUS;
+        return DeviceProfile::GARMIN_LILY;
     }
 
     public function getName()
     {
-        return 'Stratos +';
+        return 'Lily';
     }
 }

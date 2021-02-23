@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitNexo extends AbstractDevice
+class AppleWatch6V40 extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use AppleDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_NEXO;
+        return DeviceProfile::APPLE_WATCH_6_V_40;
     }
 
     public function getName()
     {
-        return 'Nexo';
+        return 'Watch 6 (40mm)';
     }
 }

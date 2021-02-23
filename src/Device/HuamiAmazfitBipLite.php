@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AmazfitStratos extends AbstractDevice
+class HuamiAmazfitBipLite extends AbstractDevice
 {
-    use AmazfitDeviceTrait;
+    use HuamiDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::AMAZFIT_STRATOS;
+        return DeviceProfile::HUAMI_AMAZFIT_BIP_LITE;
     }
 
     public function getName()
     {
-        return 'Stratos';
+        return 'Amazfit Bip Lite';
     }
 }
