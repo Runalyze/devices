@@ -24,4 +24,9 @@ class CorosVertix extends AbstractDevice
     {
         return 'Vertix';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

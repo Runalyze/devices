@@ -24,4 +24,9 @@ class CorosApex46 extends AbstractDevice
     {
         return 'Apex (46mm)';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
