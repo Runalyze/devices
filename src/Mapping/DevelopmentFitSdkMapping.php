@@ -39,6 +39,14 @@ class DevelopmentFitSdkMapping
             'Watch5,2' => DeviceProfile::APPLE_WATCH_5_V_44,
             'Watch5,3' => DeviceProfile::APPLE_WATCH_5_V_40_CELLULAR,
             'Watch5,4' => DeviceProfile::APPLE_WATCH_5_V_44_CELLULAR,
+            'Watch5,9' => DeviceProfile::APPLE_WATCH_S_E_40,
+            'Watch5,10' => DeviceProfile::APPLE_WATCH_S_E_44,
+            'Watch5,11' => DeviceProfile::APPLE_WATCH_S_E_40_CELLULAR,
+            'Watch5,12' => DeviceProfile::APPLE_WATCH_S_E_44_CELLULAR,
+            'Watch6,2' => DeviceProfile::APPLE_WATCH_6_V_40,
+            'Watch6,2' => DeviceProfile::APPLE_WATCH_6_V_44,
+            'Watch6,3' => DeviceProfile::APPLE_WATCH_6_V_40_CELLULAR,
+            'Watch6,3' => DeviceProfile::APPLE_WATCH_6_V_44_CELLULAR,
             'iPhone7,1' => DeviceProfile::APPLE_IPHONE_6_PLUS,
             'iPhone7,2' => DeviceProfile::APPLE_IPHONE_6,
             'iPhone8,1' => DeviceProfile::APPLE_IPHONE_6_S,
@@ -77,6 +85,7 @@ class DevelopmentFitSdkMapping
             'Polar Grit X' => DeviceProfile::POLAR_GRIT_X,
             'Runkeeper' => DeviceProfile::APP_RUNKEEPER,
             'Nike Run Club' => DeviceProfile::APP_NIKE_RUN_CLUB,
+            'FitnessSyncer' => DeviceProfile::APP_FITNESS_SYNCER,
         ];
     }
 

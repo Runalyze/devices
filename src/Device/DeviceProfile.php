@@ -1436,4 +1436,43 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APPLE_WATCH_6_V_44_CELLULAR = 472;
+
+    /** @var int */
+    const POLAR_IGNITE_2 = 473;
+
+    /** @var int */
+    const POLAR_VANTAGE_M_2 = 474;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_40 = 475;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_40_CELLULAR = 476;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_44 = 477;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_44_CELLULAR = 478;
+
+    /** @var int */
+    const APPLE_IPHONE_12 = 479;
+
+    /** @var int */
+    const APPLE_IPHONE_12_PRO = 480;
+
+    /** @var int */
+    const APPLE_IPHONE_12_PRO_MAX = 481;
+
+    /** @var int */
+    const APPLE_IPHONE_12_MINI = 482;
+
+    /** @var int */
+    const APP_FITNESS_SYNCER = 483;
+
+    /** @var int */
+    const FORM_SMART_SWIM_GOGGLES = 484;
+
+    /** @var int */
+    const SPECIALIZED_UNKNOWN = 485;
 }

@@ -45,6 +45,14 @@ class Apple extends AbstractDistributor
             DeviceProfile::APPLE_WATCH_5_V_44,
             DeviceProfile::APPLE_WATCH_5_V_40_CELLULAR,
             DeviceProfile::APPLE_WATCH_5_V_44_CELLULAR,
+            DeviceProfile::APPLE_WATCH_6_V_40,
+            DeviceProfile::APPLE_WATCH_6_V_44,
+            DeviceProfile::APPLE_WATCH_6_V_40_CELLULAR,
+            DeviceProfile::APPLE_WATCH_6_V_44_CELLULAR,
+            DeviceProfile::APPLE_WATCH_S_E_40,
+            DeviceProfile::APPLE_WATCH_S_E_40_CELLULAR,
+            DeviceProfile::APPLE_WATCH_S_E_44,
+            DeviceProfile::APPLE_WATCH_S_E_44_CELLULAR,
             DeviceProfile::APPLE_IPHONE_X_S,
             DeviceProfile::APPLE_IPHONE_X_S_MAX_GLOBAL,
             DeviceProfile::APPLE_IPHONE_X_S_MAX,
@@ -62,6 +70,10 @@ class Apple extends AbstractDistributor
             DeviceProfile::APPLE_IPHONE_11,
             DeviceProfile::APPLE_IPHONE_11_PRO_MAX,
             DeviceProfile::APPLE_IPHONE_11_PRO,
+            DeviceProfile::APPLE_IPHONE_12,
+            DeviceProfile::APPLE_IPHONE_12_PRO,
+            DeviceProfile::APPLE_IPHONE_12_PRO_MAX,
+            DeviceProfile::APPLE_IPHONE_12_MINI,
         ];
     }
 }
