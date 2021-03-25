@@ -31,6 +31,8 @@ class Polar extends AbstractDistributor
             DeviceProfile::APP_POLAR_FLOW,
             DeviceProfile::APP_POLAR_PERSONAL_TRAINER,
             DeviceProfile::POLAR_UNKNOWN,
+            DeviceProfile::POLAR_IGNITE,
+            DeviceProfile::POLAR_IGNITE_2,
             DeviceProfile::POLAR_A_300,
             DeviceProfile::POLAR_A_360,
             DeviceProfile::POLAR_A_730,
@@ -46,6 +48,11 @@ class Polar extends AbstractDistributor
             DeviceProfile::POLAR_R_S_800_C_X,
             DeviceProfile::POLAR_V_650,
             DeviceProfile::POLAR_V_800,
+            DeviceProfile::POLAR_VANTAGE_M,
+            DeviceProfile::POLAR_VANTAGE_M_2,
+            DeviceProfile::POLAR_VANTAGE_V,
+            DeviceProfile::POLAR_VANTAGE_V_TITAN,
+            DeviceProfile::POLAR_GRIT_X,
         ];
     }
 }

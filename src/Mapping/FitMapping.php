@@ -60,6 +60,9 @@ class FitMapping
             case 67:
                 return DeviceProfile::APP_BKOOL;
                 break;
+            case 63:
+                return (new SpecializedFitSdkMapping())->toInternal($productId);
+                break;
             case 260:
                 return DeviceProfile::APP_ZWIFT;
                 break;
@@ -75,8 +78,14 @@ class FitMapping
             case 258:
                 return DeviceProfile::LEZYNE_UNKNOWN;
                 break;
+            case 256:
+                return DeviceProfile::APP_STRAVA;
+                break;
             case 505:
                 return DeviceProfile::MIO_UNKNOWN;
+                break;
+            case 309:
+                return DeviceProfile::FORM_SMART_SWIM_GOGGLES;
                 break;
             case 73:
                 return (new WattbikeFitSdkMapping())->toInternal($productId);

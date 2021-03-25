@@ -62,6 +62,7 @@ class App extends AbstractDistributor
             DeviceProfile::APP_THE_SUFFERFEST,
             DeviceProfile::APP_TRAIL_RUNNER,
             DeviceProfile::APP_TRAILS,
+            DeviceProfile::APP_FITNESS_SYNCER,
         ];
     }
 }

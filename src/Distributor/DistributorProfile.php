@@ -110,4 +110,10 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const MIO = 33;
+
+    /** @var int */
+    const SPECIALIZED = 34;
+
+    /** @var int */
+    const FORM = 35;
 }
