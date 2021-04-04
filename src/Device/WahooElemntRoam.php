@@ -24,4 +24,9 @@ class WahooElemntRoam extends AbstractDevice
     {
         return 'ELEMNT Roam';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class WahooElemnt extends AbstractDevice
+class PolarVantageV2 extends AbstractDevice
 {
-    use WahooDeviceTrait;
+    use PolarDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::WAHOO_ELEMNT;
+        return DeviceProfile::POLAR_VANTAGE_V_2;
     }
 
     public function getName()
     {
-        return 'ELEMNT';
+        return 'Vantage V2';
     }
 
     public function hasBarometer()

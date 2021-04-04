@@ -24,4 +24,9 @@ class FitbitIonic extends AbstractDevice
     {
         return 'IONIC';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

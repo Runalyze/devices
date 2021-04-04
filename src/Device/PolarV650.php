@@ -24,4 +24,9 @@ class PolarV650 extends AbstractDevice
     {
         return 'V650';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
