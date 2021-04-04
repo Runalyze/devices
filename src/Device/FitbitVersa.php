@@ -24,4 +24,9 @@ class FitbitVersa extends AbstractDevice
     {
         return 'Versa';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

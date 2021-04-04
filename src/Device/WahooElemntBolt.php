@@ -24,4 +24,9 @@ class WahooElemntBolt extends AbstractDevice
     {
         return 'ELEMNT Bolt';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

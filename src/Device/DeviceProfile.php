@@ -1475,4 +1475,16 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const SPECIALIZED_UNKNOWN = 485;
+
+    /** @var int */
+    const WAHOO_RIVAL = 486;
+
+    /** @var int */
+    const FITBIT_VERSA_3 = 487;
+
+    /** @var int */
+    const FITBIT_SENSE = 488;
+
+    /** @var int */
+    const POLAR_VANTAGE_V_2 = 489;
 }

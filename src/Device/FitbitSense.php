@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class WahooElemnt extends AbstractDevice
+class FitbitSense extends AbstractDevice
 {
-    use WahooDeviceTrait;
+    use FitbitDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::WAHOO_ELEMNT;
+        return DeviceProfile::FITBIT_SENSE;
     }
 
     public function getName()
     {
-        return 'ELEMNT';
+        return 'Sense';
     }
 
     public function hasBarometer()

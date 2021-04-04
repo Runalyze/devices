@@ -24,9 +24,4 @@ class PolarVantageM extends AbstractDevice
     {
         return 'Vantage M';
     }
-
-    public function hasBarometer()
-    {
-        return true;
-    }
 }

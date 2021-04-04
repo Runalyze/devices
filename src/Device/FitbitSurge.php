@@ -24,4 +24,9 @@ class FitbitSurge extends AbstractDevice
     {
         return 'Surge';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
