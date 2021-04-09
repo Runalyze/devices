@@ -1487,4 +1487,7 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const POLAR_VANTAGE_V_2 = 489;
+
+    /** @var int */
+    const GARMIN_ENDURO = 490;
 }

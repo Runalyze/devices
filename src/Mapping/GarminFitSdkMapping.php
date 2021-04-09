@@ -93,6 +93,7 @@ class GarminFitSdkMapping
             3095 => DeviceProfile::GARMIN_EDGE_1030,
             3570 => DeviceProfile::GARMIN_EDGE_1030_PLUS,
             2924 => DeviceProfile::GARMIN_EDGE_1030,
+            3638 => DeviceProfile::GARMIN_ENDURO,
             1988 => DeviceProfile::GARMIN_EPIX,
             2332 => DeviceProfile::GARMIN_EPIX,
             2457 => DeviceProfile::GARMIN_EPIX,

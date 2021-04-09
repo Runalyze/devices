@@ -55,6 +55,7 @@ class NameMapping
             'outdooractive' => DeviceProfile::APP_OUTDOOR_ACTIVE,
             'etrex 30x' => DeviceProfile::GARMIN_ETREX_30_X,
             'polar vantage m' => DeviceProfile::POLAR_VANTAGE_M,
+            'polar vantage v2' => DeviceProfile::POLAR_VANTAGE_V_2,
             'polar vantage v' => DeviceProfile::POLAR_VANTAGE_V,
             'polar a370' => DeviceProfile::POLAR_A_370,
             'polar m200' => DeviceProfile::POLAR_M_200,
