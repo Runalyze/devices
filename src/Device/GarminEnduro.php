@@ -24,4 +24,9 @@ class GarminEnduro extends AbstractDevice
     {
         return 'Enduro';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
