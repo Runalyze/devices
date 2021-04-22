@@ -41,6 +41,7 @@ class NameMapping
             'osmand' => DeviceProfile::APP_OSM_AND,
             'locus map' => DeviceProfile::APP_LOCUS_MAP,
             'endomondo' => DeviceProfile::APP_ENDOMONDO,
+            'runnerup' => DeviceProfile::APP_RUNNERUP,
             'polar flow' => DeviceProfile::APP_POLAR_FLOW,
             'sportractive' => DeviceProfile::APP_SPORTRACTIVE,
             'oruxmaps' => DeviceProfile::APP_ORUX_MAPS,
@@ -110,6 +111,8 @@ class NameMapping
             'coros wearables' => DeviceProfile::COROS_UNKNOWN,
             'bryton' => DeviceProfile::BRYTON_UNKNOWN,
             'suunto ambit3 peak' => DeviceProfile::SUUNTO_AMBIT_3_PEAK,
+            'stryd' => DeviceProfile::STRYD_UNKNOWN,
+            'ghostracer' => DeviceProfile::APP_GHOSTRACER,
         ];
     }
 

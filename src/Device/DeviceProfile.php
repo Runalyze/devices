@@ -1490,4 +1490,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_ENDURO = 490;
+
+    /** @var int */
+    const APP_GHOSTRACER = 491;
+
+    /** @var int */
+    const GARMIN_VENU_2 = 492;
 }
