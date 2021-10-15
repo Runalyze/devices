@@ -1502,4 +1502,25 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_FORERUNNER_945_LTE = 494;
+
+    /** @var int */
+    const SIGMA_SPORT_ROX_111_EVO = 495;
+
+    /** @var int */
+    const FITBIT_CHARGE_5 = 496;
+
+    /** @var int */
+    const COROS_VERTIX_2 = 497;
+
+    /** @var int */
+    const HAMMERHEAD_KAROO = 498;
+
+    /** @var int */
+    const HAMMERHEAD_KAROO_2 = 499;
+
+    /** @var int */
+    const SAMSUNG_GALAXY_WATCH_3 = 500;
+
+    /** @var int */
+    const SAMSUNG_GALAXY_WATCH_4 = 501;
 }

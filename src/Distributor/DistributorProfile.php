@@ -116,4 +116,7 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const FORM = 35;
+
+    /** @var int */
+    const HAMMERHEAD = 36;
 }

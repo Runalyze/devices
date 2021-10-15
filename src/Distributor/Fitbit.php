@@ -35,6 +35,8 @@ class Fitbit extends AbstractDistributor
             DeviceProfile::FITBIT_CHARGE,
             DeviceProfile::FITBIT_CHARGE_2,
             DeviceProfile::FITBIT_CHARGE_3,
+            DeviceProfile::FITBIT_CHARGE_4,
+            DeviceProfile::FITBIT_CHARGE_5,
             DeviceProfile::FITBIT_CHARGE_H_R,
             DeviceProfile::FITBIT_FLEX,
             DeviceProfile::FITBIT_FLEX_2,
