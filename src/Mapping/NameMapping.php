@@ -113,6 +113,10 @@ class NameMapping
             'suunto ambit3 peak' => DeviceProfile::SUUNTO_AMBIT_3_PEAK,
             'stryd' => DeviceProfile::STRYD_UNKNOWN,
             'ghostracer' => DeviceProfile::APP_GHOSTRACER,
+            'zwift run' => DeviceProfile::APP_ZWIFT,
+            'zwift' => DeviceProfile::APP_ZWIFT,
+            'polar beat' => DeviceProfile::APP_POLAR_BEAT,
+            'goldencheetah' => DeviceProfile::APP_GOLDEN_CHEETAH,
         ];
     }
 

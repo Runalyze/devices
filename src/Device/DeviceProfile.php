@@ -1523,4 +1523,43 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const SAMSUNG_GALAXY_WATCH_4 = 501;
+
+    /** @var int */
+    const SUUNTO_9_PEAK = 502;
+
+    /** @var int */
+    const APP_POLAR_BEAT = 503;
+
+    /** @var int */
+    const APP_GOLDEN_CHEETAH = 504;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_G_T_R_3_PRO = 505;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_G_T_S_3 = 506;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_G_T_R_3 = 507;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_BIP_U = 508;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_T_REX = 509;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_BIP_U_PRO = 510;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_G_T_R_2 = 511;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_G_T_S_2 = 511;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_G_T_S_2_MINI = 512;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_T_REX_PRO = 513;
 }
