@@ -9,19 +9,22 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Device;
+namespace Runalyze\Devices\Distributor;
 
-class HuamiAmazfitGTS3 extends AbstractDevice
+class Hammerhead extends AbstractDistributor
 {
-    use HuamiDeviceTrait;
-
     public function getEnum()
     {
-        return DeviceProfile::HUAMI_AMAZFIT_G_T_S_3;
+        return DistributorProfile::HAMMERHEAD;
     }
 
     public function getName()
     {
-        return 'Amazfit GTS 3';
+        return 'Hammerhead';
+    }
+
+    public function getDeviceEnumList()
+    {
+        return [];
     }
 }
