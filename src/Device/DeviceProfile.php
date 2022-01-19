@@ -1562,4 +1562,64 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const HUAMI_AMAZFIT_T_REX_PRO = 513;
+
+    /** @var int */
+    const HUAMI_AMAZFIT_STRATOS_2 = 514;
+
+    /** @var int */
+    const POLAR_UNITE = 515;
+
+    /** @var int */
+    const POLAR_VERITY_SENSE = 516;
+
+    /** @var int */
+    const APP_XERT = 517;
+
+    /** @var int */
+    const WAHOO_ELEMNT_RIVAL = 518;
+
+    /** @var int */
+    const APP_TACX = 519;
+
+    /** @var int */
+    const APP_ROUVY = 520;
+
+    /** @var int */
+    const GARMIN_VENU_2_PLUS = 521;
+
+    /** @var int */
+    const GARMIN_HRM_PRO = 522;
+
+    /** @var int */
+    const GARMIN_FENIX_7_SAPPHIRE_SOLAR = 523;
+
+    /** @var int */
+    const GARMIN_FENIX_7_X_SAPPHIRE_SOLAR = 524;
+
+    /** @var int */
+    const GARMIN_D_2_DELTA_P_X = 525;
+
+    /** @var int */
+    const GARMIN_DESCENT_MK_2_S = 526;
+
+    /** @var int */
+    const GARMIN_FENIX_6_S_SOLAR = 527;
+
+    /** @var int */
+    const GARMIN_FENIX_6_S_PRO_SOLAR = 528;
+
+    /** @var int */
+    const GARMIN_FENIX_6_PRO_SOLAR = 529;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_45_PLUS = 530;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_42 = 531;
+
+    /** @var int */
+    const GARMIN_EPIX_2 = 532;
+
+    /** @var int */
+    const GARMIN_D_2_AIR = 533;
 }

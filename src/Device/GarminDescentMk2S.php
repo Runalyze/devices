@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminFenix6S extends AbstractDevice
+class GarminDescentMk2S extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_FENIX_6_S;
+        return DeviceProfile::GARMIN_DESCENT_MK_2_S;
     }
 
     public function getName()
     {
-        return 'Fenix 6s';
+        return 'Descent Mk2S';
     }
 
     public function hasBarometer()

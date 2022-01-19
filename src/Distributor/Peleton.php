@@ -9,24 +9,23 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Device;
+namespace Runalyze\Devices\Distributor;
 
-class GarminFenix6S extends AbstractDevice
+class Peleton extends AbstractDistributor
 {
-    use GarminDeviceTrait;
-
     public function getEnum()
     {
-        return DeviceProfile::GARMIN_FENIX_6_S;
+        return DistributorProfile::PELETON;
     }
 
     public function getName()
     {
-        return 'Fenix 6s';
+        return 'Peleton';
     }
 
-    public function hasBarometer()
+    public function getDeviceEnumList()
     {
-        return true;
+        return [
+        ];
     }
 }

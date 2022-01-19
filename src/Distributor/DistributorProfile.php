@@ -119,4 +119,7 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const HAMMERHEAD = 36;
+
+    /** @var int */
+    const PELETON = 37;
 }
