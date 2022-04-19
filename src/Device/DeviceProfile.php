@@ -1622,4 +1622,29 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_D_2_AIR = 533;
+
+    /** @var int */
+    const GARMIN_FENIX_7_S_SAPPHIRE_SOLAR = 534;
+
+    /** @var int */
+    const KIPRUN_500 = 535;
+
+    /** @var int */
+    const SUUNTO_5_PEAK = 536;
+
+    /** @var int */
+    const SUUNTO_ZOOP_NOVO = 537;
+
+    /** @var int */
+    const SUUNTO_VYPER_NOVO = 538;
+
+    /** @var int */
+    const POLAR_GRIT_X_PRO = 539;
+
+    /** @var int */
+    const POLAR_PACER = 540;
+
+    /** @var int */
+    const POLAR_PACER_PRO = 541;
+
 }
