@@ -66,7 +66,7 @@ class SuuntoFitSdkMapping
             42 => DeviceProfile::SUUNTO_9_PEAK,
             52 => DeviceProfile::SUUNTO_VYPER_NOVO,
             53 => DeviceProfile::SUUNTO_ZOOP_NOVO,
-            56 => DeviceProfile::SUUNTO_5_PEAK
+            56 => DeviceProfile::SUUNTO_5_PEAK,
         ];
     }
 

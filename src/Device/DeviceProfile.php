@@ -1646,5 +1646,4 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const POLAR_PACER_PRO = 541;
-
 }
