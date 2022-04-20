@@ -22,6 +22,6 @@ class Kiprun500 extends AbstractDevice
 
     public function getName()
     {
-        return '500';
+        return '/Coros GPS 500';
     }
 }
