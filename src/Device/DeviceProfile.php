@@ -1646,4 +1646,7 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const POLAR_PACER_PRO = 541;
+
+    /** @var int */
+    const GARMIN_VIVO_SMART_5 = 542;
 }
