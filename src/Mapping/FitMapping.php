@@ -84,6 +84,9 @@ class FitMapping
             case 505:
                 return DeviceProfile::MIO_UNKNOWN;
                 break;
+            case 123:
+                return (new PolarFitSdkMapping())->toInternal($productId);
+                break;
             case 309:
                 return DeviceProfile::FORM_SMART_SWIM_GOGGLES;
                 break;

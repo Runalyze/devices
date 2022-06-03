@@ -1649,4 +1649,25 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_VIVO_SMART_5 = 542;
+
+    /** @var int */
+    const GARMIN_DESCENT_G_1 = 543;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_225_S_MUSIC = 544;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_225_MUSIC = 545;
+
+    /** @var int */
+    const GARMIN_VIVO_MOVE_SPORT = 546;
+
+    /** @var int */
+    const GARMIN_INSTINCT_2_S = 547;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_955 = 548;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_955_SOLAR = 549;
 }
