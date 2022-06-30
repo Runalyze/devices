@@ -24,4 +24,9 @@ class GarminLegacySagaDarthVader extends AbstractDevice
     {
         return 'Legcay Saga - Darth Vader';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

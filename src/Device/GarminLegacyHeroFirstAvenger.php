@@ -24,4 +24,9 @@ class GarminLegacyHeroFirstAvenger extends AbstractDevice
     {
         return 'Legcay Hero - First Avenger';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }

@@ -24,4 +24,9 @@ class GarminLegacySagaRey extends AbstractDevice
     {
         return 'Legcay Saga - Rey';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
