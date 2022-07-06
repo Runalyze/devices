@@ -137,7 +137,7 @@ class GarminFitSdkMapping
             2797 => DeviceProfile::GARMIN_FENIX_5_S,
             2544 => DeviceProfile::GARMIN_FENIX_5_S,
             2604 => DeviceProfile::GARMIN_FENIX_5_X,
-            3843 => DeviceProfile::GARMIN_FENIX_5_X,
+            3843 => DeviceProfile::GARMIN_EDGE_1040_SOLAR,
             2798 => DeviceProfile::GARMIN_FENIX_5_X,
             3089 => DeviceProfile::GARMIN_FENIX_5_X_PLUS,
             3135 => DeviceProfile::GARMIN_FENIX_5_X_PLUS,
