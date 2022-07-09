@@ -27,6 +27,9 @@ class FitMapping
             case 294:
                 return (new CorosFitSdkMapping())->toInternal($productId);
                 break;
+            case 289:
+                return (new HammerheadFitSdkMapping())->toInternal($productId);
+                break;
             case 32:
                 return (new WahooFitSdkMapping())->toInternal($productId);
                 break;
@@ -86,6 +89,15 @@ class FitMapping
                 break;
             case 123:
                 return (new PolarFitSdkMapping())->toInternal($productId);
+                break;
+            case 292:
+                return (new DabuziduoFitSdkMapping())->toInternal($productId);
+                break;
+            case 106:
+                return (new FitcareFitSdkMapping())->toInternal($productId);
+                break;
+            case 132:
+                return (new CycplusFitSdkMapping())->toInternal($productId);
                 break;
             case 309:
                 return DeviceProfile::FORM_SMART_SWIM_GOGGLES;

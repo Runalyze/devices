@@ -22,12 +22,21 @@ class PolarFitSdkMapping
     {
         return [
             13 => DeviceProfile::POLAR_V_800,
+            19 => DeviceProfile::POLAR_V_650,
             22 => DeviceProfile::POLAR_M_400,
+            85 => DeviceProfile::POLAR_A_300,
+            91 => DeviceProfile::POLAR_PACER_PRO,
+            106 => DeviceProfile::POLAR_M_450,
+            110 => DeviceProfile::POLAR_A_360,
+            122 => DeviceProfile::POLAR_M_600,
+            123 => DeviceProfile::POLAR_M_200,
             151 => DeviceProfile::POLAR_O_H_1,
             163 => DeviceProfile::POLAR_M_430,
+            166 => DeviceProfile::POLAR_A_370,
             172 => DeviceProfile::POLAR_M_460,
             203 => DeviceProfile::POLAR_VANTAGE_V,
             209 => DeviceProfile::POLAR_VANTAGE_M,
+            216 => DeviceProfile::POLAR_IGNITE,
             217 => DeviceProfile::POLAR_GRIT_X,
             225 => DeviceProfile::POLAR_UNITE,
             230 => DeviceProfile::POLAR_VANTAGE_V_2,
@@ -35,6 +44,7 @@ class PolarFitSdkMapping
             236 => DeviceProfile::POLAR_VANTAGE_M_2,
             241 => DeviceProfile::POLAR_IGNITE_2,
             251 => DeviceProfile::POLAR_GRIT_X_PRO,
+            256 => DeviceProfile::POLAR_PACER,
             261 => DeviceProfile::POLAR_PACER_PRO,
         ];
     }

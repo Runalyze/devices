@@ -125,4 +125,13 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const KIPRUN = 38;
+
+    /** @var int */
+    const CYCPLUS = 39;
+
+    /** @var int */
+    const DABUZIDUO = 40;
+
+    /** @var int */
+    const FITCARE = 41;
 }

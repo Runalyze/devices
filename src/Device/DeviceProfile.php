@@ -1673,4 +1673,34 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_EDGE_1040_SOLAR = 550;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_255 = 551;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_255_S = 552;
+
+    /** @var int */
+    const GARMIN_INSTINCT_2_SOLAR_ONE_PIECE_LUFFY = 553;
+
+    /** @var int */
+    const CYCPLUS_M1 = 554;
+
+    /** @var int */
+    const CYCPLUS_M2 = 555;
+
+    /** @var int */
+    const DABUZIDUO_XOSS_G_N_3 = 556;
+
+    /** @var int */
+    const DABUZIDUO_XOSS_G_N_4 = 557;
+
+    /** @var int */
+    const SUUNTO_D_4_I = 558;
+
+    /** @var int */
+    const FITCARE_B_C_200 = 559;
+
+    /** @var int */
+    const GARMIN_D_2_DELTA_S = 560;
 }
