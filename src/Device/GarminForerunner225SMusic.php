@@ -24,4 +24,9 @@ class GarminForerunner225SMusic extends AbstractDevice
     {
         return 'Forerunner 225S Music';
     }
+
+    public function hasBarometer()
+    {
+        return true;
+    }
 }
