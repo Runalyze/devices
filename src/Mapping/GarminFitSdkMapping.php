@@ -167,7 +167,7 @@ class GarminFitSdkMapping
             3515 => DeviceProfile::GARMIN_FENIX_6_PRO_SAPPHIRE,
             3516 => DeviceProfile::GARMIN_FENIX_6_X_SAPPHIRE,
             3906 => DeviceProfile::GARMIN_FENIX_7_SAPPHIRE_SOLAR,
-            3907 => DeviceProfile::GARMIN_FENIX_7_X_SAPPHIRE_SOLAR,
+            3907 => DeviceProfile::GARMIN_FENIX_7_X_SOLAR,
             3976 => DeviceProfile::GARMIN_FENIX_7_X_SAPPHIRE_SOLAR,
             3905 => DeviceProfile::GARMIN_FENIX_7_S_SAPPHIRE_SOLAR,
             3908 => DeviceProfile::GARMIN_FENIX_7_S_SAPPHIRE_SOLAR,
