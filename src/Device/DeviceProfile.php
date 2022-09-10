@@ -1666,10 +1666,10 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_INSTINCT_2_S = 547;
 
     /** @var int */
-    const GARMIN_FORERUNNER_955 = 548;
+    const GARMIN_FORERUNNER_955_SOLAR = 548;
 
     /** @var int */
-    const GARMIN_FORERUNNER_955_SOLAR = 549;
+    const GARMIN_FORERUNNER_955 = 549;
 
     /** @var int */
     const GARMIN_EDGE_1040_SOLAR = 550;
