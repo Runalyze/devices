@@ -1715,4 +1715,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const SUUNTO_9_PEAK_PRO = 564;
+
+    /** @var int */
+    const COROS_APEX_2 = 565;
+
+    /** @var int */
+    const COROS_APEX_2_PRO = 566;
 }
