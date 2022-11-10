@@ -1706,4 +1706,13 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_FENIX_7_X_SOLAR = 561;
+
+    /** @var int */
+    const POLAR_IGNITE_3 = 562;
+
+    /** @var int */
+    const SUUNTO_D_6_I = 563;
+
+    /** @var int */
+    const SUUNTO_9_PEAK_PRO = 564;
 }
