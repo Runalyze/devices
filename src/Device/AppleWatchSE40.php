@@ -22,6 +22,6 @@ class AppleWatchSE40 extends AbstractDevice
 
     public function getName()
     {
-        return 'Watch SE (40mm)';
+        return 'Watch SE (40mm) (1G)';
     }
 }

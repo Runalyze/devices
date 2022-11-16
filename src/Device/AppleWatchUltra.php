@@ -11,17 +11,22 @@
 
 namespace Runalyze\Devices\Device;
 
-class AppleWatchSE44 extends AbstractDevice
+class AppleWatchUltra extends AbstractDevice
 {
     use AppleDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::APPLE_WATCH_S_E_44;
+        return DeviceProfile::APPLE_WATCH_ULTRA;
     }
 
     public function getName()
     {
-        return 'Watch SE (40mm) (1G)';
+        return 'Watch Ultra';
+    }
+
+    public function hasBarometer()
+    {
+        return true;
     }
 }

@@ -22,6 +22,6 @@ class AppleWatchSE44Cellular extends AbstractDevice
 
     public function getName()
     {
-        return 'Watch SE (40mm) (Cellular)';
+        return 'Watch SE (40mm) (Cellular) (1G)';
     }
 }

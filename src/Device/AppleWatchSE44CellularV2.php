@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AppleWatchSE44 extends AbstractDevice
+class AppleWatchSE44CellularV2 extends AbstractDevice
 {
     use AppleDeviceTrait;
 
     public function getEnum()
     {
-        return DeviceProfile::APPLE_WATCH_S_E_44;
+        return DeviceProfile::APPLE_WATCH_S_E_44_CELLULAR_V_2;
     }
 
     public function getName()
     {
-        return 'Watch SE (40mm) (1G)';
+        return 'Watch SE (40mm) (Cellular) (2G)';
     }
 }

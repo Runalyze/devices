@@ -1721,4 +1721,43 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const COROS_APEX_2_PRO = 566;
+
+    /** @var int */
+    const APPLE_WATCH_ULTRA = 567;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_40_V_2 = 568;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_44_V_2 = 569;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_40_CELLULAR_V_2 = 570;
+
+    /** @var int */
+    const APPLE_WATCH_S_E_44_CELLULAR_V_2 = 571;
+
+    /** @var int */
+    const APPLE_WATCH_7_V_41 = 572;
+
+    /** @var int */
+    const APPLE_WATCH_7_V_41_CELLULAR = 573;
+
+    /** @var int */
+    const APPLE_WATCH_7_V_45_CELLULAR = 574;
+
+    /** @var int */
+    const APPLE_WATCH_7_V_45 = 575;
+
+    /** @var int */
+    const APPLE_WATCH_8_V_41 = 576;
+
+    /** @var int */
+    const APPLE_WATCH_8_V_41_CELLULAR = 577;
+
+    /** @var int */
+    const APPLE_WATCH_8_V_45_CELLULAR = 578;
+
+    /** @var int */
+    const APPLE_WATCH_8_V_45 = 579;
 }
