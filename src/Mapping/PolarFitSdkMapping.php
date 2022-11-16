@@ -30,6 +30,7 @@ class PolarFitSdkMapping
             110 => DeviceProfile::POLAR_A_360,
             122 => DeviceProfile::POLAR_M_600,
             123 => DeviceProfile::POLAR_M_200,
+            133 => DeviceProfile::POLAR_H_10,
             151 => DeviceProfile::POLAR_O_H_1,
             163 => DeviceProfile::POLAR_M_430,
             166 => DeviceProfile::POLAR_A_370,
@@ -46,6 +47,7 @@ class PolarFitSdkMapping
             251 => DeviceProfile::POLAR_GRIT_X_PRO,
             256 => DeviceProfile::POLAR_PACER,
             261 => DeviceProfile::POLAR_PACER_PRO,
+            262 => DeviceProfile::POLAR_IGNITE_3
         ];
     }
 

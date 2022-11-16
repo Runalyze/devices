@@ -87,6 +87,8 @@ class FitMapping
             case 505:
                 return DeviceProfile::MIO_UNKNOWN;
                 break;
+            case 135:
+                return (new CoopsoFitSdkMapping())->toInternal($productId);
             case 123:
                 return (new PolarFitSdkMapping())->toInternal($productId);
                 break;

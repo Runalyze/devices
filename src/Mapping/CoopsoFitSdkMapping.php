@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class DabuziduoFitSdkMapping
+class CoopsoFitSdkMapping
 {
     /** @var int[]|string[] */
     protected $Mapping = [];
@@ -21,9 +21,8 @@ class DabuziduoFitSdkMapping
     protected function getMapping()
     {
         return [
-            11 => DeviceProfile::DABUZIDUO_XOSS_G_N_3,
-            10 => DeviceProfile::DABUZIDUO_XOSS_G_N_4,
-            1 => DeviceProfile::DABUZIDUO_XOSS_G_N_3
+            1107 => DeviceProfile::COOPSO_B_C_107,
+            1200 => DeviceProfile::COOPSO_B_C_200,
         ];
     }
 

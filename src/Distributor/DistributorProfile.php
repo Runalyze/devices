@@ -134,4 +134,13 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const FITCARE = 41;
+
+    /** @var int */
+    const COOPSO = 42;
+
+    /** @var int */
+    const SCOSCHE = 43;
+
+    /** @var int */
+    const VDO = 44;
 }

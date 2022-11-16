@@ -1760,4 +1760,22 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const APPLE_WATCH_8_V_45 = 579;
+
+    /** @var int */
+    const COOPSO_B_C_107 = 580;
+
+    /** @var int */
+    const COOPSO_B_C_200 = 581;
+
+    /** @var int */
+    const KIPRUN_900 = 582;
+
+    /** @var int */
+    const POLAR_H_10 = 583;
+
+    /** @var int */
+    const SCOSCHE_R_24_H_R_M = 584;
+
+    /** @var int */
+    const VDO_M_7_GPS = 585;
 }
