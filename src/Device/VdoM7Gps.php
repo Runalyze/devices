@@ -24,5 +24,4 @@ class VdoM7Gps extends AbstractDevice
     {
         return 'M7 GPS';
     }
-
 }

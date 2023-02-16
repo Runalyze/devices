@@ -11,8 +11,6 @@
 
 namespace Runalyze\Devices\Distributor;
 
-use Runalyze\Devices\Device\DeviceProfile;
-
 class Coopso extends AbstractDistributor
 {
     public function getEnum()

@@ -9,23 +9,24 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Distributor;
+namespace Runalyze\Devices\Device;
 
-class Scosche extends AbstractDistributor
+class GarminInstinctCrossover extends AbstractDevice
 {
+    use GarminDeviceTrait;
+
     public function getEnum()
     {
-        return DistributorProfile::SCOSCHE;
+        return DeviceProfile::GARMIN_INSTINCT_CROSSOVER;
     }
 
     public function getName()
     {
-        return 'Scosche';
+        return 'Instinct Crossover';
     }
 
-    public function getDeviceEnumList()
+    public function hasBarometer()
     {
-        return [
-    ];
+        return true;
     }
 }

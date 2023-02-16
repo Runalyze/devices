@@ -9,23 +9,24 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Runalyze\Devices\Distributor;
+namespace Runalyze\Devices\Device;
 
-class Scosche extends AbstractDistributor
+class GarminEdgeExplore2 extends AbstractDevice
 {
+    use GarminDeviceTrait;
+
     public function getEnum()
     {
-        return DistributorProfile::SCOSCHE;
+        return DeviceProfile::GARMIN_EDGE_EXPLORE_2;
     }
 
     public function getName()
     {
-        return 'Scosche';
+        return 'Edge Explore 2';
     }
 
-    public function getDeviceEnumList()
+    public function hasBarometer()
     {
-        return [
-    ];
+        return true;
     }
 }
