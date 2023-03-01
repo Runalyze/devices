@@ -11,20 +11,14 @@
 
 namespace Runalyze\Devices\Distributor;
 
-interface DistributorInterface
+interface DistributorInterface extends \JsonSerializable
 {
-    /**
-     * @return int
-     */
-    public function getEnum();
+    public function getEnum(): int;
 
-    /**
-     * @return string
-     */
-    public function getName();
+    public function getName(): string;
 
     /**
      * @return int[]
      */
-    public function getDeviceEnumList();
+    public function getDeviceEnumList(): array;
 }

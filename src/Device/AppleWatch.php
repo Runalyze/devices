@@ -15,12 +15,12 @@ class AppleWatch extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch';
     }

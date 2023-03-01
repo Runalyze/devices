@@ -15,7 +15,7 @@ use Runalyze\Devices\Distributor\DistributorProfile;
 
 trait Concept2DeviceTrait
 {
-    public function getDistributorEnum()
+    public function getDistributorEnum(): int
     {
         return DistributorProfile::CONCEPT_2;
     }

@@ -15,12 +15,12 @@ class TwonavUltra extends AbstractDevice
 {
     use TwonavDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TWONAV_ULTRA;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ultra';
     }

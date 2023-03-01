@@ -15,7 +15,7 @@ use Runalyze\Devices\Distributor\DistributorProfile;
 
 trait StrydDeviceTrait
 {
-    public function getDistributorEnum()
+    public function getDistributorEnum(): int
     {
         return DistributorProfile::STRYD;
     }

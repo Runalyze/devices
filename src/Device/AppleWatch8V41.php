@@ -15,17 +15,17 @@ class AppleWatch8V41 extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_8_V_41;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 8 (41mm)';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

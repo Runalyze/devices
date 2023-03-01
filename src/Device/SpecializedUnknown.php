@@ -15,12 +15,12 @@ class SpecializedUnknown extends AbstractDevice
 {
     use SpecializedDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SPECIALIZED_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

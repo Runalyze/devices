@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Coros extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::COROS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Coros';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::COROS_APEX,

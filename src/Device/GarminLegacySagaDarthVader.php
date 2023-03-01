@@ -15,17 +15,17 @@ class GarminLegacySagaDarthVader extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_LEGACY_SAGA_DARTH_VADER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Legcay Saga - Darth Vader';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

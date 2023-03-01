@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Suunto extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::SUUNTO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Suunto';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::SUUNTO_3_FITNESS,

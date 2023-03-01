@@ -15,12 +15,12 @@ class PolarVeritySense extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_VERITY_SENSE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Verity Sense';
     }

@@ -15,7 +15,7 @@ use Runalyze\Devices\Distributor\DistributorProfile;
 
 trait ArivalDeviceTrait
 {
-    public function getDistributorEnum()
+    public function getDistributorEnum(): int
     {
         return DistributorProfile::ARIVAL;
     }

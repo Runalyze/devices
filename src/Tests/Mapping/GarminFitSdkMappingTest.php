@@ -13,10 +13,9 @@ namespace Runalyze\Devices\Tests\Mapping;
 
 use Runalyze\Devices\Mapping\GarminFitSdkMapping;
 
-class FitSdkMappingTest extends \PHPUnit\Framework\TestCase
+class GarminFitSdkMappingTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var GarminFitSdkMapping */
-    protected $Mapping;
+    protected GarminFitSdkMapping $Mapping;
 
     public function setUp(): void
     {

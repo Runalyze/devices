@@ -15,12 +15,12 @@ class SigmaSportRox100Gps extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ROX_100_GPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'ROX 10.0 GPS';
     }

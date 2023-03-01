@@ -15,12 +15,12 @@ class AppOruxMaps extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_ORUX_MAPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'OruxMaps';
     }

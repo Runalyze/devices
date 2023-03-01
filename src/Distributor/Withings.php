@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Withings extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::WITHINGS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Withings';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

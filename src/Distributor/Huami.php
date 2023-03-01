@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Huami extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::HUAMI;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Huami';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

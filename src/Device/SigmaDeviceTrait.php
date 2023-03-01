@@ -15,7 +15,7 @@ use Runalyze\Devices\Distributor\DistributorProfile;
 
 trait SigmaDeviceTrait
 {
-    public function getDistributorEnum()
+    public function getDistributorEnum(): int
     {
         return DistributorProfile::SIGMA;
     }

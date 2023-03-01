@@ -15,12 +15,12 @@ class SamsungGalaxyWatch3 extends AbstractDevice
 {
     use SamsungDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SAMSUNG_GALAXY_WATCH_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Galaxy Watch 3';
     }

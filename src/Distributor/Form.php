@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Form extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::FORM;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Form';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
         ];

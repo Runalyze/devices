@@ -15,12 +15,12 @@ class Suunto3Fitness extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_3_FITNESS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '3 Fitness';
     }

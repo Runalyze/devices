@@ -15,17 +15,17 @@ class GarminFenix7XSapphireSolar extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FENIX_7_X_SAPPHIRE_SOLAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Fenix 7X (Sapphire Solar)';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

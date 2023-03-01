@@ -15,12 +15,12 @@ class HuamiAmazfitGTS extends AbstractDevice
 {
     use HuamiDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::HUAMI_AMAZFIT_G_T_S;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Amazfit GTS';
     }

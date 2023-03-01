@@ -23,6 +23,8 @@ class DistributorProfileTest extends \PHPUnit\Framework\TestCase
 
             $this->assertInstanceOf(DistributorInterface::class, $distributor);
             $this->assertEquals($enum, $distributor->getEnum());
+            $this->assertNotEmpty($distributor->jsonSerialize());
+
             if (!strpos($distributor->getNameOfClass(), 'App')) {
                 $this->assertNotEmpty($distributor->getName());
             }

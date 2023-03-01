@@ -15,12 +15,12 @@ class BrytonUnknown extends AbstractDevice
 {
     use BrytonDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::BRYTON_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

@@ -15,12 +15,12 @@ class WattbikeUnknown extends AbstractDevice
 {
     use WattbikeDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::WATTBIKE_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '(unknown)';
     }

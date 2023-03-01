@@ -15,12 +15,12 @@ class AppBkool extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_BKOOL;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'BKOOL';
     }

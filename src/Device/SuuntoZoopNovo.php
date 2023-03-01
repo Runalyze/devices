@@ -15,12 +15,12 @@ class SuuntoZoopNovo extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_ZOOP_NOVO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Zoop Novo';
     }

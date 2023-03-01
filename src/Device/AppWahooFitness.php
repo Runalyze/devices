@@ -15,12 +15,12 @@ class AppWahooFitness extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_WAHOO_FITNESS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Wahoo Fitness';
     }

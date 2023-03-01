@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Polar extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::POLAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Polar';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::APP_POLAR_FLOW,

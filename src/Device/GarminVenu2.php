@@ -15,17 +15,17 @@ class GarminVenu2 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VENU_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Venu 2(S)';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

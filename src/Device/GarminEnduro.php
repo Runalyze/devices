@@ -15,17 +15,17 @@ class GarminEnduro extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_ENDURO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Enduro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

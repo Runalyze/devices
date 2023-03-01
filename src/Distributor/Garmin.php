@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Garmin extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::GARMIN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Garmin';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::GARMIN_UNKNOWN,

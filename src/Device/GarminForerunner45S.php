@@ -15,12 +15,12 @@ class GarminForerunner45S extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_45_S;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 45S';
     }

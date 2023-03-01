@@ -15,12 +15,12 @@ class OsynceMixPro extends AbstractDevice
 {
     use OsynceDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::OSYNCE_MIX_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Mix Pro';
     }

@@ -15,12 +15,12 @@ class GarminForerunner245Music extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_245_MUSIC;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 245 Music';
     }

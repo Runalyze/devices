@@ -15,12 +15,12 @@ class LezyneSuperProGps extends AbstractDevice
 {
     use LezyneDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::LEZYNE_SUPER_PRO_GPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'SUPER PRO GPS';
     }

@@ -15,17 +15,17 @@ class TomTomAdventurer extends AbstractDevice
 {
     use TomTomDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TOM_TOM_ADVENTURER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Adventurer';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

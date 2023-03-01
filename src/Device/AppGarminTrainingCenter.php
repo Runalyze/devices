@@ -15,12 +15,12 @@ class AppGarminTrainingCenter extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_GARMIN_TRAINING_CENTER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Training Center';
     }

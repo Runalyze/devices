@@ -15,17 +15,17 @@ class GarminEdge830 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EDGE_830;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Edge 830';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

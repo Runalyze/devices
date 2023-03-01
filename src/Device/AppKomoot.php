@@ -15,12 +15,12 @@ class AppKomoot extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_KOMOOT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Komoot';
     }

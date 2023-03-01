@@ -15,12 +15,12 @@ class TomTomUnknown extends AbstractDevice
 {
     use TomTomDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TOM_TOM_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

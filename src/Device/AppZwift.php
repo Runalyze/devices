@@ -15,12 +15,12 @@ class AppZwift extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_ZWIFT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Zwift';
     }

@@ -15,12 +15,12 @@ class FitbitAltaHR extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_ALTA_H_R;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Alta HR';
     }

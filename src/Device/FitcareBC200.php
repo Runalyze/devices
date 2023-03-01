@@ -15,17 +15,17 @@ class FitcareBC200 extends AbstractDevice
 {
     use FitcareDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITCARE_B_C_200;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'BC200';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         //Not sure
         return false;

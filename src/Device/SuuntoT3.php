@@ -15,12 +15,12 @@ class SuuntoT3 extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_T_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 't3';
     }

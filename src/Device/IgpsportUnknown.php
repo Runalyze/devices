@@ -15,12 +15,12 @@ class IgpsportUnknown extends AbstractDevice
 {
     use IgpsportDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::IGPSPORT_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

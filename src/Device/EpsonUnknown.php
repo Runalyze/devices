@@ -15,12 +15,12 @@ class EpsonUnknown extends AbstractDevice
 {
     use EpsonDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::EPSON_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

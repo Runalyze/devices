@@ -15,8 +15,7 @@ use Runalyze\Devices\Mapping\NameMapping;
 
 class NameMappingTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var NameMapping */
-    protected $Mapping;
+    protected NameMapping $Mapping;
 
     public function setUp(): void
     {

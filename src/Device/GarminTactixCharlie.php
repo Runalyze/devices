@@ -15,17 +15,17 @@ class GarminTactixCharlie extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_TACTIX_CHARLIE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Tactix Charlie';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

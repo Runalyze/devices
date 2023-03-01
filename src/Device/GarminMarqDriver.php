@@ -15,17 +15,17 @@ class GarminMarqDriver extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_MARQ_DRIVER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'MARQ Driver';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

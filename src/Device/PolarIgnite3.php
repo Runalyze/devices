@@ -15,12 +15,12 @@ class PolarIgnite3 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_IGNITE_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ignite 3';
     }

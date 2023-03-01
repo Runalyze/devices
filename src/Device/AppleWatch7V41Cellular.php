@@ -15,12 +15,12 @@ class AppleWatch7V41Cellular extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_7_V_41_CELLULAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 7 (41mm) (Cellular)';
     }

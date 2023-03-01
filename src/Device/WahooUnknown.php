@@ -15,12 +15,12 @@ class WahooUnknown extends AbstractDevice
 {
     use WahooDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::WAHOO_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

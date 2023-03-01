@@ -15,12 +15,12 @@ class PolarUnite extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_UNITE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Unite';
     }

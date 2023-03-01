@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Soleus extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::SOLEUS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Soleus';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

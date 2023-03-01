@@ -15,17 +15,17 @@ class GarminMontana680T extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_MONTANA_680_T;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Montana 680t';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

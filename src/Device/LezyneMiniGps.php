@@ -15,12 +15,12 @@ class LezyneMiniGps extends AbstractDevice
 {
     use LezyneDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::LEZYNE_MINI_GPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'MINI GPS';
     }

@@ -15,12 +15,12 @@ class PolarOH1 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_O_H_1;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'OH1';
     }

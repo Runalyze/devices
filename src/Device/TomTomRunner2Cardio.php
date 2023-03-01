@@ -15,12 +15,12 @@ class TomTomRunner2Cardio extends AbstractDevice
 {
     use TomTomDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TOM_TOM_RUNNER_2_CARDIO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Runner 2 Cardio';
     }

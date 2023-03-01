@@ -15,7 +15,7 @@ use Runalyze\Devices\Distributor\DistributorProfile;
 
 trait StagesCyclingDeviceTrait
 {
-    public function getDistributorEnum()
+    public function getDistributorEnum(): int
     {
         return DistributorProfile::STAGES_CYCLING;
     }

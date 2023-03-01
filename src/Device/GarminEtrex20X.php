@@ -15,12 +15,12 @@ class GarminEtrex20X extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_ETREX_20_X;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Etrex 20 X';
     }

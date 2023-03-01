@@ -15,12 +15,12 @@ class GarminApproachG10 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_APPROACH_G_10;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Approach G10';
     }

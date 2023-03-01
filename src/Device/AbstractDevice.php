@@ -11,29 +11,39 @@
 
 namespace Runalyze\Devices\Device;
 
+use Runalyze\Devices\Distributor\DistributorInterface;
 use Runalyze\Devices\Distributor\DistributorProfile;
 
 abstract class AbstractDevice implements DeviceInterface
 {
-    public function getFullName()
+    public function jsonSerialize(): array
+    {
+        return [
+            'id' => $this->getEnum(),
+            'name' => $this->getName(),
+            'distributor_id' => $this->getDistributorEnum(),
+            'distributor' => $this->getDistributor()->getName(),
+            'full_name' => $this->getFullName(),
+            'barometer' => $this->hasBarometer()
+        ];
+    }
+
+    public function getFullName(): string
     {
         return $this->getDistributor()->getName().' '.$this->getName();
     }
 
-    public function getDistributor()
+    public function getDistributor(): DistributorInterface
     {
         return DistributorProfile::get($this->getDistributorEnum());
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return false;
     }
 
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function getNameOfClass(): string
     {
         return static::class;
     }

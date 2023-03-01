@@ -13,39 +13,26 @@ namespace Runalyze\Devices\Device;
 
 use Runalyze\Devices\Distributor\DistributorInterface;
 
-interface DeviceInterface
+interface DeviceInterface extends \JsonSerializable
 {
-    /**
-     * @return int
-     */
-    public function getEnum();
+    public function getEnum(): int;
 
     /**
-     * @return string
-     */
-    public function getName();
-
-    /**
-     * @return string device name with distributor name as prefix
-     *
      * @codeCoverageIgnore
      */
-    public function getFullName();
+    public function getName(): string;
 
     /**
-     * @return int
-     */
-    public function getDistributorEnum();
-
-    /**
-     * @return DistributorInterface
-     */
-    public function getDistributor();
-
-    /**
-     * @return bool
-     *
      * @codeCoverageIgnore
      */
-    public function hasBarometer();
+    public function getFullName(): string;
+
+    public function getDistributorEnum(): int;
+
+    public function getDistributor(): DistributorInterface;
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function hasBarometer(): bool;
 }

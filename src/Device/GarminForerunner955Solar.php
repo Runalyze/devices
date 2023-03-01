@@ -15,17 +15,17 @@ class GarminForerunner955Solar extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_955_SOLAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 955 Solar';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

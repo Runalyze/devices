@@ -15,12 +15,12 @@ class AppNikeRunClub extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_NIKE_RUN_CLUB;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Nike Run Club';
     }

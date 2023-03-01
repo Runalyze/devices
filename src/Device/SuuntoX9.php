@@ -15,17 +15,17 @@ class SuuntoX9 extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_X_9;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'x9';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

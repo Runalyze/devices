@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Twonav extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::TWONAV;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Twonav';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::TWONAV_ADVENTURA,

@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Hammerhead extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::HAMMERHEAD;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Hammerhead';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

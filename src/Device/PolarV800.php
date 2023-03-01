@@ -15,17 +15,17 @@ class PolarV800 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_V_800;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'V800';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

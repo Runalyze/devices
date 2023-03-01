@@ -15,12 +15,12 @@ class Suunto9 extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_9;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '9';
     }

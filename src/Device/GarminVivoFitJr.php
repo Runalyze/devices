@@ -15,12 +15,12 @@ class GarminVivoFitJr extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_FIT_JR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívofit Jr';
     }

@@ -15,17 +15,17 @@ class GarminForerunner945Lte extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_945_LTE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 945 LTE';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

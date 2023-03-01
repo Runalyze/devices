@@ -15,12 +15,12 @@ class LezyneMacroEasyGps extends AbstractDevice
 {
     use LezyneDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::LEZYNE_MACRO_EASY_GPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'MARCO Easy GPS';
     }

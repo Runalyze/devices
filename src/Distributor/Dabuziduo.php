@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Dabuziduo extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::DABUZIDUO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Dabuziduo';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
         ];

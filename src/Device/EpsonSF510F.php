@@ -15,12 +15,12 @@ class EpsonSF510F extends AbstractDevice
 {
     use EpsonDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::EPSON_S_F_510_F;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'SF-510F';
     }

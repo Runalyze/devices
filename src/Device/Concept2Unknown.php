@@ -15,12 +15,12 @@ class Concept2Unknown extends AbstractDevice
 {
     use Concept2DeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::CONCEPT_2_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

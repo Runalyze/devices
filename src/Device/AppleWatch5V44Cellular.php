@@ -15,12 +15,12 @@ class AppleWatch5V44Cellular extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_5_V_44_CELLULAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 5 (44mm) (Cellular)';
     }

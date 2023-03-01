@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Huawei extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::HUAWEI;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Huawei';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

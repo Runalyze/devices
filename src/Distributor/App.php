@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class App extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::APP;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::APP_DECATHLON_COACH,

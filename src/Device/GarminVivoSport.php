@@ -15,17 +15,17 @@ class GarminVivoSport extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_SPORT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívosport';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

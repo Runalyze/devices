@@ -15,12 +15,12 @@ class HuamiAmazfitStratos3 extends AbstractDevice
 {
     use HuamiDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::HUAMI_AMAZFIT_STRATOS_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Amazfit Stratos 3';
     }

@@ -15,12 +15,12 @@ class PolarA730 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_A_730;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'A730';
     }

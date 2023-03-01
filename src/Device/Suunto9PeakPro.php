@@ -15,17 +15,17 @@ class Suunto9PeakPro extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_9_PEAK_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '9 Peak Pro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

@@ -15,17 +15,17 @@ class GarminForerunner935 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_935;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 935';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

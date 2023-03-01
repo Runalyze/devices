@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Peleton extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::PELETON;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Peleton';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
         ];

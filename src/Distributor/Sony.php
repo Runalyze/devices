@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Sony extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::SONY;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sony';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

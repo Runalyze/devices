@@ -15,12 +15,12 @@ class AppOpentracks extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_OPENTRACKS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'OpenTracks';
     }

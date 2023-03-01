@@ -15,17 +15,17 @@ class SuuntoAmbit3Vertical extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_AMBIT_3_VERTICAL;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ambit 3 Vertical';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

@@ -15,12 +15,12 @@ class AppGlobalSat extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_GLOBAL_SAT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'GlobalSat';
     }

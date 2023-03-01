@@ -15,12 +15,12 @@ class AppSportTracks extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_SPORT_TRACKS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'SportTracks';
     }

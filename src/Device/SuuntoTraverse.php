@@ -15,17 +15,17 @@ class SuuntoTraverse extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_TRAVERSE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Traverse';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

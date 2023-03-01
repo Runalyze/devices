@@ -15,12 +15,12 @@ class MioUnknown extends AbstractDevice
 {
     use MioDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::MIO_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '(unknown)';
     }

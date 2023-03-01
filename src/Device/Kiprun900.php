@@ -15,12 +15,12 @@ class Kiprun900 extends AbstractDevice
 {
     use KiprunDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::KIPRUN_900;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '/Coros GPS 900';
     }

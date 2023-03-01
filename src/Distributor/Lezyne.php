@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Lezyne extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::LEZYNE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Lezyne';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

@@ -15,12 +15,12 @@ class SuuntoAmbit3Run extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_AMBIT_3_RUN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ambit 3 Run';
     }

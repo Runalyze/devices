@@ -15,12 +15,12 @@ class PolarRS300X extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_R_S_300_X;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'RS300X';
     }

@@ -15,17 +15,17 @@ class SuuntoT6C extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_T_6_C;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'T6C';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

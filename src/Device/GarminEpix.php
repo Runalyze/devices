@@ -15,12 +15,12 @@ class GarminEpix extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EPIX;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Epix';
     }

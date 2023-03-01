@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Misfit extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::MISFIT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Misfit';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

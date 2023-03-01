@@ -13,10 +13,16 @@ namespace Runalyze\Devices\Distributor;
 
 abstract class AbstractDistributor implements DistributorInterface
 {
-    /**
-     * @return string
-     */
-    public function getNameOfClass()
+    public function jsonSerialize(): array
+    {
+        return [
+            'id' => $this->getEnum(),
+            'name' => $this->getName(),
+            'devices' => $this->getDeviceEnumList()
+        ];
+    }
+
+    public function getNameOfClass(): string
     {
         return static::class;
     }

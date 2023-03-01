@@ -15,12 +15,12 @@ class PolarM430 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_M_430;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'M430';
     }

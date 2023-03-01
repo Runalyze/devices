@@ -15,17 +15,17 @@ class GarminVivoActive4S extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_ACTIVE_4_S;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívoactive 4S';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

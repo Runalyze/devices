@@ -15,8 +15,7 @@ use Runalyze\Devices\Mapping\SuuntoFitSdkMapping;
 
 class SuuntoFitSdkMappingTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var SuuntoFitSdkMapping */
-    protected $Mapping;
+    protected SuuntoFitSdkMapping $Mapping;
 
     public function setUp(): void
     {

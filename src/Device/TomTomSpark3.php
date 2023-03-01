@@ -15,12 +15,12 @@ class TomTomSpark3 extends AbstractDevice
 {
     use TomTomDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TOM_TOM_SPARK_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Spark 3';
     }

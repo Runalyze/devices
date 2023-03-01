@@ -15,17 +15,17 @@ class PolarGritXPro extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_GRIT_X_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Grit X Pro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

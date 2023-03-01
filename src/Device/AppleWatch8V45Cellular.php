@@ -15,17 +15,17 @@ class AppleWatch8V45Cellular extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_8_V_45_CELLULAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 8 (45mm) (Cellular)';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

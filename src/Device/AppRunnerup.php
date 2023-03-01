@@ -15,12 +15,12 @@ class AppRunnerup extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_RUNNERUP;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'RunnerUp';
     }

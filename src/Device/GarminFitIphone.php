@@ -15,12 +15,12 @@ class GarminFitIphone extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FIT_IPHONE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Fit (iPhone)';
     }

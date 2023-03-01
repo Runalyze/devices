@@ -15,12 +15,12 @@ class CoopsoBC107 extends AbstractDevice
 {
     use CoopsoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::COOPSO_B_C_107;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'BC107';
     }

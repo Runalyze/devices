@@ -15,12 +15,12 @@ class FitbitZip extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_ZIP;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Zip';
     }

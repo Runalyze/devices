@@ -15,17 +15,17 @@ class PolarVantageV2 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_VANTAGE_V_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Vantage V2';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

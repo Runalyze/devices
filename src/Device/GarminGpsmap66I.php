@@ -15,12 +15,12 @@ class GarminGpsmap66I extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_GPSMAP_66_I;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'GPSMAP 66i';
     }

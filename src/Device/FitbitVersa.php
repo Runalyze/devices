@@ -15,17 +15,17 @@ class FitbitVersa extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_VERSA;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Versa';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

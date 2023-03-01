@@ -15,17 +15,17 @@ class GarminFenix3 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FENIX_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Fenix 3';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

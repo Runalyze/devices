@@ -15,12 +15,12 @@ class SigmaSportIdLife extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ID_LIFE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sport ID Life';
     }

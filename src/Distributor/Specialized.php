@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Specialized extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::SPECIALIZED;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Specialized';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

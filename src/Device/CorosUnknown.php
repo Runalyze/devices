@@ -15,12 +15,12 @@ class CorosUnknown extends AbstractDevice
 {
     use CorosDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::COROS_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

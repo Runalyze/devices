@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Stryd extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::STRYD;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Stryd';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

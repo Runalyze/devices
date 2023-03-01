@@ -15,17 +15,17 @@ class GarminFenix6Pro extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FENIX_6_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Fenix 6 Pro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

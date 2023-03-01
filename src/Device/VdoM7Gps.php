@@ -15,13 +15,14 @@ class VdoM7Gps extends AbstractDevice
 {
     use VdoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::VDO_M_7_GPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'M7 GPS';
     }
+
 }

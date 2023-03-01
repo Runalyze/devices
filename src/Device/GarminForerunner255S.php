@@ -15,17 +15,17 @@ class GarminForerunner255S extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_255_S;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 255S';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

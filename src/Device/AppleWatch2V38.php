@@ -15,12 +15,12 @@ class AppleWatch2V38 extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_2_V_38;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 2 (38mm)';
     }

@@ -15,17 +15,17 @@ class CorosApex2Pro extends AbstractDevice
 {
     use CorosDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::COROS_APEX_2_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Apex 2 Pro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

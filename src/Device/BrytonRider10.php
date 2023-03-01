@@ -15,12 +15,12 @@ class BrytonRider10 extends AbstractDevice
 {
     use BrytonDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::BRYTON_RIDER_10;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Rider 10';
     }

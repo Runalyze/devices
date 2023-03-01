@@ -15,17 +15,17 @@ class AppleWatchUltra extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_ULTRA;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch Ultra';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

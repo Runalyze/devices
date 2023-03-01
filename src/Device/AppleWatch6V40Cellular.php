@@ -15,12 +15,12 @@ class AppleWatch6V40Cellular extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_6_V_40_CELLULAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 6 (40mm) (Cellular)';
     }

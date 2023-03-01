@@ -15,17 +15,17 @@ class PolarM450 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_M_450;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'M450';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

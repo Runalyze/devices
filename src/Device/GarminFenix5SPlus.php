@@ -15,17 +15,17 @@ class GarminFenix5SPlus extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FENIX_5_S_PLUS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Fenix 5S';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

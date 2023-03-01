@@ -15,12 +15,12 @@ class SuuntoD6I extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_D_6_I;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'D6i';
     }

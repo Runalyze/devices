@@ -15,17 +15,17 @@ class GarminVenuDaimler extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VENU_DAIMLER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Venu Daimler';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

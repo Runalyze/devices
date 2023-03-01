@@ -15,17 +15,17 @@ class GarminVivoActive3Daimler extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_ACTIVE_3_DAIMLER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívoactive 3 Daimler';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }
