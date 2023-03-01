@@ -15,12 +15,12 @@ class GarminEtrexTouch extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_ETREX_TOUCH;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Extrex touch';
     }

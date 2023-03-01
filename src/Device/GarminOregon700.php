@@ -15,17 +15,17 @@ class GarminOregon700 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_OREGON_700;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Oregon 700';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

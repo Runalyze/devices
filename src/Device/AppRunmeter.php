@@ -15,12 +15,12 @@ class AppRunmeter extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_RUNMETER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Runmeter';
     }

@@ -15,12 +15,12 @@ class AppleIphoneXR extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_IPHONE_X_R;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iPhone XR';
     }

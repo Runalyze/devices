@@ -15,12 +15,12 @@ class SuuntoEonCore extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_EON_CORE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'EON CORE';
     }

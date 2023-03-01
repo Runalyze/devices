@@ -15,12 +15,12 @@ class GarminForetrex701 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORETREX_701;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Foretrex 701';
     }

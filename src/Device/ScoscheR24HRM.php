@@ -15,12 +15,12 @@ class ScoscheR24HRM extends AbstractDevice
 {
     use ScoscheDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SCOSCHE_R_24_H_R_M;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'R24HRM';
     }

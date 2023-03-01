@@ -15,17 +15,17 @@ class SuuntoAmbit2 extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_AMBIT_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ambit 2';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

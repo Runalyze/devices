@@ -15,12 +15,12 @@ class AppDecathlonCoach extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_DECATHLON_COACH;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Decathlon Coach';
     }

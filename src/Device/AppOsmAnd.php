@@ -15,12 +15,12 @@ class AppOsmAnd extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_OSM_AND;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'OsmAnd';
     }

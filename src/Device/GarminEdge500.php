@@ -15,12 +15,12 @@ class GarminEdge500 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EDGE_500;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Edge 500';
     }

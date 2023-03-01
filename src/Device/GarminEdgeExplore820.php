@@ -15,12 +15,12 @@ class GarminEdgeExplore820 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EDGE_EXPLORE_820;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Edge Explore 820';
     }

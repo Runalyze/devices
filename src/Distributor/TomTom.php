@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class TomTom extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::TOM_TOM;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'TomTom';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::TOM_TOM_UNKNOWN,

@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Samsung extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::SAMSUNG;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Samsung';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

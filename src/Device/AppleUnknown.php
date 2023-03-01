@@ -15,12 +15,12 @@ class AppleUnknown extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

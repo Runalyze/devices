@@ -15,17 +15,17 @@ class CycplusM2 extends AbstractDevice
 {
     use BrytonDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::CYCPLUS_M2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'M2';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

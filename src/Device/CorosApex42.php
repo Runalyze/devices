@@ -15,17 +15,17 @@ class CorosApex42 extends AbstractDevice
 {
     use CorosDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::COROS_APEX_42;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Apex 42';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

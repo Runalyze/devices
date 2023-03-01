@@ -15,12 +15,12 @@ class AppSmashrun extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_SMASHRUN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Smashrun';
     }

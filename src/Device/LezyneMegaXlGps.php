@@ -15,12 +15,12 @@ class LezyneMegaXlGps extends AbstractDevice
 {
     use LezyneDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::LEZYNE_MEGA_XL_GPS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'MEGA XL GPS';
     }

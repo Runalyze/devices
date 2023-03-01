@@ -15,12 +15,12 @@ class AppAlltrails extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_ALLTRAILS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'AllTrails.com';
     }

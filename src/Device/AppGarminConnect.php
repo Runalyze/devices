@@ -15,12 +15,12 @@ class AppGarminConnect extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_GARMIN_CONNECT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Connect';
     }

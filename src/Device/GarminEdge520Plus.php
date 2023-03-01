@@ -15,17 +15,17 @@ class GarminEdge520Plus extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EDGE_520_PLUS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Edge 520 Plus';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

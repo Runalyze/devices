@@ -15,17 +15,17 @@ class GarminLegacyHeroCaptainMarvel extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_LEGACY_HERO_CAPTAIN_MARVEL;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Legcay Hero - Captain Marvel';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

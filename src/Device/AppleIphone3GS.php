@@ -15,12 +15,12 @@ class AppleIphone3GS extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_IPHONE_3_G_S;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iPhone 3GS';
     }

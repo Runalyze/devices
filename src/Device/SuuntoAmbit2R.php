@@ -15,12 +15,12 @@ class SuuntoAmbit2R extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_AMBIT_2_R;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ambit 2R';
     }

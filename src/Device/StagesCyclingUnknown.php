@@ -15,12 +15,12 @@ class StagesCyclingUnknown extends AbstractDevice
 {
     use StagesCyclingDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::STAGES_CYCLING_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

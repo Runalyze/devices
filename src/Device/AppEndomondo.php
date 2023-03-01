@@ -15,12 +15,12 @@ class AppEndomondo extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_ENDOMONDO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Endomondo';
     }

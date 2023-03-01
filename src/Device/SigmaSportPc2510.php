@@ -15,12 +15,12 @@ class SigmaSportPc2510 extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_PC_2510;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sport PC 25.10';
     }

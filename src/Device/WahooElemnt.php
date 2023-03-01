@@ -15,17 +15,17 @@ class WahooElemnt extends AbstractDevice
 {
     use WahooDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::WAHOO_ELEMNT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'ELEMNT';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

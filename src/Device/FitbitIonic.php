@@ -15,17 +15,17 @@ class FitbitIonic extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_IONIC;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'IONIC';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

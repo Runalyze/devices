@@ -1778,25 +1778,4 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const VDO_M_7_GPS = 585;
-
-    /** @var int */
-    const GARMIN_ENDURO_2 = 586;
-
-    /** @var int */
-    const GARMIN_EDGE_EXPLORE_2 = 587;
-
-    /** @var int */
-    const GARMIN_DESCENT_G_1_SOLAR = 588;
-
-    /** @var int */
-    const GARMIN_MARQ_AVIATOR_2 = 589;
-
-    /** @var int */
-    const GARMIN_VENU_SQ_2 = 590;
-
-    /** @var int */
-    const GARMIN_INSTINCT_CROSSOVER = 591;
-
-    /** @var int */
-    const GARMIN_MARQ_ATHLETE_2 = 592;
 }

@@ -15,17 +15,17 @@ class GarminInstinct2SolarOnePieceLuffy extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_INSTINCT_2_SOLAR_ONE_PIECE_LUFFY;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Instinct Solar';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

@@ -15,12 +15,12 @@ class HuamiAmazfitVergeLite extends AbstractDevice
 {
     use HuamiDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::HUAMI_AMAZFIT_VERGE_LITE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Amazfit Verge Lite';
     }

@@ -15,17 +15,17 @@ class GarminFenix5Wifi extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FENIX_5_WIFI;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Fenix 5 Wifi';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

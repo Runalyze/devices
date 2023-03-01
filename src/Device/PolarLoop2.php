@@ -15,12 +15,12 @@ class PolarLoop2 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_LOOP_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Loop 2';
     }

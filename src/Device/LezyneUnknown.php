@@ -15,12 +15,12 @@ class LezyneUnknown extends AbstractDevice
 {
     use LezyneDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::LEZYNE_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '(Unknown)';
     }

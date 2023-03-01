@@ -15,12 +15,12 @@ class SigmaSportActivo extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ACTIVO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sport Activo';
     }

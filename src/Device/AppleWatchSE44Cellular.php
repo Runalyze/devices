@@ -15,12 +15,12 @@ class AppleWatchSE44Cellular extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_S_E_44_CELLULAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch SE (40mm) (Cellular) (1G)';
     }

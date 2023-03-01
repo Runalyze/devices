@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Wahoo extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::WAHOO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Wahoo';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

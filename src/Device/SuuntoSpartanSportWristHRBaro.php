@@ -15,17 +15,17 @@ class SuuntoSpartanSportWristHRBaro extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_SPARTAN_SPORT_WRIST_H_R_BARO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Spartan Sport Wrist HR Baro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

@@ -15,17 +15,17 @@ class SuuntoSpartanUltra extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_SPARTAN_ULTRA;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Spartan Ultra';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

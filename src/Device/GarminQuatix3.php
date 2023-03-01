@@ -15,12 +15,12 @@ class GarminQuatix3 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_QUATIX_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Quatix 3';
     }

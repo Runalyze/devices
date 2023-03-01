@@ -15,12 +15,12 @@ class AppTrailRunner extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_TRAIL_RUNNER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Trailrunner';
     }

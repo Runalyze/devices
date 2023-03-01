@@ -15,12 +15,12 @@ class AppXert extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_XERT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Xert';
     }

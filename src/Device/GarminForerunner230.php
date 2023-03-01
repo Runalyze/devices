@@ -15,12 +15,12 @@ class GarminForerunner230 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_230;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 230';
     }

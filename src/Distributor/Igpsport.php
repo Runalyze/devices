@@ -15,17 +15,17 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Igpsport extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::IGPSPORT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iGPSPORT';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
             DeviceProfile::IGPSPORT_IGS_20_E,

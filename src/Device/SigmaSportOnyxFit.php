@@ -15,12 +15,12 @@ class SigmaSportOnyxFit extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ONYX_FIT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sport Onyx Fit';
     }

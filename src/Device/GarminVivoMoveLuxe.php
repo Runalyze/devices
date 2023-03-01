@@ -15,12 +15,12 @@ class GarminVivoMoveLuxe extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_MOVE_LUXE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívomove Luxe';
     }

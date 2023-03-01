@@ -15,17 +15,17 @@ class GarminLegacyHeroFirstAvenger extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_LEGACY_HERO_FIRST_AVENGER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Legcay Hero - First Avenger';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

@@ -15,12 +15,12 @@ class TwonavTraverse extends AbstractDevice
 {
     use TwonavDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TWONAV_TRAVERSE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Traverse';
     }

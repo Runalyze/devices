@@ -15,12 +15,12 @@ class FitbitUltra extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_ULTRA;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Ultra';
     }

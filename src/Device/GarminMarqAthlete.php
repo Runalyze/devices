@@ -15,17 +15,17 @@ class GarminMarqAthlete extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_MARQ_ATHLETE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'MARQ Athlete';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

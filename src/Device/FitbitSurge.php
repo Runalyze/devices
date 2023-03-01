@@ -15,17 +15,17 @@ class FitbitSurge extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_SURGE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Surge';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

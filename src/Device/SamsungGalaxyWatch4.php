@@ -15,12 +15,12 @@ class SamsungGalaxyWatch4 extends AbstractDevice
 {
     use SamsungDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SAMSUNG_GALAXY_WATCH_4;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Galaxy Watch 4';
     }

@@ -15,12 +15,12 @@ class FitbitForce extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_FORCE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Force';
     }

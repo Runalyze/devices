@@ -15,12 +15,12 @@ class SigmaSportOnyxPro extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ONYX_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sport Onyx Pro';
     }

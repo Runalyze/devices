@@ -15,17 +15,17 @@ class GarminDescentG1 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_DESCENT_G_1;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Descent G1';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

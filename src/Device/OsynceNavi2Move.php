@@ -15,12 +15,12 @@ class OsynceNavi2Move extends AbstractDevice
 {
     use OsynceDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::OSYNCE_NAVI_2_MOVE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'navi2move';
     }

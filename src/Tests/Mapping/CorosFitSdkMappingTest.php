@@ -15,8 +15,7 @@ use Runalyze\Devices\Mapping\CorosFitSdkMapping;
 
 class CorosFitSdkMappingTest extends \PHPUnit\Framework\TestCase
 {
-    /** @var CorosFitSdkMapping */
-    protected $Mapping;
+    protected CorosFitSdkMapping $Mapping;
 
     public function setUp(): void
     {

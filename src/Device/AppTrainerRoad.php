@@ -15,12 +15,12 @@ class AppTrainerRoad extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APP_TRAINER_ROAD;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'TrainerRoad';
     }

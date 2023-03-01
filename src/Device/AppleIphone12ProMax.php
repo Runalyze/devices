@@ -15,12 +15,12 @@ class AppleIphone12ProMax extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_IPHONE_12_PRO_MAX;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iPhone 12 Pro Max';
     }

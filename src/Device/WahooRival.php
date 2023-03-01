@@ -15,17 +15,17 @@ class WahooRival extends AbstractDevice
 {
     use WahooDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::WAHOO_RIVAL;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Rival';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

@@ -15,12 +15,12 @@ class SigmaSportIdTri extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ID_TRI;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sport iD.TRI';
     }

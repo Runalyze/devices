@@ -15,12 +15,12 @@ class HammerheadKaroo2 extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::HAMMERHEAD_KAROO_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Karoo 2';
     }

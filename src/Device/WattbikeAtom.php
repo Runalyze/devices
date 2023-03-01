@@ -15,12 +15,12 @@ class WattbikeAtom extends AbstractDevice
 {
     use WattbikeDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::WATTBIKE_ATOM;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Atom';
     }

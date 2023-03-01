@@ -15,12 +15,12 @@ class AppleIphone5Gsm extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_IPHONE_5_GSM;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iPhone 5 GSM';
     }

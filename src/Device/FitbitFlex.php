@@ -15,12 +15,12 @@ class FitbitFlex extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_FLEX;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Flex';
     }

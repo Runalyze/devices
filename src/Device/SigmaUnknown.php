@@ -15,12 +15,12 @@ class SigmaUnknown extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

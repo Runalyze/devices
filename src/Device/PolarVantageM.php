@@ -15,12 +15,12 @@ class PolarVantageM extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_VANTAGE_M;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Vantage M';
     }

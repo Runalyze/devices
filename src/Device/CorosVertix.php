@@ -15,17 +15,17 @@ class CorosVertix extends AbstractDevice
 {
     use CorosDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::COROS_VERTIX;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Vertix';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

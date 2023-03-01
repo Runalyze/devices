@@ -15,12 +15,12 @@ class FormSmartSwimGoggles extends AbstractDevice
 {
     use FormDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FORM_SMART_SWIM_GOGGLES;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Smart Swim Goggles';
     }

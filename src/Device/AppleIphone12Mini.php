@@ -15,12 +15,12 @@ class AppleIphone12Mini extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_IPHONE_12_MINI;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iPhone 12 Mini';
     }

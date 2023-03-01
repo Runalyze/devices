@@ -15,17 +15,17 @@ class Suunto9Baro extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_9_BARO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '9 Baro';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

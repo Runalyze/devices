@@ -15,12 +15,12 @@ class OsynceMixFree extends AbstractDevice
 {
     use OsynceDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::OSYNCE_MIX_FREE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Mix Free';
     }

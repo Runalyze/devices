@@ -23,6 +23,8 @@ class DeviceProfileTest extends \PHPUnit\Framework\TestCase
 
             $this->assertInstanceOf(DeviceInterface::class, $device);
             $this->assertEquals($enum, $device->getEnum());
+            $this->assertNotEmpty($device->jsonSerialize());
+
             if (!strpos($device->getNameOfClass(), 'Unknown')) {
                 $this->assertNotEmpty($device->getName());
             }

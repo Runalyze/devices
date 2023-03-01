@@ -15,12 +15,12 @@ class SigmaSportRox120Sport extends AbstractDevice
 {
     use SigmaDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SIGMA_SPORT_ROX_120_SPORT;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'ROX 12.0 Sport';
     }

@@ -15,12 +15,12 @@ class IgpsportIgs20E extends AbstractDevice
 {
     use IgpsportDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::IGPSPORT_IGS_20_E;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'iGS20E';
     }

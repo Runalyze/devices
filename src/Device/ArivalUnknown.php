@@ -15,12 +15,12 @@ class ArivalUnknown extends AbstractDevice
 {
     use AppDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::ARIVAL_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

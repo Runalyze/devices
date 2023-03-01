@@ -15,12 +15,12 @@ class GarminForerunner405CX extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_FORERUNNER_405_C_X;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Forerunner 405 CX';
     }

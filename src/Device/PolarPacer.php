@@ -15,17 +15,17 @@ class PolarPacer extends AbstractDevice
 {
     use PolarDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::POLAR_PACER;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Pacer';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return false;
     }

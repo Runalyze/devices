@@ -15,12 +15,12 @@ class TimexUnknown extends AbstractDevice
 {
     use TimexDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::TIMEX_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

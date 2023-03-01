@@ -15,17 +15,17 @@ class DabuziduoXossGN3 extends AbstractDevice
 {
     use DabuziduoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::DABUZIDUO_XOSS_G_N_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'XOSS G N3';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

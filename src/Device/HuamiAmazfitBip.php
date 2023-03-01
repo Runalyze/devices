@@ -15,12 +15,12 @@ class HuamiAmazfitBip extends AbstractDevice
 {
     use HuamiDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::HUAMI_AMAZFIT_BIP;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Amazfit Bip';
     }

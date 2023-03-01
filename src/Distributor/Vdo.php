@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Vdo extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::VDO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'VDO';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

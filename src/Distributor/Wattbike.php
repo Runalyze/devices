@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Wattbike extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::WATTBIKE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Wattbike';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [];
     }

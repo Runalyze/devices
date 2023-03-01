@@ -15,12 +15,12 @@ class HuamiAmazfitGTR3Pro extends AbstractDevice
 {
     use HuamiDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::HUAMI_AMAZFIT_G_T_R_3_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Amazfit GTR 3 Pro';
     }

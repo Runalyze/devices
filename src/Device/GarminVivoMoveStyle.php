@@ -15,12 +15,12 @@ class GarminVivoMoveStyle extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_MOVE_STYLE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívomove Style';
     }

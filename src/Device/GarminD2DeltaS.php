@@ -15,12 +15,12 @@ class GarminD2DeltaS extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_D_2_DELTA_S;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'D2 Delta S';
     }

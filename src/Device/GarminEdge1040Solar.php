@@ -15,17 +15,17 @@ class GarminEdge1040Solar extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EDGE_1040_SOLAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Edge 1040 (Solar)';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

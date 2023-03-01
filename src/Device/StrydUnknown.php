@@ -15,12 +15,12 @@ class StrydUnknown extends AbstractDevice
 {
     use StrydDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::STRYD_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

@@ -15,12 +15,12 @@ class GarminD2Charlie extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_D_2_CHARLIE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'D2 Charlie';
     }

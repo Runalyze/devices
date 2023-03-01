@@ -15,12 +15,12 @@ class GarminHrmPro extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_HRM_PRO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Hrm Pro';
     }

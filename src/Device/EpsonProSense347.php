@@ -15,12 +15,12 @@ class EpsonProSense347 extends AbstractDevice
 {
     use EpsonDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::EPSON_PRO_SENSE_347;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'ProSense 347';
     }

@@ -15,12 +15,12 @@ class AppleWatch3V38Cellular extends AbstractDevice
 {
     use AppleDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::APPLE_WATCH_3_V_38_CELLULAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Watch 3 (38mm) (Cellular)';
     }

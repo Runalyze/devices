@@ -15,12 +15,12 @@ class OsynceUnknown extends AbstractDevice
 {
     use OsynceDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::OSYNCE_UNKNOWN;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return '';
     }

@@ -15,17 +15,17 @@ class CorosPace2 extends AbstractDevice
 {
     use CorosDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::COROS_PACE_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Pace2';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

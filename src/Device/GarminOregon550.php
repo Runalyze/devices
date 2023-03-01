@@ -15,12 +15,12 @@ class GarminOregon550 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_OREGON_550;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Oregon 550';
     }

@@ -15,17 +15,17 @@ class FitbitSense extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_SENSE;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Sense';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

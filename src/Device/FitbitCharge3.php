@@ -15,12 +15,12 @@ class FitbitCharge3 extends AbstractDevice
 {
     use FitbitDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::FITBIT_CHARGE_3;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Charge 3';
     }

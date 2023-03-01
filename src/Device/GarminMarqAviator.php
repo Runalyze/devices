@@ -15,17 +15,17 @@ class GarminMarqAviator extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_MARQ_AVIATOR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'MARQ Aviator';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

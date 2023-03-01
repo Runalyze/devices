@@ -15,12 +15,12 @@ class GarminVivoSmart2 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VIVO_SMART_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'vívosmart 2';
     }

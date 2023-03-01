@@ -15,20 +15,20 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class Mio extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::MIO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Mio';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
-            DeviceProfile::MIO_UNKOWN,
+            DeviceProfile::MIO_UNKNOWN,
         ];
     }
 }

@@ -15,12 +15,12 @@ class OsynceCoachSmart extends AbstractDevice
 {
     use OsynceDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::OSYNCE_COACH_SMART;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'couchsmart';
     }

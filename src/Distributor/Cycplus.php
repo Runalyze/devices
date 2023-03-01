@@ -13,17 +13,17 @@ namespace Runalyze\Devices\Distributor;
 
 class Cycplus extends AbstractDistributor
 {
-    public function getEnum()
+    public function getEnum(): int
     {
         return DistributorProfile::CYCPLUS;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Cycplus';
     }
 
-    public function getDeviceEnumList()
+    public function getDeviceEnumList(): array
     {
         return [
         ];

@@ -23,7 +23,7 @@ class DabuziduoFitSdkMapping
         return [
             11 => DeviceProfile::DABUZIDUO_XOSS_G_N_3,
             10 => DeviceProfile::DABUZIDUO_XOSS_G_N_4,
-            1 => DeviceProfile::DABUZIDUO_XOSS_G_N_3,
+            1 => DeviceProfile::DABUZIDUO_XOSS_G_N_3
         ];
     }
 

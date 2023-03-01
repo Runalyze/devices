@@ -15,12 +15,12 @@ class SuuntoVyperNovo extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::SUUNTO_VYPER_NOVO;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Vyper Novo';
     }

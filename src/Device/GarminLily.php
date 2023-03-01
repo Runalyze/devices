@@ -15,12 +15,12 @@ class GarminLily extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_LILY;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Lily';
     }
