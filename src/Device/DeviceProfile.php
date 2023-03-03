@@ -1778,4 +1778,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const VDO_M_7_GPS = 585;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_965 = 586;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_265 = 587;
 }
