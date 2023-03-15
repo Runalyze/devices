@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminMarqAthlete2 extends AbstractDevice
+class GarminInstinctCrossoverSolarTactical extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_MARQ_ATHLETE_2;
+        return DeviceProfile::GARMIN_INSTINCT_CROSSOVER_SOLAR_TACTICAL;
     }
 
     public function getName(): string
     {
-        return 'MARQ Athlete (Gen 2)';
+        return 'Instinct Crossover Solar Tactical';
     }
 
     public function hasBarometer(): bool

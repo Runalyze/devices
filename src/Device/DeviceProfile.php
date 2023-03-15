@@ -1784,4 +1784,31 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_FORERUNNER_265 = 587;
+
+    /** @var int */
+    const GARMIN_MARQ_GOLFER = 588;
+
+    /** @var int */
+    const GARMIN_MARQ_GOLFER_2 = 589;
+
+    /** @var int */
+    const GARMIN_VENU_SQ_2 = 590;
+
+    /** @var int */
+    const GARMIN_MARQ_AVIATOR_2 = 591;
+
+    /** @var int */
+    const GARMIN_DESCENT_G_1_SOLAR = 592;
+
+    /** @var int */
+    const GARMIN_INSTINCT_CROSSOVER_SOLAR_TACTICAL = 593;
+
+    /** @var int */
+    const GARMIN_EDGE_EXPLORE_2 = 594;
+
+    /** @var int */
+    const GARMIN_FORERUNNER_265_S = 595;
+
+    /** @var int */
+    const GARMIN_ENDURO_2 = 596;
 }

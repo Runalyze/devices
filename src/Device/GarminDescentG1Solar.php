@@ -15,12 +15,12 @@ class GarminDescentG1Solar extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_DESCENT_G_1_SOLAR;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Descent G1 (Solar)';
     }

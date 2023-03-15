@@ -24,7 +24,7 @@ abstract class AbstractDevice implements DeviceInterface
             'distributor_id' => $this->getDistributorEnum(),
             'distributor' => $this->getDistributor()->getName(),
             'full_name' => $this->getFullName(),
-            'barometer' => $this->hasBarometer()
+            'barometer' => $this->hasBarometer(),
         ];
     }
 

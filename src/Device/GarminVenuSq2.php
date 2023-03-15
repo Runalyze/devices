@@ -15,12 +15,12 @@ class GarminVenuSq2 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_VENU_SQ_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Venu Sq 2';
     }

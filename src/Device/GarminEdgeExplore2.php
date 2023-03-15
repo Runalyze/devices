@@ -15,17 +15,17 @@ class GarminEdgeExplore2 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
-    public function getEnum()
+    public function getEnum(): int
     {
         return DeviceProfile::GARMIN_EDGE_EXPLORE_2;
     }
 
-    public function getName()
+    public function getName(): string
     {
         return 'Edge Explore 2';
     }
 
-    public function hasBarometer()
+    public function hasBarometer(): bool
     {
         return true;
     }

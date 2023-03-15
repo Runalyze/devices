@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminMarqAthlete2 extends AbstractDevice
+class GarminForerunner265S extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_MARQ_ATHLETE_2;
+        return DeviceProfile::GARMIN_FORERUNNER_265_S;
     }
 
     public function getName(): string
     {
-        return 'MARQ Athlete (Gen 2)';
+        return 'Forerunner 265S';
     }
 
     public function hasBarometer(): bool

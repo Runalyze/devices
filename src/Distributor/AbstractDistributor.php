@@ -18,7 +18,7 @@ abstract class AbstractDistributor implements DistributorInterface
         return [
             'id' => $this->getEnum(),
             'name' => $this->getName(),
-            'devices' => $this->getDeviceEnumList()
+            'devices' => $this->getDeviceEnumList(),
         ];
     }
 
