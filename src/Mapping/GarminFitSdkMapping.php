@@ -270,6 +270,7 @@ class GarminFitSdkMapping
             3910 => DeviceProfile::GARMIN_FORERUNNER_945,
             3652 => DeviceProfile::GARMIN_FORERUNNER_945_LTE,
             4024 => DeviceProfile::GARMIN_FORERUNNER_955,
+            4315 => DeviceProfile::GARMIN_FORERUNNER_965,
             3126 => DeviceProfile::GARMIN_INSTINCT,
             3889 => DeviceProfile::GARMIN_INSTINCT_2_S,
             4091 => DeviceProfile::GARMIN_INSTINCT_2_S,
