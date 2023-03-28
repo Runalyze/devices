@@ -107,6 +107,9 @@ class FitMapping
             case 73:
                 return (new WattbikeFitSdkMapping())->toInternal($productId);
                 break;
+            case 16:
+                return (new TimexFitSdkMapping())->toInternal($productId);
+                break;
             default:
                 return null;
         }

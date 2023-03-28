@@ -143,4 +143,7 @@ class DistributorProfile extends AbstractEnum
 
     /** @var int */
     const VDO = 44;
+
+    /** @var int */
+    const MAGENE = 45;
 }

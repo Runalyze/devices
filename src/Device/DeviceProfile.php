@@ -1811,4 +1811,47 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_ENDURO_2 = 596;
+
+    /** @var int */
+    const SUUNTO_D_4_F = 597;
+
+    /** @var int */
+    const WATTBIKE_ATOM_X = 598;
+
+    /** @var int */
+    const TIMEX_IRONMAN_GPS = 599;
+
+    /** @var int */
+    const MAGENE_UNKNOWN = 600;
+
+    /** @var int */
+    const MAGENE_C_406 = 601;
+
+    /** @var int */
+    const APPLE_IPHONE_S_E_3 = 602;
+
+    /** @var int */
+    const APPLE_IPHONE_13 = 603;
+
+    /** @var int */
+    const APPLE_IPHONE_14 = 604;
+
+    /** @var int */
+    const APPLE_IPHONE_13_PRO = 605;
+
+    /** @var int */
+    const APPLE_IPHONE_14_PRO = 606;
+
+    /** @var int */
+    const APPLE_IPHONE_13_PRO_MAX = 607;
+
+    /** @var int */
+    const APPLE_IPHONE_14_PRO_MAX = 608;
+
+    /** @var int */
+    const APPLE_IPHONE_13_MINI = 609;
+
+    /** @var int */
+    const APPLE_IPHONE_14_PLUS = 610;
+
 }
