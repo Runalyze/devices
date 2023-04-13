@@ -1854,4 +1854,24 @@ class DeviceProfile extends AbstractEnum
     /** @var int */
     const APPLE_IPHONE_14_PLUS = 610;
 
+    /** @var int */
+    const GARMIN_EDGE_540 = 611;
+    /** @var int */
+    const GARMIN_EDGE_540_SOLAR = 612;
+    /** @var int */
+    const GARMIN_EDGE_840 = 613;
+    /** @var int */
+    const GARMIN_EDGE_840_SOLAR = 614;
+
+    /** @var int */
+    const GARMIN_D_2_MACH_1 = 615;
+
+    /** @var int */
+    const GARMIN_INSTINCT_CROSSOVER = 616;
+
+    /** @var int */
+    const GARMIN_GPSMAP_67_I = 617;
+
+    /** @var int */
+    const GARMIN_INSTINCT_2_X_SOLAR = 618;
 }
