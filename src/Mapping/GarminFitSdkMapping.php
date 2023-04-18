@@ -78,6 +78,7 @@ class GarminFitSdkMapping
             2261 => DeviceProfile::GARMIN_EDGE_520,
             3349 => DeviceProfile::GARMIN_EDGE_530,
             3121 => DeviceProfile::GARMIN_EDGE_530,
+            4061 => DeviceProfile::GARMIN_EDGE_540,
             625 => DeviceProfile::GARMIN_EDGE_705,
             1169 => DeviceProfile::GARMIN_EDGE_800,
             1386 => DeviceProfile::GARMIN_EDGE_800,
