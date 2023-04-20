@@ -118,6 +118,7 @@ class GarminFitSdkMapping
             3943 => DeviceProfile::GARMIN_EPIX_2,
             3944 => DeviceProfile::GARMIN_EPIX_2,
             2140 => DeviceProfile::GARMIN_ETREX_TOUCH,
+            4201 => DeviceProfile::GARMIN_ETREX_S_E,
             1551 => DeviceProfile::GARMIN_FENIX,
             1967 => DeviceProfile::GARMIN_FENIX_2,
             2050 => DeviceProfile::GARMIN_FENIX_3,

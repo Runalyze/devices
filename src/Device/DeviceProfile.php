@@ -1874,4 +1874,16 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_INSTINCT_2_X_SOLAR = 618;
+
+    /** @var int */
+    const GARMIN_ETREX_S_E = 619;
+
+    /** @var int */
+    const GARMIN_ETREX_10 = 620;
+
+    /** @var int */
+    const GARMIN_ETREX_22_X = 621;
+
+    /** @var int */
+    const GARMIN_ETREX_32_X = 622;
 }

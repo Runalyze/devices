@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminEtrex20X extends AbstractDevice
+class GarminEtrexSE extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_ETREX_20_X;
+        return DeviceProfile::GARMIN_ETREX_S_E;
     }
 
     public function getName(): string
     {
-        return 'eTrex 20 X';
+        return 'eTrex SE';
     }
 }

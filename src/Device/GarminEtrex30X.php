@@ -22,6 +22,6 @@ class GarminEtrex30X extends AbstractDevice
 
     public function getName(): string
     {
-        return 'Etrex 30 X';
+        return 'eTrex 30 X';
     }
 }
