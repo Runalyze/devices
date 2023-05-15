@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminLegacySagaDarthVader extends AbstractDevice
+class GarminLegacyHeroSagaRey extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_LEGACY_SAGA_DARTH_VADER;
+        return DeviceProfile::GARMIN_LEGACY_HERO_SAGA_REY;
     }
 
     public function getName(): string
     {
-        return 'Legcay Saga - Darth Vader';
+        return 'Legcay Hero Saga - Rey';
     }
 
     public function hasBarometer(): bool

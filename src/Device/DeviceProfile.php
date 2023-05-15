@@ -1174,10 +1174,10 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_LEGACY_HERO_CAPTAIN_MARVEL = 385;
 
     /** @var int */
-    const GARMIN_LEGACY_SAGA_DARTH_VADER = 386;
+    const GARMIN_LEGACY_HERO_SAGA_DARTH_VADER = 386;
 
     /** @var int */
-    const GARMIN_LEGACY_SAGA_REY = 387;
+    const GARMIN_LEGACY_HERO_SAGA_REY = 387;
 
     /** @var int */
     const GARMIN_EDGE_EXPLORE = 388;
