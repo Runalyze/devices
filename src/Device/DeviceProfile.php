@@ -1886,4 +1886,10 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const GARMIN_ETREX_32_X = 622;
+
+    /** @var int */
+    const GARMIN_APPROACH_S_70 = 623;
+
+    /** @var int */
+    const SUUNTO_VERTICAL = 624;
 }
