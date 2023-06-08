@@ -1892,4 +1892,11 @@ class DeviceProfile extends AbstractEnum
 
     /** @var int */
     const SUUNTO_VERTICAL = 624;
+
+    /** @var int */
+    const GARMIN_FENIX_7_S_PRO_SAPPHIRE_SOLAR = 625;
+
+    /** @var int */
+    const GARMIN_EPIX_PRO = 626;
+
 }
