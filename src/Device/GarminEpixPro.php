@@ -24,4 +24,9 @@ class GarminEpixPro extends AbstractDevice
     {
         return 'Epix Pro';
     }
+
+    public function hasBarometer(): bool
+    {
+        return true;
+    }
 }
