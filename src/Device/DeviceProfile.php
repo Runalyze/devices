@@ -1899,4 +1899,10 @@ class DeviceProfile extends AbstractEnum
     /** @var int */
     const GARMIN_EPIX_PRO = 626;
 
+    /** @var int */
+    const SIGMA_SPORT_ROX_40 = 627;
+
+    /** @var int */
+    const POLAR_H_9 = 628;
+
 }

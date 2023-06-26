@@ -30,6 +30,7 @@ class PolarFitSdkMapping
             110 => DeviceProfile::POLAR_A_360,
             122 => DeviceProfile::POLAR_M_600,
             123 => DeviceProfile::POLAR_M_200,
+            222 => DeviceProfile::POLAR_H_9,
             133 => DeviceProfile::POLAR_H_10,
             151 => DeviceProfile::POLAR_O_H_1,
             163 => DeviceProfile::POLAR_M_430,

@@ -26,6 +26,7 @@ class SigmaSportFitSdkMapping
             41 => DeviceProfile::SIGMA_SPORT_ROX_110_GPS,
             15 => DeviceProfile::SIGMA_SPORT_ROX_100_GPS,
             49 => DeviceProfile::SIGMA_SPORT_ROX_111_EVO,
+            52 => DeviceProfile::SIGMA_SPORT_ROX_40
         ];
         /*
          * Unknown:
