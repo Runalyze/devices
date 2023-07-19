@@ -11,7 +11,7 @@
 
 namespace Runalyze\Devices\Device;
 
-class SuuntoD4f extends AbstractDevice
+class SuuntoD4F extends AbstractDevice
 {
     use SuuntoDeviceTrait;
 
