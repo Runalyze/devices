@@ -25,6 +25,8 @@ abstract class AbstractDevice implements DeviceInterface
             'distributor' => $this->getDistributor()->getName(),
             'full_name' => $this->getFullName(),
             'barometer' => $this->hasBarometer(),
+            'release' => $this->getReleaseDate()?->format('Y-m-d'),
+            'slug' => $this->getSlug(),
         ];
     }
 
@@ -46,5 +48,15 @@ abstract class AbstractDevice implements DeviceInterface
     public function getNameOfClass(): string
     {
         return static::class;
+    }
+
+    public function getReleaseDate(): ?\DateTimeInterface
+    {
+        return null;
+    }
+
+    final public function getSlug(): string
+    {
+        return DeviceProfile::getSlug($this->getEnum());
     }
 }

@@ -21,4 +21,6 @@ interface DistributorInterface extends \JsonSerializable
      * @return int[]
      */
     public function getDeviceEnumList(): array;
+
+    public function getSlug(): string;
 }

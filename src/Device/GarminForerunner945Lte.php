@@ -29,4 +29,9 @@ class GarminForerunner945Lte extends AbstractDevice
     {
         return true;
     }
+
+    public function getReleaseDate(): ?\DateTimeInterface
+    {
+        return new \DateTimeImmutable('2021-06-02');
+    }
 }

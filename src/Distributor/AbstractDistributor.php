@@ -19,11 +19,17 @@ abstract class AbstractDistributor implements DistributorInterface
             'id' => $this->getEnum(),
             'name' => $this->getName(),
             'devices' => $this->getDeviceEnumList(),
+            'slug' => $this->getSlug(),
         ];
     }
 
     public function getNameOfClass(): string
     {
         return static::class;
+    }
+
+    final public function getSlug(): string
+    {
+        return DistributorProfile::getSlug($this->getEnum());
     }
 }

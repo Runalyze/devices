@@ -11,12 +11,15 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use JetBrains\PhpStorm\ExpectedValues;
 use Runalyze\Common\Enum\AbstractEnum;
 use Runalyze\Common\Enum\AbstractEnumFactoryTrait;
 
 class DistributorProfile extends AbstractEnum
 {
     use AbstractEnumFactoryTrait;
+
+    private static ?array $Slugs = null;
 
     const GARMIN = 1;
     const POLAR = 2;
@@ -61,4 +64,38 @@ class DistributorProfile extends AbstractEnum
     const SCOSCHE = 43;
     const VDO = 44;
     const MAGENE = 45;
+
+    public static function getSlugs(): array
+    {
+        self::generateSlugsArray();
+
+        return self::$Slugs;
+    }
+
+    public static function getSlug(
+        #[ExpectedValues(valuesFromClass: self::class)]
+        int $enum
+    ): string
+    {
+        self::generateSlugsArray();
+
+        return self::$Slugs[$enum] ?? (string)$enum;
+    }
+
+    public static function getEnumBySlug(string $slug): ?int
+    {
+        self::generateSlugsArray();
+
+        return array_flip(self::$Slugs)[$slug] ?? null;
+    }
+
+    private static function generateSlugsArray(): void
+    {
+        if (null === self::$Slugs) {
+            self::$Slugs = array_map(
+                fn(string $enumName) => strtolower(str_replace('_', '-', $enumName)),
+                array_flip(self::getEnum())
+            );
+        }
+    }
 }

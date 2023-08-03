@@ -29,4 +29,9 @@ class GarminFenix3 extends AbstractDevice
     {
         return true;
     }
+
+    public function getReleaseDate(): ?\DateTimeInterface
+    {
+        return new \DateTimeImmutable('2015-02-01');
+    }
 }

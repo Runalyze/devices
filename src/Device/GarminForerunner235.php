@@ -24,4 +24,9 @@ class GarminForerunner235 extends AbstractDevice
     {
         return 'Forerunner 235';
     }
+
+    public function getReleaseDate(): ?\DateTimeInterface
+    {
+        return new \DateTimeImmutable('2015-11-01');
+    }
 }

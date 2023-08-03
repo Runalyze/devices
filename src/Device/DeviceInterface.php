@@ -35,4 +35,8 @@ interface DeviceInterface extends \JsonSerializable
      * @codeCoverageIgnore
      */
     public function hasBarometer(): bool;
+
+    public function getReleaseDate(): ?\DateTimeInterface;
+
+    public function getSlug(): string;
 }

@@ -24,4 +24,9 @@ class GarminForerunner245 extends AbstractDevice
     {
         return 'Forerunner 245';
     }
+
+    public function getReleaseDate(): ?\DateTimeInterface
+    {
+        return new \DateTimeImmutable('2019-04-30');
+    }
 }
