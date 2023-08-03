@@ -29,6 +29,19 @@ class TomTom extends AbstractDistributor
     {
         return [
             DeviceProfile::TOM_TOM_UNKNOWN,
+            DeviceProfile::TOM_TOM_RUNNER_2,
+            DeviceProfile::TOM_TOM_RUNNER_2_CARDIO,
+            DeviceProfile::TOM_TOM_RUNNER_2_CARDIO_MUSIC,
+            DeviceProfile::TOM_TOM_RUNNER_2_MUSIC,
+            DeviceProfile::TOM_TOM_RUNNER_3,
+            DeviceProfile::TOM_TOM_RUNNER_3_CARDIO,
+            DeviceProfile::TOM_TOM_RUNNER_3_CARDIO_MUSIC,
+            DeviceProfile::TOM_TOM_RUNNER_3_MUSIC,
+            DeviceProfile::TOM_TOM_SPARK_3,
+            DeviceProfile::TOM_TOM_SPARK_3_CARDIO,
+            DeviceProfile::TOM_TOM_SPARK_3_CARDIO_MUSIC,
+            DeviceProfile::TOM_TOM_SPARK_3_MUSIC,
+            DeviceProfile::TOM_TOM_ADVENTURER,
         ];
     }
 }

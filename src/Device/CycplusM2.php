@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Device;
 
 class CycplusM2 extends AbstractDevice
 {
-    use BrytonDeviceTrait;
+    use CycplusDeviceTrait;
 
     public function getEnum(): int
     {

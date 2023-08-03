@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Coopso extends AbstractDistributor
 {
     public function getEnum(): int
@@ -26,6 +28,8 @@ class Coopso extends AbstractDistributor
     public function getDeviceEnumList(): array
     {
         return [
+            DeviceProfile::COOPSO_B_C_107,
+            DeviceProfile::COOPSO_B_C_200,
         ];
     }
 }

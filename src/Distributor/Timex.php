@@ -29,6 +29,7 @@ class Timex extends AbstractDistributor
     {
         return [
             DeviceProfile::TIMEX_UNKNOWN,
+            DeviceProfile::TIMEX_IRONMAN_GPS,
         ];
     }
 }

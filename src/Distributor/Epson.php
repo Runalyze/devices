@@ -33,6 +33,11 @@ class Epson extends AbstractDistributor
             DeviceProfile::EPSON_S_F_510_F,
             DeviceProfile::EPSON_S_F_710_S,
             DeviceProfile::EPSON_S_F_810,
+            DeviceProfile::EPSON_PRO_SENSE_57,
+            DeviceProfile::EPSON_PRO_SENSE_307,
+            DeviceProfile::EPSON_PRO_SENSE_347,
+            DeviceProfile::EPSON_PRO_SENSE_367,
+            DeviceProfile::EPSON_PRO_SENSE_17,
             DeviceProfile::EPSON_UNKNOWN,
         ];
     }

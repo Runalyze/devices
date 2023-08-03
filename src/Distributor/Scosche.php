@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Scosche extends AbstractDistributor
 {
     public function getEnum(): int
@@ -26,6 +28,7 @@ class Scosche extends AbstractDistributor
     public function getDeviceEnumList(): array
     {
         return [
-    ];
+            DeviceProfile::SCOSCHE_R_24_H_R_M,
+        ];
     }
 }

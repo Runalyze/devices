@@ -53,6 +53,17 @@ class Polar extends AbstractDistributor
             DeviceProfile::POLAR_VANTAGE_V,
             DeviceProfile::POLAR_VANTAGE_V_TITAN,
             DeviceProfile::POLAR_GRIT_X,
+            DeviceProfile::POLAR_A_370,
+            DeviceProfile::POLAR_O_H_1,
+            DeviceProfile::POLAR_VANTAGE_V_2,
+            DeviceProfile::POLAR_UNITE,
+            DeviceProfile::POLAR_VERITY_SENSE,
+            DeviceProfile::POLAR_GRIT_X_PRO,
+            DeviceProfile::POLAR_PACER,
+            DeviceProfile::POLAR_PACER_PRO,
+            DeviceProfile::POLAR_IGNITE_3,
+            DeviceProfile::POLAR_H_10,
+            DeviceProfile::POLAR_H_9,
         ];
     }
 }

@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Dabuziduo extends AbstractDistributor
 {
     public function getEnum(): int
@@ -26,6 +28,8 @@ class Dabuziduo extends AbstractDistributor
     public function getDeviceEnumList(): array
     {
         return [
+            DeviceProfile::DABUZIDUO_XOSS_G_N_3,
+            DeviceProfile::DABUZIDUO_XOSS_G_N_4,
         ];
     }
 }

@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Samsung extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,9 @@ class Samsung extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::SAMSUNG_GALAXY_WATCH_3,
+            DeviceProfile::SAMSUNG_GALAXY_WATCH_4,
+        ];
     }
 }

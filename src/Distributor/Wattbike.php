@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Wattbike extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,10 @@ class Wattbike extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::WATTBIKE_UNKNOWN,
+            DeviceProfile::WATTBIKE_ATOM,
+            DeviceProfile::WATTBIKE_ATOM_X,
+        ];
     }
 }

@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Kiprun extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,9 @@ class Kiprun extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::KIPRUN_500,
+            DeviceProfile::KIPRUN_900,
+        ];
     }
 }

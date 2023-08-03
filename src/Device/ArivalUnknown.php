@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Device;
 
 class ArivalUnknown extends AbstractDevice
 {
-    use AppDeviceTrait;
+    use ArivalDeviceTrait;
 
     public function getEnum(): int
     {

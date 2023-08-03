@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Vdo extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,8 @@ class Vdo extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::VDO_M_7_GPS,
+        ];
     }
 }

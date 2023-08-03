@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Wahoo extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,14 @@ class Wahoo extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::WAHOO_UNKNOWN,
+            DeviceProfile::WAHOO_ELEMNT,
+            DeviceProfile::WAHOO_ELEMNT_BOLT,
+            DeviceProfile::WAHOO_ELEMNT_ROAM,
+            DeviceProfile::WAHOO_ELEMNT_MINI,
+            DeviceProfile::WAHOO_RIVAL,
+            DeviceProfile::WAHOO_ELEMNT_RIVAL,
+        ];
     }
 }

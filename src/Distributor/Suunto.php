@@ -28,6 +28,7 @@ class Suunto extends AbstractDistributor
     public function getDeviceEnumList(): array
     {
         return [
+            DeviceProfile::SUUNTO_UNKNOWN,
             DeviceProfile::SUUNTO_3_FITNESS,
             DeviceProfile::SUUNTO_M_4,
             DeviceProfile::SUUNTO_M_5,
@@ -38,11 +39,23 @@ class Suunto extends AbstractDistributor
             DeviceProfile::SUUNTO_D_5,
             DeviceProfile::SUUNTO_D_6_I.
             DeviceProfile::SUUNTO_5,
+            DeviceProfile::SUUNTO_5_PEAK,
             DeviceProfile::SUUNTO_7,
             DeviceProfile::SUUNTO_9,
             DeviceProfile::SUUNTO_9_BARO,
             DeviceProfile::SUUNTO_9_PEAK,
             DeviceProfile::SUUNTO_9_PEAK_PRO,
+            DeviceProfile::SUUNTO_T_6_C,
+            DeviceProfile::SUUNTO_T_6_D,
+            DeviceProfile::SUUNTO_T_6,
+            DeviceProfile::SUUNTO_T_4,
+            DeviceProfile::SUUNTO_T_4_C,
+            DeviceProfile::SUUNTO_T_4_D,
+            DeviceProfile::SUUNTO_T_3,
+            DeviceProfile::SUUNTO_T_3_C,
+            DeviceProfile::SUUNTO_T_3_D,
+            DeviceProfile::SUUNTO_D_6_I,
+            DeviceProfile::SUUNTO_D_4_F,
             DeviceProfile::SUUNTO_AMBIT,
             DeviceProfile::SUUNTO_AMBIT_2,
             DeviceProfile::SUUNTO_AMBIT_2_R,
@@ -58,6 +71,14 @@ class Suunto extends AbstractDistributor
             DeviceProfile::SUUNTO_TRAVERSE,
             DeviceProfile::SUUNTO_TRAVERSE_ALPHA,
             DeviceProfile::SUUNTO_SPARTAN_TRAINER_WRIST_H_R,
+            DeviceProfile::SUUNTO_SPARTAN_ULTRA,
+            DeviceProfile::SUUNTO_SPARTAN_SPORT,
+            DeviceProfile::SUUNTO_SPARTAN_SPORT_WRIST_H_R,
+            DeviceProfile::SUUNTO_SPARTAN_SPORT_WRIST_H_R_BARO,
+            DeviceProfile::SUUNTO_SMART_BELT,
+            DeviceProfile::SUUNTO_ZOOP_NOVO,
+            DeviceProfile::SUUNTO_VYPER_NOVO,
+            DeviceProfile::SUUNTO_VERTICAL,
         ];
     }
 }

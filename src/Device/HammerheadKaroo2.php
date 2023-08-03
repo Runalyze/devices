@@ -13,7 +13,7 @@ namespace Runalyze\Devices\Device;
 
 class HammerheadKaroo2 extends AbstractDevice
 {
-    use PolarDeviceTrait;
+    use HammerheadDeviceTrait;
 
     public function getEnum(): int
     {

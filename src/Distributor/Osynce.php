@@ -32,6 +32,7 @@ class Osynce extends AbstractDistributor
             DeviceProfile::OSYNCE_MIX_PRO,
             DeviceProfile::OSYNCE_NAVI_2_COACH,
             DeviceProfile::OSYNCE_NAVI_2_MOVE,
+            DeviceProfile::OSYNCE_COACH_SMART,
             DeviceProfile::OSYNCE_UNKNOWN,
         ];
     }

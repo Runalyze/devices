@@ -45,6 +45,11 @@ class Sigma extends AbstractDistributor
             DeviceProfile::SIGMA_SPORT_RC_1209,
             DeviceProfile::SIGMA_SPORT_RC_1411,
             DeviceProfile::SIGMA_SPORT_RC_MOVE,
+            DeviceProfile::SIGMA_SPORT_ROX_120_SPORT,
+            DeviceProfile::SIGMA_SPORT_ROX_100_GPS,
+            DeviceProfile::SIGMA_SPORT_ROX_110_GPS,
+            DeviceProfile::SIGMA_SPORT_ROX_111_EVO,
+            DeviceProfile::SIGMA_SPORT_ROX_40,
             DeviceProfile::SIGMA_UNKNOWN,
     ];
     }

@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Form extends AbstractDistributor
 {
     public function getEnum(): int
@@ -26,6 +28,7 @@ class Form extends AbstractDistributor
     public function getDeviceEnumList(): array
     {
         return [
+            DeviceProfile::FORM_SMART_SWIM_GOGGLES,
         ];
     }
 }

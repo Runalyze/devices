@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Lezyne extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,15 @@ class Lezyne extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::LEZYNE_MACRO_EASY_GPS,
+            DeviceProfile::LEZYNE_MACRO_PLUS_GPS,
+            DeviceProfile::LEZYNE_MEGA_C_GPS,
+            DeviceProfile::LEZYNE_MEGA_XL_GPS,
+            DeviceProfile::LEZYNE_MINI_GPS,
+            DeviceProfile::LEZYNE_SUPER_PRO_GPS,
+            DeviceProfile::LEZYNE_COLOR_GPS,
+            DeviceProfile::LEZYNE_UNKNOWN,
+        ];
     }
 }

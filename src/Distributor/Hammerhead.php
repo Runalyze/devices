@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Hammerhead extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,9 @@ class Hammerhead extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::HAMMERHEAD_KAROO,
+            DeviceProfile::HAMMERHEAD_KAROO_2,
+        ];
     }
 }

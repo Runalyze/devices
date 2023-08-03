@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Cycplus extends AbstractDistributor
 {
     public function getEnum(): int
@@ -26,6 +28,8 @@ class Cycplus extends AbstractDistributor
     public function getDeviceEnumList(): array
     {
         return [
+            DeviceProfile::CYCPLUS_M1,
+            DeviceProfile::CYCPLUS_M2,
         ];
     }
 }

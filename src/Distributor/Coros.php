@@ -32,6 +32,8 @@ class Coros extends AbstractDistributor
             DeviceProfile::COROS_APEX_PRO,
             DeviceProfile::COROS_APEX_2,
             DeviceProfile::COROS_APEX_2_PRO,
+            DeviceProfile::COROS_APEX_42,
+            DeviceProfile::COROS_APEX_46,
             DeviceProfile::COROS_PACE,
             DeviceProfile::COROS_PACE_2,
             DeviceProfile::COROS_VERTIX,

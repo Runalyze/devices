@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Distributor;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class Arival extends AbstractDistributor
 {
     public function getEnum(): int
@@ -25,6 +27,8 @@ class Arival extends AbstractDistributor
 
     public function getDeviceEnumList(): array
     {
-        return [];
+        return [
+            DeviceProfile::ARIVAL_UNKNOWN,
+        ];
     }
 }

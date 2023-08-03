@@ -29,6 +29,7 @@ class Magene extends AbstractDistributor
     {
         return [
             DeviceProfile::MAGENE_UNKNOWN,
+            DeviceProfile::MAGENE_C_406,
         ];
     }
 }
