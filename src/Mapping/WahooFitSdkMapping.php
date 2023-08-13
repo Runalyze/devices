@@ -22,7 +22,11 @@ class WahooFitSdkMapping
     {
         return [
             0 => DeviceProfile::WAHOO_UNKNOWN,
+            8 => DeviceProfile::WAHOO_TICKR,
             28 => DeviceProfile::WAHOO_ELEMNT,
+            33 => DeviceProfile::WAHOO_ELEMNT_RIVAL,
+            43 => DeviceProfile::WAHOO_ELEMNT_BOLT,
+            47 => DeviceProfile::WAHOO_ELEMNT_ROAM,
             31 => DeviceProfile::WAHOO_ELEMNT_BOLT,
             37 => DeviceProfile::WAHOO_ELEMNT_ROAM,
         ];

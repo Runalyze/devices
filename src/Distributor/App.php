@@ -81,6 +81,7 @@ class App extends AbstractDistributor
             DeviceProfile::APP_XERT,
             DeviceProfile::APP_TACX,
             DeviceProfile::APP_ROUVY,
+            DeviceProfile::APP_BREAKAWAY,
         ];
     }
 }

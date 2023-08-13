@@ -13,25 +13,19 @@ namespace Runalyze\Devices\Mapping;
 
 use Runalyze\Devices\Device\DeviceProfile;
 
-class SigmaSportFitSdkMapping
+class TacxFitSdkMapping
 {
     /** @var int[]|string[] */
     protected $Mapping = [];
 
     protected function getMapping()
     {
+        //Seems like not only used by Tacx
         return [
-            46 => DeviceProfile::SIGMA_SPORT_ID_TRI,
-            44 => DeviceProfile::SIGMA_SPORT_ROX_120_SPORT,
-            41 => DeviceProfile::SIGMA_SPORT_ROX_110_GPS,
-            15 => DeviceProfile::SIGMA_SPORT_ROX_100_GPS,
-            49 => DeviceProfile::SIGMA_SPORT_ROX_111_EVO,
-            52 => DeviceProfile::SIGMA_SPORT_ROX_40,
-        ];
-        /*
-         * Unknown:
-         * 46
-         */
+            4274 => DeviceProfile::APP_ROUVY,
+            3111 => DeviceProfile::APP_BREAKAWAY,
+            30045 => DeviceProfile::APP_IP_BIKE,
+            ];
     }
 
     public function __construct()

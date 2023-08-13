@@ -46,6 +46,7 @@ class GarminFitSdkMapping
             2187 => DeviceProfile::GARMIN_D_2_AIR,
             3198 => DeviceProfile::GARMIN_D_2_DELTA_P_X,
             3196 => DeviceProfile::GARMIN_D_2_DELTA_S,
+            3197 => DeviceProfile::GARMIN_D_2_DELTA,
             2262 => DeviceProfile::GARMIN_D_2_BRAVO,
             2547 => DeviceProfile::GARMIN_D_2_BRAVO_TITANIUM,
             2819 => DeviceProfile::GARMIN_D_2_CHARLIE,

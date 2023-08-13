@@ -89,6 +89,9 @@ class FitMapping
                 break;
             case 135:
                 return (new CoopsoFitSdkMapping())->toInternal($productId);
+            case 89:
+                return (new TacxFitSdkMapping())->toInternal($productId);
+                break;
             case 123:
                 return (new PolarFitSdkMapping())->toInternal($productId);
                 break;
@@ -98,12 +101,14 @@ class FitMapping
             case 106:
                 return (new FitcareFitSdkMapping())->toInternal($productId);
                 break;
+            case 107:
+                return (new MageneFitSdkMapping())->toInternal($productId);
+                break;
             case 132:
                 return (new CycplusFitSdkMapping())->toInternal($productId);
                 break;
             case 309:
                 return DeviceProfile::FORM_SMART_SWIM_GOGGLES;
-                break;
             case 73:
                 return (new WattbikeFitSdkMapping())->toInternal($productId);
                 break;

@@ -35,6 +35,7 @@ class Wahoo extends AbstractDistributor
             DeviceProfile::WAHOO_ELEMNT_MINI,
             DeviceProfile::WAHOO_RIVAL,
             DeviceProfile::WAHOO_ELEMNT_RIVAL,
+            DeviceProfile::WAHOO_TICKR,
         ];
     }
 }

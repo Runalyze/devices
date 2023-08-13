@@ -75,11 +75,10 @@ class DistributorProfile extends AbstractEnum
     public static function getSlug(
         #[ExpectedValues(valuesFromClass: self::class)]
         int $enum
-    ): string
-    {
+    ): string {
         self::generateSlugsArray();
 
-        return self::$Slugs[$enum] ?? (string)$enum;
+        return self::$Slugs[$enum] ?? (string) $enum;
     }
 
     public static function getEnumBySlug(string $slug): ?int
@@ -93,7 +92,7 @@ class DistributorProfile extends AbstractEnum
     {
         if (null === self::$Slugs) {
             self::$Slugs = array_map(
-                fn(string $enumName) => strtolower(str_replace('_', '-', $enumName)),
+                fn (string $enumName) => strtolower(str_replace('_', '-', $enumName)),
                 array_flip(self::getEnum())
             );
         }

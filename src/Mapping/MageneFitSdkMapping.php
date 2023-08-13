@@ -22,6 +22,8 @@ class MageneFitSdkMapping
     {
         return [
             96 => DeviceProfile::MAGENE_C_406,
+            98 => DeviceProfile::MAGENE_C_406_PRO,
+            100 => DeviceProfile::MAGENE_C_206_PRO,
         ];
     }
 

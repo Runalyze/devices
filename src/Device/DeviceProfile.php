@@ -651,6 +651,12 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_EPIX_PRO = 626;
     const SIGMA_SPORT_ROX_40 = 627;
     const POLAR_H_9 = 628;
+    const GARMIN_EDGE_205 = 629;
+    const GARMIN_D_2_DELTA = 630;
+    const MAGENE_C_206_PRO = 631;
+    const MAGENE_C_406_PRO = 632;
+    const WAHOO_TICKR = 633;
+    const APP_BREAKAWAY = 634;
 
     public static function getSlugs(): array
     {
@@ -662,11 +668,10 @@ class DeviceProfile extends AbstractEnum
     public static function getSlug(
         #[ExpectedValues(valuesFromClass: self::class)]
         int $enum
-    ): string
-    {
+    ): string {
         self::generateSlugsArray();
 
-        return self::$Slugs[$enum] ?? (string)$enum;
+        return self::$Slugs[$enum] ?? (string) $enum;
     }
 
     public static function getEnumBySlug(string $slug): ?int
@@ -680,7 +685,7 @@ class DeviceProfile extends AbstractEnum
     {
         if (null === self::$Slugs) {
             self::$Slugs = array_map(
-                fn(string $enumName) => strtolower(str_replace('_', '-', $enumName)),
+                fn (string $enumName) => strtolower(str_replace('_', '-', $enumName)),
                 array_flip(self::getEnum())
             );
         }
