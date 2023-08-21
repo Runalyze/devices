@@ -37,8 +37,6 @@ class Suunto extends AbstractDistributor
             DeviceProfile::SUUNTO_X_10,
             DeviceProfile::SUUNTO_D_4_I,
             DeviceProfile::SUUNTO_D_5,
-            DeviceProfile::SUUNTO_D_6_I.
-            DeviceProfile::SUUNTO_5,
             DeviceProfile::SUUNTO_5_PEAK,
             DeviceProfile::SUUNTO_7,
             DeviceProfile::SUUNTO_9,
