@@ -22,7 +22,7 @@ class GarminVenu3 extends AbstractDevice
 
     public function getName(): string
     {
-        return 'Venu 3';
+        return 'Venu 3(S)';
     }
 
     public function hasBarometer(): bool
