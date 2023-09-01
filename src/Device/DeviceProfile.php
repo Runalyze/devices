@@ -658,6 +658,10 @@ class DeviceProfile extends AbstractEnum
     const WAHOO_TICKR = 633;
     const APP_BREAKAWAY = 634;
 
+    const FITBIT_VERSA_4 = 635;
+    const COROS_PACE_3 = 636;
+    const GARMIN_VENU_3 = 637;
+
     public static function getSlugs(): array
     {
         self::generateSlugsArray();

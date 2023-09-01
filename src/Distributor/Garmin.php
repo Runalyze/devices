@@ -224,6 +224,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_ENDURO,
             DeviceProfile::GARMIN_VENU_2,
             DeviceProfile::GARMIN_VENU_2_PLUS,
+            DeviceProfile::GARMIN_VENU_3,
             DeviceProfile::GARMIN_HRM_PRO,
             DeviceProfile::GARMIN_FENIX_6_S_SOLAR,
             DeviceProfile::GARMIN_FENIX_6_S_PRO_SOLAR,

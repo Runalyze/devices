@@ -47,6 +47,7 @@ class Fitbit extends AbstractDistributor
             DeviceProfile::FITBIT_ULTRA,
             DeviceProfile::FITBIT_VERSA,
             DeviceProfile::FITBIT_VERSA_3,
+            DeviceProfile::FITBIT_VERSA_4,
             DeviceProfile::FITBIT_SENSE,
             DeviceProfile::FITBIT_ZIP,
             DeviceProfile::FITBIT_UNKNOWN,
