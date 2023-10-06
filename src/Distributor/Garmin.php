@@ -131,6 +131,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_VIVO_ACTIVE_3_MUSIC,
             DeviceProfile::GARMIN_VIVO_ACTIVE_4,
             DeviceProfile::GARMIN_VIVO_ACTIVE_4_S,
+            DeviceProfile::GARMIN_VIVO_ACTIVE_5,
             DeviceProfile::GARMIN_VIVO_ACTIVE_H_R,
             DeviceProfile::GARMIN_VIVO_FIT,
             DeviceProfile::GARMIN_VIVO_FIT_2,

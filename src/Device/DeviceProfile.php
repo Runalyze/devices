@@ -662,6 +662,19 @@ class DeviceProfile extends AbstractEnum
     const COROS_PACE_3 = 636;
     const GARMIN_VENU_3 = 637;
 
+    const FITBIT_CHARGE_6 = 638;
+    const GARMIN_VIVO_ACTIVE_5 = 639;
+    const APPLE_WATCH_9_V_41 = 640;
+    const APPLE_WATCH_9_V_41_CELLULAR = 641;
+    const APPLE_WATCH_9_V_45_CELLULAR = 642;
+    const APPLE_WATCH_9_V_45 = 643;
+
+    const APPLE_WATCH_ULTRA_2 = 644;
+    const APPLE_IPHONE_15 = 645;
+    const APPLE_IPHONE_15_PRO = 646;
+    const APPLE_IPHONE_15_PRO_MAX = 647;
+    const APPLE_IPHONE_15_PLUS = 648;
+
     public static function getSlugs(): array
     {
         self::generateSlugsArray();
