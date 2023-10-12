@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminVenu3 extends AbstractDevice
+class GarminTactix7Amoled extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_VENU_3;
+        return DeviceProfile::GARMIN_TACTIX_7_AMOLED;
     }
 
     public function getName(): string
     {
-        return 'Venu 3';
+        return 'Tactix 7 Amoled';
     }
 
     public function hasBarometer(): bool

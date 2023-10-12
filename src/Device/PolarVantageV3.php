@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminVenu3 extends AbstractDevice
+class PolarVantageV3 extends AbstractDevice
 {
-    use GarminDeviceTrait;
+    use PolarDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_VENU_3;
+        return DeviceProfile::POLAR_VANTAGE_V_3;
     }
 
     public function getName(): string
     {
-        return 'Venu 3';
+        return 'Vantage V3';
     }
 
     public function hasBarometer(): bool

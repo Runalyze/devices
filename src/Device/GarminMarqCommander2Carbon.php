@@ -11,18 +11,18 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminVenu3 extends AbstractDevice
+class GarminMarqCommander2Carbon extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_VENU_3;
+        return DeviceProfile::GARMIN_MARQ_COMMANDER_2_CARBON;
     }
 
     public function getName(): string
     {
-        return 'Venu 3';
+        return 'MARQ Commander (Gen 2) Carbon';
     }
 
     public function hasBarometer(): bool

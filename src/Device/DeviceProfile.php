@@ -674,6 +674,11 @@ class DeviceProfile extends AbstractEnum
     const APPLE_IPHONE_15_PRO = 646;
     const APPLE_IPHONE_15_PRO_MAX = 647;
     const APPLE_IPHONE_15_PLUS = 648;
+    const POLAR_VANTAGE_V_3 = 649;
+    const GARMIN_TACTIX_7_AMOLED = 650;
+    const GARMIN_MARQ_COMMANDER_2_CARBON = 651;
+    const GARMIN_VENU_3_S = 652;
+    const GARMIN_VIVO_MOVE_TREND = 653;
 
     public static function getSlugs(): array
     {

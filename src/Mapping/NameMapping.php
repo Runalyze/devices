@@ -45,6 +45,7 @@ class NameMapping
             'coros apex pro' => DeviceProfile::COROS_APEX_PRO,
             'coros apex' => DeviceProfile::COROS_APEX,
             'coros pace 2' => DeviceProfile::COROS_PACE_2,
+            'coros pace 3' => DeviceProfile::COROS_PACE_3,
             'coros pace' => DeviceProfile::COROS_PACE,
             'coros vertix 2' => DeviceProfile::COROS_VERTIX_2,
             'coros vertix' => DeviceProfile::COROS_VERTIX,

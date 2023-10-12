@@ -278,6 +278,10 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_ETREX_32_X,
             DeviceProfile::GARMIN_APPROACH_S_70,
             DeviceProfile::GARMIN_EPIX_PRO,
+            DeviceProfile::GARMIN_TACTIX_7_AMOLED,
+            DeviceProfile::GARMIN_MARQ_COMMANDER_2_CARBON,
+            DeviceProfile::GARMIN_VENU_3_S,
+            DeviceProfile::GARMIN_VIVO_MOVE_TREND
         ];
     }
 }
