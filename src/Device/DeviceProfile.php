@@ -679,6 +679,7 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_MARQ_COMMANDER_2_CARBON = 651;
     const GARMIN_VENU_3_S = 652;
     const GARMIN_VIVO_MOVE_TREND = 653;
+    const SUUNTO_RACE = 654;
 
     public static function getSlugs(): array
     {
