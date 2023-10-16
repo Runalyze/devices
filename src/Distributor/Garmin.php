@@ -209,6 +209,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_FORETREX_501,
             DeviceProfile::GARMIN_FORETREX_601,
             DeviceProfile::GARMIN_FORETREX_701,
+            DeviceProfile::GARMIN_FORETREX_801,
             DeviceProfile::GARMIN_GPSMAP_66,
             DeviceProfile::GARMIN_INSTINCT_SOLAR,
             DeviceProfile::GARMIN_VENU_SQ,

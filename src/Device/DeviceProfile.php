@@ -657,18 +657,15 @@ class DeviceProfile extends AbstractEnum
     const MAGENE_C_406_PRO = 632;
     const WAHOO_TICKR = 633;
     const APP_BREAKAWAY = 634;
-
     const FITBIT_VERSA_4 = 635;
     const COROS_PACE_3 = 636;
     const GARMIN_VENU_3 = 637;
-
     const FITBIT_CHARGE_6 = 638;
     const GARMIN_VIVO_ACTIVE_5 = 639;
     const APPLE_WATCH_9_V_41 = 640;
     const APPLE_WATCH_9_V_41_CELLULAR = 641;
     const APPLE_WATCH_9_V_45_CELLULAR = 642;
     const APPLE_WATCH_9_V_45 = 643;
-
     const APPLE_WATCH_ULTRA_2 = 644;
     const APPLE_IPHONE_15 = 645;
     const APPLE_IPHONE_15_PRO = 646;
@@ -680,6 +677,7 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_VENU_3_S = 652;
     const GARMIN_VIVO_MOVE_TREND = 653;
     const SUUNTO_RACE = 654;
+    const GARMIN_FORETREX_801 = 655;
 
     public static function getSlugs(): array
     {
