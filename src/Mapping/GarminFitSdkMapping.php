@@ -1,4 +1,3 @@
-
 <?php
 
 /*
@@ -114,6 +113,7 @@ class GarminFitSdkMapping
             3570 => DeviceProfile::GARMIN_EDGE_1030_PLUS,
             2924 => DeviceProfile::GARMIN_EDGE_1030,
             4305 => DeviceProfile::GARMIN_EDGE_1040_SOLAR,
+            3841 => DeviceProfile::GARMIN_EDGE_1040,
             3638 => DeviceProfile::GARMIN_ENDURO,
             3872 => DeviceProfile::GARMIN_ENDURO,
             4341 => DeviceProfile::GARMIN_ENDURO_2,
@@ -187,6 +187,7 @@ class GarminFitSdkMapping
             3905 => DeviceProfile::GARMIN_FENIX_7_S_SAPPHIRE_SOLAR,
             3908 => DeviceProfile::GARMIN_FENIX_7_S_SAPPHIRE_SOLAR,
             4374 => DeviceProfile::GARMIN_FENIX_7_S_PRO_SAPPHIRE_SOLAR,
+            4375 => DeviceProfile::GARMIN_FENIX_7_PRO_SOLAR,
             1482 => DeviceProfile::GARMIN_FORERUNNER_10,
             1688 => DeviceProfile::GARMIN_FORERUNNER_10,
             1903 => DeviceProfile::GARMIN_FORERUNNER_15,

@@ -678,6 +678,8 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_VIVO_MOVE_TREND = 653;
     const SUUNTO_RACE = 654;
     const GARMIN_FORETREX_801 = 655;
+    const GARMIN_EDGE_1040 = 656;
+    const GARMIN_FENIX_7_PRO_SOLAR = 657;
 
     public static function getSlugs(): array
     {

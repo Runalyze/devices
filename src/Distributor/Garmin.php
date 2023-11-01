@@ -282,7 +282,9 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_TACTIX_7_AMOLED,
             DeviceProfile::GARMIN_MARQ_COMMANDER_2_CARBON,
             DeviceProfile::GARMIN_VENU_3_S,
-            DeviceProfile::GARMIN_VIVO_MOVE_TREND
+            DeviceProfile::GARMIN_VIVO_MOVE_TREND,
+            DeviceProfile::GARMIN_EDGE_1040,
+            DeviceProfile::GARMIN_FENIX_7_PRO_SOLAR
         ];
     }
 }
