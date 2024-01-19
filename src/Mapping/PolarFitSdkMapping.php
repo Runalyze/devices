@@ -42,7 +42,7 @@ class PolarFitSdkMapping
             217 => DeviceProfile::POLAR_GRIT_X,
             225 => DeviceProfile::POLAR_UNITE,
             230 => DeviceProfile::POLAR_VANTAGE_V_2,
-            263 => DeviceProfile::POLAR_VANTAGE_V_2,
+            263 => DeviceProfile::POLAR_VANTAGE_V_3,
             235 => DeviceProfile::POLAR_VERITY_SENSE,
             236 => DeviceProfile::POLAR_VANTAGE_M_2,
             241 => DeviceProfile::POLAR_IGNITE_2,
