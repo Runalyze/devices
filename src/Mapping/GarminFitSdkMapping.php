@@ -52,6 +52,7 @@ class GarminFitSdkMapping
             2547 => DeviceProfile::GARMIN_D_2_BRAVO_TITANIUM,
             2819 => DeviceProfile::GARMIN_D_2_CHARLIE,
             4079 => DeviceProfile::GARMIN_D_2_MACH_1,
+            4556 => DeviceProfile::GARMIN_D_2_MACH_1_PRO,
             3011 => DeviceProfile::GARMIN_EDGE_EXPLORE,
             2204 => DeviceProfile::GARMIN_EDGE_EXPLORE_1000,
             2531 => DeviceProfile::GARMIN_EDGE_EXPLORE_820,

@@ -250,6 +250,8 @@ class NameMapping
             'xert' => DeviceProfile::APP_XERT,
             'zwift run' => DeviceProfile::APP_ZWIFT,
             'zwift' => DeviceProfile::APP_ZWIFT,
+            'marq_athlete' => DeviceProfile::GARMIN_MARQ_ATHLETE,
+            'fenix3_hr	' => DeviceProfile::GARMIN_FENIX_3_H_R
         ];
     }
 
