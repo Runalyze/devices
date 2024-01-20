@@ -122,6 +122,7 @@ class GarminFitSdkMapping
             2457 => DeviceProfile::GARMIN_EPIX,
             3943 => DeviceProfile::GARMIN_EPIX_2,
             3944 => DeviceProfile::GARMIN_EPIX_2,
+            4313 => DeviceProfile::GARMIN_EPIX_2_PRO,
             4312 => DeviceProfile::GARMIN_EPIX_PRO,
             4314 => DeviceProfile::GARMIN_EPIX_PRO,
             2140 => DeviceProfile::GARMIN_ETREX_TOUCH,
