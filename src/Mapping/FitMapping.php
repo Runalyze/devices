@@ -87,6 +87,9 @@ class FitMapping
             case 505:
                 return DeviceProfile::MIO_UNKNOWN;
                 break;
+            case 1231:
+                return DeviceProfile::APP_THE_SUFFERFEST;
+                break;
             case 135:
                 return (new CoopsoFitSdkMapping())->toInternal($productId);
             case 89:

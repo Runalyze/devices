@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Mapping;
 
+use Doctrine\Deprecations\PHPUnit\VerifyDeprecations;
+use Runalyze\Devices\Device\AppGarminTrainingCenter;
 use Runalyze\Devices\Device\DeviceProfile;
 
 class NameMapping
@@ -43,6 +45,7 @@ class NameMapping
             'bkool' => DeviceProfile::APP_BKOOL,
             'bryton' => DeviceProfile::BRYTON_UNKNOWN,
             'coros apex pro' => DeviceProfile::COROS_APEX_PRO,
+            'coros apex 42mm' => DeviceProfile::COROS_APEX_42,
             'coros apex' => DeviceProfile::COROS_APEX,
             'coros pace 2' => DeviceProfile::COROS_PACE_2,
             'coros pace 3' => DeviceProfile::COROS_PACE_3,
@@ -236,6 +239,7 @@ class NameMapping
             'suunto ambit2 s' => DeviceProfile::SUUNTO_AMBIT_2_S,
             'suunto ambit2' => DeviceProfile::SUUNTO_AMBIT_2,
             'suunto ambit3 peak' => DeviceProfile::SUUNTO_AMBIT_3_PEAK,
+            'suunto spartan trainer wrist hr' => DeviceProfile::SUUNTO_SPARTAN_TRAINER_WRIST_H_R,
             'tacx app' => DeviceProfile::APP_TACX,
             'the sufferfest training system' => DeviceProfile::APP_THE_SUFFERFEST,
             'trailrunner' => DeviceProfile::APP_TRAIL_RUNNER,

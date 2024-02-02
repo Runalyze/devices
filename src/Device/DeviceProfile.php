@@ -682,6 +682,7 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_FENIX_7_PRO_SOLAR = 657;
     const GARMIN_EPIX_2_PRO = 658;
     const GARMIN_D_2_MACH_1_PRO = 659;
+    const APP_FITNESS_POINT = 660;
 
     public static function getSlugs(): array
     {
