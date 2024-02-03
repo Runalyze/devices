@@ -11,6 +11,8 @@
 
 namespace Runalyze\Devices\Mapping;
 
+use Runalyze\Devices\Device\DeviceProfile;
+
 class LezyneFitSdkMapping
 {
     /** @var int[]|string[] */
@@ -19,11 +21,14 @@ class LezyneFitSdkMapping
     protected function getMapping()
     {
         return [
+            4 => DeviceProfile::LEZYNE_SUPER_GPS,
+            5 => DeviceProfile::LEZYNE_MACRO_GPS,
+            7 => DeviceProfile::LEZYNE_MICRO_C_GPS,
+            11 => DeviceProfile::LEZYNE_MEGA_GPS,
+            12 => DeviceProfile::LEZYNE_MEGA_C_GPS,
+            13 => DeviceProfile::LEZYNE_SUPER_PRO_GPS,
+            68 => DeviceProfile::LEZYNE_MICRO_W_GPS,
         ];
-        /*
-         * Unknown:
-         * 13
-         */
     }
 
     public function __construct()

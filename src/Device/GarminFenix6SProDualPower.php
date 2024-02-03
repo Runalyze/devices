@@ -11,17 +11,22 @@
 
 namespace Runalyze\Devices\Device;
 
-class LezyneSuperProGps extends AbstractDevice
+class GarminFenix6SProDualPower extends AbstractDevice
 {
-    use LezyneDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::LEZYNE_SUPER_PRO_GPS;
+        return DeviceProfile::GARMIN_FENIX_6_S_PRO_DUAL_POWER;
     }
 
     public function getName(): string
     {
-        return 'Super Pro GPS';
+        return 'Fenix 6S PRO Dual Power';
+    }
+
+    public function hasBarometer(): bool
+    {
+        return true;
     }
 }

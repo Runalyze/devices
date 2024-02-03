@@ -21,6 +21,7 @@ class HammerheadFitSdkMapping
     protected function getMapping()
     {
         return [
+            1 => DeviceProfile::HAMMERHEAD_KAROO,
             2 => DeviceProfile::HAMMERHEAD_KAROO_2,
         ];
     }

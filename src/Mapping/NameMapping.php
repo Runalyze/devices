@@ -11,8 +11,6 @@
 
 namespace Runalyze\Devices\Mapping;
 
-use Doctrine\Deprecations\PHPUnit\VerifyDeprecations;
-use Runalyze\Devices\Device\AppGarminTrainingCenter;
 use Runalyze\Devices\Device\DeviceProfile;
 
 class NameMapping
@@ -255,7 +253,7 @@ class NameMapping
             'zwift run' => DeviceProfile::APP_ZWIFT,
             'zwift' => DeviceProfile::APP_ZWIFT,
             'marq_athlete' => DeviceProfile::GARMIN_MARQ_ATHLETE,
-            'fenix3_hr	' => DeviceProfile::GARMIN_FENIX_3_H_R
+            'fenix3_hr	' => DeviceProfile::GARMIN_FENIX_3_H_R,
         ];
     }
 

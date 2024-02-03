@@ -284,7 +284,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_VENU_3_S,
             DeviceProfile::GARMIN_VIVO_MOVE_TREND,
             DeviceProfile::GARMIN_EDGE_1040,
-            DeviceProfile::GARMIN_FENIX_7_PRO_SOLAR
+            DeviceProfile::GARMIN_FENIX_7_PRO_SOLAR,
         ];
     }
 }

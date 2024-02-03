@@ -11,17 +11,22 @@
 
 namespace Runalyze\Devices\Device;
 
-class LezyneSuperProGps extends AbstractDevice
+class GarminDescentMk3I extends AbstractDevice
 {
-    use LezyneDeviceTrait;
+    use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::LEZYNE_SUPER_PRO_GPS;
+        return DeviceProfile::GARMIN_DESCENT_MK_3_I;
     }
 
     public function getName(): string
     {
-        return 'Super Pro GPS';
+        return 'Descent MK3i';
+    }
+
+    public function hasBarometer(): bool
+    {
+        return true;
     }
 }

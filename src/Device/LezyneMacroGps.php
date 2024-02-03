@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class LezyneSuperProGps extends AbstractDevice
+class LezyneMacroGps extends AbstractDevice
 {
     use LezyneDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::LEZYNE_SUPER_PRO_GPS;
+        return DeviceProfile::LEZYNE_MACRO_GPS;
     }
 
     public function getName(): string
     {
-        return 'Super Pro GPS';
+        return 'MARCO GPS';
     }
 }

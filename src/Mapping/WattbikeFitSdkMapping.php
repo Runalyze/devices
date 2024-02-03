@@ -23,6 +23,8 @@ class WattbikeFitSdkMapping
         return [
             0 => DeviceProfile::WATTBIKE_UNKNOWN,
             26 => DeviceProfile::WATTBIKE_ATOM,
+            29 => DeviceProfile::WATTBIKE_ICON,
+            30 => DeviceProfile::WATTBIKE_ATOM_X,
         ];
     }
 

@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class LezyneSuperProGps extends AbstractDevice
+class WattbikeIcon extends AbstractDevice
 {
-    use LezyneDeviceTrait;
+    use WattbikeDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::LEZYNE_SUPER_PRO_GPS;
+        return DeviceProfile::WATTBIKE_ICON;
     }
 
     public function getName(): string
     {
-        return 'Super Pro GPS';
+        return 'Icon';
     }
 }

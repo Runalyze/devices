@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class LezyneSuperProGps extends AbstractDevice
+class MageneC206 extends AbstractDevice
 {
-    use LezyneDeviceTrait;
+    use MageneDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::LEZYNE_SUPER_PRO_GPS;
+        return DeviceProfile::MAGENE_C_206;
     }
 
     public function getName(): string
     {
-        return 'Super Pro GPS';
+        return 'C206';
     }
 }

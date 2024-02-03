@@ -21,9 +21,13 @@ class MageneFitSdkMapping
     protected function getMapping()
     {
         return [
+            //22 - unknown
             96 => DeviceProfile::MAGENE_C_406,
             98 => DeviceProfile::MAGENE_C_406_PRO,
+            99 => DeviceProfile::MAGENE_C_406_LITE,
             100 => DeviceProfile::MAGENE_C_206_PRO,
+            102 => DeviceProfile::MAGENE_C_206,
+            262 => DeviceProfile::MAGENE_C_606,
         ];
     }
 

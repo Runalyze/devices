@@ -683,6 +683,17 @@ class DeviceProfile extends AbstractEnum
     const GARMIN_EPIX_2_PRO = 658;
     const GARMIN_D_2_MACH_1_PRO = 659;
     const APP_FITNESS_POINT = 660;
+    const MAGENE_C_606 = 661;
+    const MAGENE_C_206 = 662;
+    const MAGENE_C_406_LITE = 663;
+    const WATTBIKE_ICON = 664;
+    const GARMIN_DESCENT_MK_3_I = 665;
+    const GARMIN_FENIX_6_S_PRO_DUAL_POWER = 666;
+    const LEZYNE_MICRO_C_GPS = 667;
+    const LEZYNE_MICRO_W_GPS = 668;
+    const LEZYNE_SUPER_GPS = 669;
+    const LEZYNE_MEGA_GPS = 670;
+    const LEZYNE_MACRO_GPS = 671;
 
     public static function getSlugs(): array
     {

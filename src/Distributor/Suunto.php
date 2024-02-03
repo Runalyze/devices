@@ -78,7 +78,7 @@ class Suunto extends AbstractDistributor
             DeviceProfile::SUUNTO_VYPER_NOVO,
             DeviceProfile::SUUNTO_VERTICAL,
             DeviceProfile::SUUNTO_5,
-            DeviceProfile::SUUNTO_RACE
+            DeviceProfile::SUUNTO_RACE,
         ];
     }
 }
