@@ -214,6 +214,7 @@ class GarminFitSdkMapping
             1436 => DeviceProfile::GARMIN_FORERUNNER_70,
             1124 => DeviceProfile::GARMIN_FORERUNNER_110,
             1274 => DeviceProfile::GARMIN_FORERUNNER_110,
+            4432 => DeviceProfile::GARMIN_FORERUNNER_165,
             1360 => DeviceProfile::GARMIN_FORERUNNER_210,
             1632 => DeviceProfile::GARMIN_FORERUNNER_220,
             3187 => DeviceProfile::GARMIN_FORERUNNER_220,

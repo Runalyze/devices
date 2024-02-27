@@ -694,6 +694,8 @@ class DeviceProfile extends AbstractEnum
     const LEZYNE_SUPER_GPS = 669;
     const LEZYNE_MEGA_GPS = 670;
     const LEZYNE_MACRO_GPS = 671;
+    const GARMIN_FORERUNNER_165 = 672;
+    const GARMIN_FORERUNNER_165_MUSIC = 673;
 
     public static function getSlugs(): array
     {
