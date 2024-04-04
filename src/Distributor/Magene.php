@@ -32,6 +32,9 @@ class Magene extends AbstractDistributor
             DeviceProfile::MAGENE_C_406,
             DeviceProfile::MAGENE_C_406_PRO,
             DeviceProfile::MAGENE_C_206_PRO,
+            DeviceProfile::MAGENE_C_606,
+            DeviceProfile::MAGENE_C_206,
+            DeviceProfile::MAGENE_C_406_LITE,
         ];
     }
 }

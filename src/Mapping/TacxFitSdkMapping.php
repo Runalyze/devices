@@ -20,12 +20,12 @@ class TacxFitSdkMapping
 
     protected function getMapping()
     {
-        //Seems like not only used by Tacx
+        // Seems like not only used by Tacx
         return [
             4274 => DeviceProfile::APP_ROUVY,
             3111 => DeviceProfile::APP_BREAKAWAY,
             30045 => DeviceProfile::APP_IP_BIKE,
-            ];
+        ];
     }
 
     public function __construct()

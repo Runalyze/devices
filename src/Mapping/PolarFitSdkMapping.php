@@ -21,6 +21,8 @@ class PolarFitSdkMapping
     protected function getMapping()
     {
         return [
+            1 => DeviceProfile::POLAR_LOOP,
+            100 => DeviceProfile::POLAR_LOOP_2,
             13 => DeviceProfile::POLAR_V_800,
             19 => DeviceProfile::POLAR_V_650,
             22 => DeviceProfile::POLAR_M_400,
@@ -51,6 +53,7 @@ class PolarFitSdkMapping
             256 => DeviceProfile::POLAR_PACER,
             261 => DeviceProfile::POLAR_PACER_PRO,
             262 => DeviceProfile::POLAR_IGNITE_3,
+            7 => DeviceProfile::POLAR_H_7,
         ];
     }
 

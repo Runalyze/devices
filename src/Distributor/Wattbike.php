@@ -31,6 +31,7 @@ class Wattbike extends AbstractDistributor
             DeviceProfile::WATTBIKE_UNKNOWN,
             DeviceProfile::WATTBIKE_ATOM,
             DeviceProfile::WATTBIKE_ATOM_X,
+            DeviceProfile::WATTBIKE_ICON,
         ];
     }
 }

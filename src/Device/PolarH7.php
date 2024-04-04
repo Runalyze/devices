@@ -11,23 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class FitcareBC200 extends AbstractDevice
+class PolarH7 extends AbstractDevice
 {
-    use FitcareDeviceTrait;
+    use PolarDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::FITCARE_B_C_200;
+        return DeviceProfile::POLAR_H_7;
     }
 
     public function getName(): string
     {
-        return 'BC200';
-    }
-
-    public function hasBarometer(): bool
-    {
-        // Not sure
-        return false;
+        return 'H7';
     }
 }

@@ -285,6 +285,12 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_VIVO_MOVE_TREND,
             DeviceProfile::GARMIN_EDGE_1040,
             DeviceProfile::GARMIN_FENIX_7_PRO_SOLAR,
+            DeviceProfile::GARMIN_EPIX_2_PRO,
+            DeviceProfile::GARMIN_D_2_MACH_1_PRO,
+            DeviceProfile::GARMIN_DESCENT_MK_3_I,
+            DeviceProfile::GARMIN_FENIX_6_S_PRO_DUAL_POWER,
+            DeviceProfile::GARMIN_FORERUNNER_165,
+            DeviceProfile::GARMIN_FORERUNNER_165_MUSIC,
         ];
     }
 }

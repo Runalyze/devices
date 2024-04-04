@@ -400,8 +400,8 @@ class GarminFitSdkMapping
         ];
     }
 
-    //3765 => fenix 6s Pro Solar
-    //3187 = Rino 7 Series
+    // 3765 => fenix 6s Pro Solar
+    // 3187 = Rino 7 Series
 
     public function __construct()
     {

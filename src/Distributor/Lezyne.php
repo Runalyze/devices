@@ -36,6 +36,11 @@ class Lezyne extends AbstractDistributor
             DeviceProfile::LEZYNE_SUPER_PRO_GPS,
             DeviceProfile::LEZYNE_COLOR_GPS,
             DeviceProfile::LEZYNE_UNKNOWN,
+            DeviceProfile::LEZYNE_MICRO_C_GPS,
+            DeviceProfile::LEZYNE_MICRO_W_GPS,
+            DeviceProfile::LEZYNE_SUPER_GPS,
+            DeviceProfile::LEZYNE_MEGA_GPS,
+            DeviceProfile::LEZYNE_MACRO_GPS,
         ];
     }
 }

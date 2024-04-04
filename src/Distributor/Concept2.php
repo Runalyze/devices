@@ -29,6 +29,6 @@ class Concept2 extends AbstractDistributor
     {
         return [
             DeviceProfile::CONCEPT_2_UNKNOWN,
-            ];
+        ];
     }
 }

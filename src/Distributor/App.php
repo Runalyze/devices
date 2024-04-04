@@ -82,6 +82,7 @@ class App extends AbstractDistributor
             DeviceProfile::APP_TACX,
             DeviceProfile::APP_ROUVY,
             DeviceProfile::APP_BREAKAWAY,
+            DeviceProfile::APP_FITNESS_POINT,
         ];
     }
 }

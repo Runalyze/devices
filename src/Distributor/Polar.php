@@ -65,6 +65,7 @@ class Polar extends AbstractDistributor
             DeviceProfile::POLAR_IGNITE_3,
             DeviceProfile::POLAR_H_10,
             DeviceProfile::POLAR_H_9,
+            DeviceProfile::POLAR_H_7,
         ];
     }
 }
