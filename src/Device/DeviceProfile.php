@@ -697,6 +697,7 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_FORERUNNER_165 = 672;
     public const GARMIN_FORERUNNER_165_MUSIC = 673;
     public const POLAR_H_7 = 674;
+    public const COROS_VERTIX_2_S = 675;
 
     public static function getSlugs(): array
     {
