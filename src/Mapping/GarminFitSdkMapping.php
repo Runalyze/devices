@@ -296,6 +296,7 @@ class GarminFitSdkMapping
             3126 => DeviceProfile::GARMIN_INSTINCT,
             3889 => DeviceProfile::GARMIN_INSTINCT_2_S,
             4091 => DeviceProfile::GARMIN_INSTINCT_2_S,
+            4394 => DeviceProfile::GARMIN_INSTINCT_2_X_SOLAR,
             3466 => DeviceProfile::GARMIN_INSTINCT_SOLAR,
             3778 => DeviceProfile::GARMIN_INSTINCT_SOLAR,
             4071 => DeviceProfile::GARMIN_INSTINCT_2_SOLAR_ONE_PIECE_LUFFY,
