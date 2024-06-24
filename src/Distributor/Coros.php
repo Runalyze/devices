@@ -40,6 +40,7 @@ class Coros extends AbstractDistributor
             DeviceProfile::COROS_VERTIX,
             DeviceProfile::COROS_VERTIX_2,
             DeviceProfile::COROS_VERTIX_2_S,
+            DeviceProfile::COROS_DURA,
             DeviceProfile::COROS_UNKNOWN,
         ];
     }

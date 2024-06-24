@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminForerunner225SMusic extends AbstractDevice
+class SuuntoD4 extends AbstractDevice
 {
-    use GarminDeviceTrait;
+    use SuuntoDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_FORERUNNER_225_S_MUSIC;
+        return DeviceProfile::SUUNTO_D_4;
     }
 
     public function getName(): string
     {
-        return 'Forerunner 225S Music';
-    }
-
-    public function hasBarometer(): bool
-    {
-        return true;
+        return 'D4';
     }
 }
