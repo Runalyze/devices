@@ -64,7 +64,7 @@ class SuuntoFitSdkMapping
             40 => DeviceProfile::SUUNTO_7,
             41 => DeviceProfile::SUUNTO_EON_STEEL,
             42 => DeviceProfile::SUUNTO_9_PEAK,
-            44 => DeviceProfile::SUUNT_D4,
+            44 => DeviceProfile::SUUNTO_D_4,
             45 => DeviceProfile::SUUNTO_D_4_F,
             46 => DeviceProfile::SUUNTO_D_4_I,
             48 => DeviceProfile::SUUNTO_D_6_I,
