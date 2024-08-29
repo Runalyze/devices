@@ -62,6 +62,8 @@ class NameMapping
             'edge 800' => DeviceProfile::GARMIN_EDGE_800,
             'edge 810' => DeviceProfile::GARMIN_EDGE_810,
             'edge 820' => DeviceProfile::GARMIN_EDGE_820,
+            'edge 830' => DeviceProfile::GARMIN_EDGE_830,
+            'edge_830' => DeviceProfile::GARMIN_EDGE_830,
             'edge explore 2' => DeviceProfile::GARMIN_EDGE_EXPLORE_2,
             'edge1000' => DeviceProfile::GARMIN_EDGE_1000,
             'edge205' => DeviceProfile::GARMIN_EDGE_205,

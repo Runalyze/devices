@@ -702,6 +702,18 @@ class DeviceProfile extends AbstractEnum
     public const SUUNTO_OCEAN = 677;
     public const SUUNTO_D_9 = 678;
     public const SUUNTO_D_4 = 679;
+    public const SUUNTO_RACE_S = 680;
+    public const GARMIN_ENDURO_3 = 681;
+    public const GARMIN_FENIX_E = 682;
+    public const GARMIN_FENIX_8_AMOLED_43 = 683;
+    public const GARMIN_FENIX_8_AMOLED_47 = 684;
+    public const GARMIN_FENIX_8_AMOLED_51 = 685;
+    public const GARMIN_FENIX_8_SOLAR_43 = 686;
+    public const GARMIN_FENIX_8_SOLAR_47 = 687;
+    public const GARMIN_FENIX_8_SOLAR_51 = 688;
+    public const GARMIN_APPROACH_S_12 = 689;
+    public const GARMIN_LILY_2 = 690;
+    public const GARMIN_EDGE_1050 = 691;
 
     public static function getSlugs(): array
     {
