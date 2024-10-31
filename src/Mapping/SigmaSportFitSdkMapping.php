@@ -28,6 +28,7 @@ class SigmaSportFitSdkMapping
             46 => DeviceProfile::SIGMA_SPORT_ID_TRI,
             49 => DeviceProfile::SIGMA_SPORT_ROX_111_EVO,
             52 => DeviceProfile::SIGMA_SPORT_ROX_40,
+            54 => DeviceProfile::SIGMA_SPORT_ROX_121_EVO,
         ];
         /*
          * Unknown:

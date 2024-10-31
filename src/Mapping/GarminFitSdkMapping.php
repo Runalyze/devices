@@ -132,6 +132,7 @@ class GarminFitSdkMapping
             4314 => DeviceProfile::GARMIN_EPIX_PRO,
             2140 => DeviceProfile::GARMIN_ETREX_TOUCH,
             4201 => DeviceProfile::GARMIN_ETREX_S_E,
+            4202 => DeviceProfile::GARMIN_ETREX_SOLAR,
             1551 => DeviceProfile::GARMIN_FENIX,
             1967 => DeviceProfile::GARMIN_FENIX_2,
             2050 => DeviceProfile::GARMIN_FENIX_3,
@@ -410,6 +411,7 @@ class GarminFitSdkMapping
             3823 => DeviceProfile::GARMIN_APPROACH_S_12,
             3537 => DeviceProfile::GARMIN_LEGACY_HERO_SAGA_REY,
             4380 => DeviceProfile::GARMIN_LILY_2,
+            4477 => DeviceProfile::GARMIN_LILY_2_ACTIVE,
         ];
     }
 
