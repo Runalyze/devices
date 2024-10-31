@@ -25,6 +25,7 @@ class CorosFitSdkMapping
             802 => DeviceProfile::COROS_PACE_2,
             803 => DeviceProfile::KIPRUN_500,
             804 => DeviceProfile::COROS_PACE_3,
+            805 => DeviceProfile::COROS_PACE_PRO,
             811 => DeviceProfile::COROS_APEX_42,
             821 => DeviceProfile::COROS_APEX_46,
             831 => DeviceProfile::COROS_VERTIX,

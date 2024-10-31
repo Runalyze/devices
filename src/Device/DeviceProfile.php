@@ -714,6 +714,9 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_APPROACH_S_12 = 689;
     public const GARMIN_LILY_2 = 690;
     public const GARMIN_EDGE_1050 = 691;
+    public const SIGMA_SPORT_ROX_70_GPS = 692;
+
+    public const COROS_PACE_PRO = 693;
 
     public static function getSlugs(): array
     {

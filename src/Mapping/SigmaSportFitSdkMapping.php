@@ -21,10 +21,11 @@ class SigmaSportFitSdkMapping
     protected function getMapping()
     {
         return [
-            46 => DeviceProfile::SIGMA_SPORT_ID_TRI,
-            44 => DeviceProfile::SIGMA_SPORT_ROX_120_SPORT,
-            41 => DeviceProfile::SIGMA_SPORT_ROX_110_GPS,
             15 => DeviceProfile::SIGMA_SPORT_ROX_100_GPS,
+            18 => DeviceProfile::SIGMA_SPORT_ROX_70_GPS,
+            41 => DeviceProfile::SIGMA_SPORT_ROX_110_GPS,
+            44 => DeviceProfile::SIGMA_SPORT_ROX_120_SPORT,
+            46 => DeviceProfile::SIGMA_SPORT_ID_TRI,
             49 => DeviceProfile::SIGMA_SPORT_ROX_111_EVO,
             52 => DeviceProfile::SIGMA_SPORT_ROX_40,
         ];
