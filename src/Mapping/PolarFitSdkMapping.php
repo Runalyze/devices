@@ -15,10 +15,10 @@ use Runalyze\Devices\Device\DeviceProfile;
 
 class PolarFitSdkMapping
 {
-    /** @var int[]|string[] */
-    protected $Mapping = [];
+    /** @var int[] */
+    protected array $Mapping = [];
 
-    protected function getMapping()
+    protected function getMapping(): array
     {
         return [
             1 => DeviceProfile::POLAR_LOOP,
@@ -63,16 +63,8 @@ class PolarFitSdkMapping
         $this->Mapping = $this->getMapping();
     }
 
-    /**
-     * @param  int|string $value
-     * @return int|string
-     */
-    public function toInternal($value)
+    public function toInternal($value): ?int
     {
-        if (isset($this->Mapping[$value])) {
-            return $this->Mapping[$value];
-        }
-
-        return;
+        return $this->Mapping[$value] ?? null;
     }
 }

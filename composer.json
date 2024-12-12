@@ -14,5 +14,9 @@
     "psr-4": {
       "Runalyze\\Devices\\": "src/"
     }
+  },
+  "scripts": {
+    "phpunit": "phpunit",
+    "php-cs-fixer": "php-cs-fixer fix"
   }
 }

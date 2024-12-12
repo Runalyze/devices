@@ -303,7 +303,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_EDGE_1050,
             DeviceProfile::GARMIN_LILY_2,
             DeviceProfile::GARMIN_LILY_2_ACTIVE,
-            DeviceProfile::GARMIN_ETREX_SOLAR
+            DeviceProfile::GARMIN_ETREX_SOLAR,
         ];
     }
 }

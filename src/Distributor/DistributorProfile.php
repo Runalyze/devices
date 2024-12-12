@@ -74,7 +74,7 @@ class DistributorProfile extends AbstractEnum
 
     public static function getSlug(
         #[ExpectedValues(valuesFromClass: self::class)]
-        int $enum
+        int $enum,
     ): string {
         self::generateSlugsArray();
 

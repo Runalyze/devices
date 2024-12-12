@@ -719,6 +719,7 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_LILY_2_ACTIVE = 694;
     public const SIGMA_SPORT_ROX_121_EVO = 695;
     public const GARMIN_ETREX_SOLAR = 696;
+    public const POLAR_VANTAGE_M_3 = 697;
 
     public static function getSlugs(): array
     {
@@ -729,7 +730,7 @@ class DeviceProfile extends AbstractEnum
 
     public static function getSlug(
         #[ExpectedValues(valuesFromClass: self::class)]
-        int $enum
+        int $enum,
     ): string {
         self::generateSlugsArray();
 

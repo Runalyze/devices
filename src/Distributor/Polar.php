@@ -50,6 +50,7 @@ class Polar extends AbstractDistributor
             DeviceProfile::POLAR_V_800,
             DeviceProfile::POLAR_VANTAGE_M,
             DeviceProfile::POLAR_VANTAGE_M_2,
+            DeviceProfile::POLAR_VANTAGE_M_3,
             DeviceProfile::POLAR_VANTAGE_V,
             DeviceProfile::POLAR_VANTAGE_V_TITAN,
             DeviceProfile::POLAR_GRIT_X,
