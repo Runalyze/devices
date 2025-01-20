@@ -304,6 +304,9 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_LILY_2,
             DeviceProfile::GARMIN_LILY_2_ACTIVE,
             DeviceProfile::GARMIN_ETREX_SOLAR,
+            DeviceProfile::GARMIN_INSTINCT_E,
+            DeviceProfile::GARMIN_INSTINCT_3_SOLAR,
+            DeviceProfile::GARMIN_INSTINCT_3_AMOLED
         ];
     }
 }

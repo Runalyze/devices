@@ -720,7 +720,11 @@ class DeviceProfile extends AbstractEnum
     public const SIGMA_SPORT_ROX_121_EVO = 695;
     public const GARMIN_ETREX_SOLAR = 696;
     public const POLAR_VANTAGE_M_3 = 697;
-
+    public const GARMIN_INSTINCT_E = 698;
+    public const GARMIN_INSTINCT_3_SOLAR = 699;
+    public const GARMIN_INSTINCT_3_AMOLED = 700;
+    public const HUAMI_AMAZFIT_ACTIVE_2 = 701;
+    public const SUUNTO_AQUA = 702;
     public static function getSlugs(): array
     {
         self::generateSlugsArray();

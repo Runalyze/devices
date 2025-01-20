@@ -212,6 +212,8 @@ class NameMapping
             'polar unite' => DeviceProfile::POLAR_UNITE,
             'polar v650' => DeviceProfile::POLAR_V_650,
             'polar v800' => DeviceProfile::POLAR_V_800,
+            'polar vantage m3' => DeviceProfile::POLAR_VANTAGE_M_3,
+            'polar vantage m2' => DeviceProfile::POLAR_VANTAGE_M_2,
             'polar vantage m' => DeviceProfile::POLAR_VANTAGE_M,
             'polar vantage v' => DeviceProfile::POLAR_VANTAGE_V,
             'polar vantage v2' => DeviceProfile::POLAR_VANTAGE_V_2,

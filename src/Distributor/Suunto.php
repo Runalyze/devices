@@ -83,6 +83,7 @@ class Suunto extends AbstractDistributor
             DeviceProfile::SUUNTO_5,
             DeviceProfile::SUUNTO_RACE,
             DeviceProfile::SUUNTO_RACE_S,
+            DeviceProfile::SUUNTO_AQUA
         ];
     }
 }
