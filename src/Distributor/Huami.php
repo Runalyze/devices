@@ -51,7 +51,7 @@ class Huami extends AbstractDistributor
             DeviceProfile::HUAMI_AMAZFIT_G_T_S_2_MINI,
             DeviceProfile::HUAMI_AMAZFIT_T_REX_PRO,
             DeviceProfile::HUAMI_AMAZFIT_STRATOS_2,
-            DeviceProfile::HUAMI_AMAZFIT_ACTIVE_2
+            DeviceProfile::HUAMI_AMAZFIT_ACTIVE_2,
         ];
     }
 }

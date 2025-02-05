@@ -11,17 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class AppleIphone15Plus extends AbstractDevice
+class AppleIphone16ProMax extends AbstractDevice
 {
     use AppleDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::APPLE_IPHONE_15_PLUS;
+        return DeviceProfile::APPLE_IPHONE_16_PRO_MAX;
     }
 
     public function getName(): string
     {
-        return 'iPhone 15 Plus';
+        return 'iPhone 16 Pro Max';
     }
 }

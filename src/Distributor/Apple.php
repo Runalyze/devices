@@ -110,6 +110,10 @@ class Apple extends AbstractDistributor
             DeviceProfile::APPLE_IPHONE_15_PRO,
             DeviceProfile::APPLE_IPHONE_15_PLUS,
             DeviceProfile::APPLE_IPHONE_15_PRO_MAX,
+            DeviceProfile::APPLE_IPHONE_16,
+            DeviceProfile::APPLE_IPHONE_16_PRO,
+            DeviceProfile::APPLE_IPHONE_16_PRO_MAX,
+            DeviceProfile::APPLE_IPHONE_16_PLUS,
         ];
     }
 }

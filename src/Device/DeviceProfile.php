@@ -725,6 +725,11 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_INSTINCT_3_AMOLED = 700;
     public const HUAMI_AMAZFIT_ACTIVE_2 = 701;
     public const SUUNTO_AQUA = 702;
+    public const APPLE_IPHONE_16 = 703;
+    public const APPLE_IPHONE_16_PRO = 704;
+    public const APPLE_IPHONE_16_PRO_MAX = 705;
+    public const APPLE_IPHONE_16_PLUS = 706;
+
     public static function getSlugs(): array
     {
         self::generateSlugsArray();
