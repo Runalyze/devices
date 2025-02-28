@@ -183,6 +183,7 @@ class NameMapping
             'igsport igs50e' => DeviceProfile::IGPSPORT_IGS_50_E,
             'igsport igs618' => DeviceProfile::IGPSPORT_IGS_618,
             'igsport igs620' => DeviceProfile::IGPSPORT_IGS_620,
+            'ictrainer' => DeviceProfile::APP_IC_TRAINER,
             'ismoothrun' => DeviceProfile::APP_I_SMOOTH_RUN,
             'kinomap' => DeviceProfile::APP_KINOMAP,
             'komoot' => DeviceProfile::APP_KOMOOT,
