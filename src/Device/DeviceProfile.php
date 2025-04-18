@@ -731,6 +731,14 @@ class DeviceProfile extends AbstractEnum
     public const APPLE_IPHONE_16_PLUS = 706;
     public const GARMIN_VENU_2_S_MERCEDES_BENZ = 707;
     public const APP_IC_TRAINER = 708;
+    public const GARMIN_VIVO_ACTIVE_6 = 709;
+    public const GARMIN_FENIX_7_PRO_SOLAR_NO_WIFI = 710;
+    public const GARMIN_DESCENT_G_2 = 711;
+    public const GARMIN_TACTIX_8_AMOLED_47 = 712;
+    public const GARMIN_TACTIX_8_AMOLED_51 = 713;
+    public const GARMIN_TACTIX_8_SOLAR_51 = 714;
+    public const GARMIN_APPROACH_S_50 = 715;
+    public const GARMIN_FENIX_7_X_PRO_SOLAR_NO_WIFI = 716;
 
     public static function getSlugs(): array
     {
