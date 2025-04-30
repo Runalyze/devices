@@ -739,6 +739,12 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_TACTIX_8_SOLAR_51 = 714;
     public const GARMIN_APPROACH_S_50 = 715;
     public const GARMIN_FENIX_7_X_PRO_SOLAR_NO_WIFI = 716;
+    public const APPLE_WATCH_10_V_42 = 717;
+    public const APPLE_WATCH_10_V_46 = 718;
+    public const APPLE_WATCH_10_V_42_CELLULAR = 719;
+    public const APPLE_WATCH_10_V_46_CELLULAR = 720;
+    public const APPLE_IPHONE_16_E = 721;
+
 
     public static function getSlugs(): array
     {

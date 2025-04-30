@@ -65,6 +65,11 @@ class DevelopmentFitSdkMapping
             'Watch7,3' => DeviceProfile::APPLE_WATCH_9_V_41_CELLULAR,
             'Watch7,4' => DeviceProfile::APPLE_WATCH_9_V_45_CELLULAR,
             'Watch7,5' => DeviceProfile::APPLE_WATCH_ULTRA_2,
+
+            'Watch7,8' => DeviceProfile::APPLE_WATCH_10_V_42,
+            'Watch7,9' => DeviceProfile::APPLE_WATCH_10_V_46,
+            'Watch7,10' =>  DeviceProfile::APPLE_WATCH_10_V_42_CELLULAR,
+            'Watch7,11' =>  DeviceProfile::APPLE_WATCH_10_V_46_CELLULAR,
             'iPhone7,1' => DeviceProfile::APPLE_IPHONE_6_PLUS,
             'iPhone7,2' => DeviceProfile::APPLE_IPHONE_6,
             'iPhone8,1' => DeviceProfile::APPLE_IPHONE_6_S,
@@ -109,6 +114,8 @@ class DevelopmentFitSdkMapping
             'iPhone17,2' => DeviceProfile::APPLE_IPHONE_16_PRO_MAX,
             'iPhone17,3' => DeviceProfile::APPLE_IPHONE_16,
             'iPhone17,4' => DeviceProfile::APPLE_IPHONE_16_PLUS,
+            'iPhone17,5' => DeviceProfile::APPLE_IPHONE_16_E,
+
 
             'Polar A370' => DeviceProfile::POLAR_A_370,
             'Polar M400' => DeviceProfile::POLAR_M_400,
