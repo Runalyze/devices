@@ -308,6 +308,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_INSTINCT_3_SOLAR,
             DeviceProfile::GARMIN_INSTINCT_3_AMOLED,
             DeviceProfile::GARMIN_VENU_2_S_MERCEDES_BENZ,
+            DeviceProfile::GARMIN_VENU_2_MERCEDES_BENZ,
             DeviceProfile::GARMIN_VIVO_ACTIVE_6,
             DeviceProfile::GARMIN_DESCENT_G_2,
             DeviceProfile::GARMIN_TACTIX_8_AMOLED_47,

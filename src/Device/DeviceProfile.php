@@ -744,6 +744,8 @@ class DeviceProfile extends AbstractEnum
     public const APPLE_WATCH_10_V_42_CELLULAR = 719;
     public const APPLE_WATCH_10_V_46_CELLULAR = 720;
     public const APPLE_IPHONE_16_E = 721;
+    public const SUUNTO_RUN = 722;
+    public const GARMIN_VENU_2_MERCEDES_BENZ = 723;
 
 
     public static function getSlugs(): array

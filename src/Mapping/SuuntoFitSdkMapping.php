@@ -78,6 +78,7 @@ class SuuntoFitSdkMapping
             61 => DeviceProfile::SUUNTO_RACE_S,
             62 => DeviceProfile::SUUNTO_OCEAN,
             63 => DeviceProfile::SUUNTO_AQUA,
+            65 => DeviceProfile::SUUNTO_RUN,
             200 => DeviceProfile::SUUNTO_AMBIT_2,
         ];
     }

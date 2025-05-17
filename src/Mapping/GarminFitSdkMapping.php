@@ -355,6 +355,7 @@ class GarminFitSdkMapping
             3703 => DeviceProfile::GARMIN_VENU_2,
             3704 => DeviceProfile::GARMIN_VENU_2,
             3949 => DeviceProfile::GARMIN_VENU_2,
+            4171 => DeviceProfile::GARMIN_VENU_2_MERCEDES_BENZ,
             4175 => DeviceProfile::GARMIN_VENU_2_S_MERCEDES_BENZ,
             4260 => DeviceProfile::GARMIN_VENU_3,
             4261 => DeviceProfile::GARMIN_VENU_3_S,
