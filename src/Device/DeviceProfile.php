@@ -747,7 +747,6 @@ class DeviceProfile extends AbstractEnum
     public const SUUNTO_RUN = 722;
     public const GARMIN_VENU_2_MERCEDES_BENZ = 723;
 
-
     public static function getSlugs(): array
     {
         self::generateSlugsArray();

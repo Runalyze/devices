@@ -17,7 +17,7 @@ class GarminTactix8Solar51 extends AbstractDevice
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_TACTIX_8_SOLAR_47;
+        return DeviceProfile::GARMIN_TACTIX_8_SOLAR_51;
     }
 
     public function getName(): string

@@ -316,7 +316,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_TACTIX_8_SOLAR_51,
             DeviceProfile::GARMIN_FENIX_7_PRO_SOLAR_NO_WIFI,
             DeviceProfile::GARMIN_APPROACH_S_50,
-            DeviceProfile::GARMIN_FENIX_7_X_PRO_SOLAR_NO_WIFI
+            DeviceProfile::GARMIN_FENIX_7_X_PRO_SOLAR_NO_WIFI,
         ];
     }
 }
