@@ -747,6 +747,8 @@ class DeviceProfile extends AbstractEnum
     public const SUUNTO_RUN = 722;
     public const GARMIN_VENU_2_MERCEDES_BENZ = 723;
     public const POLAR_GRIT_X_2 = 724;
+    public const GARMIN_FORERUNNER_970 = 725;
+    public const GARMIN_FORERUNNER_570 = 726;
 
     public static function getSlugs(): array
     {
