@@ -441,7 +441,8 @@ class GarminFitSdkMapping
             1637 => DeviceProfile::GARMIN_MOBILE_IOS,
             1636 => DeviceProfile::GARMIN_MOBILE_ANDROID,
             4267 => DeviceProfile::GARMIN_TACX_NEO_2_T,
-            4376 => DeviceProfile::GARMIN_FENIX_7_X_PRO_SOLAR_NO_WIFI, // fenix 7X Pro Sapphire Solar
+            4376 => DeviceProfile::GARMIN_FENIX_7_X_PRO_SAPPHIRE_SOLAR,
+            4607 => DeviceProfile::GARMIN_HRM_600
         ];
     }
 
