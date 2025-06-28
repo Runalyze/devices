@@ -64,6 +64,7 @@ class DistributorProfile extends AbstractEnum
     public const SCOSCHE = 43;
     public const VDO = 44;
     public const MAGENE = 45;
+    public const XPLOVA = 46;
 
     public static function getSlugs(): array
     {

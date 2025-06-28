@@ -245,6 +245,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_FENIX_7_SAPPHIRE_SOLAR,
             DeviceProfile::GARMIN_FENIX_7_X_SAPPHIRE_SOLAR,
             DeviceProfile::GARMIN_FENIX_7_S_PRO_SAPPHIRE_SOLAR,
+            DeviceProfile::GARMIN_FENIX_7_X_PRO_SAPPHIRE_SOLAR,
             DeviceProfile::GARMIN_D_2_DELTA_P_X,
             DeviceProfile::GARMIN_DESCENT_MK_2_S,
             DeviceProfile::GARMIN_APPROACH_S_42,

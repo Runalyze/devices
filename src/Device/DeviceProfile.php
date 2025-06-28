@@ -758,6 +758,9 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_MOBILE_ANDROID = 733;
     public const GARMIN_ALPHA_300_I = 734;
     public const GARMIN_GPSMAP_276_C_X = 735;
+    public const XPLOVA_X_5_EVO = 736;
+    public const XPLOVA_NOZA_S = 737;
+    public const GARMIN_FENIX_7_X_PRO_SAPPHIRE_SOLAR = 738;
 
     public static function getSlugs(): array
     {
