@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminForerunner570 extends AbstractDevice
+class MageneGeoidCC600 extends AbstractDevice
 {
-    use GarminDeviceTrait;
+    use MageneDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_FORERUNNER_570;
+        return DeviceProfile::MAGENE_GEOID_C_C_600;
     }
 
     public function getName(): string
     {
-        return 'Forerunner 570';
-    }
-
-    public function hasBarometer(): bool
-    {
-        return true;
+        return 'GEOID CC600';
     }
 }

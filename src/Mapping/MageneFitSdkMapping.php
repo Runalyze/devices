@@ -28,6 +28,7 @@ class MageneFitSdkMapping
             100 => DeviceProfile::MAGENE_C_206_PRO,
             102 => DeviceProfile::MAGENE_C_206,
             262 => DeviceProfile::MAGENE_C_606,
+            4062 => DeviceProfile::MAGENE_GEOID_C_C_600,
         ];
     }
 

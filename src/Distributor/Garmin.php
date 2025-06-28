@@ -318,7 +318,15 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_APPROACH_S_50,
             DeviceProfile::GARMIN_FENIX_7_X_PRO_SOLAR_NO_WIFI,
             DeviceProfile::GARMIN_FORERUNNER_970,
-            DeviceProfile::GARMIN_FORERUNNER_570
+            DeviceProfile::GARMIN_FORERUNNER_570,
+            DeviceProfile::GARMIN_APPROACH_S_44,
+            DeviceProfile::GARMIN_VENU_X_1,
+            DeviceProfile::GARMIN_TACX_NEO_2_T,
+            DeviceProfile::GARMIN_EDGE_MTB,
+            DeviceProfile::GARMIN_CATALYST,
+            DeviceProfile::GARMIN_ALPHA_300_I,
+            DeviceProfile::GARMIN_GPSMAP_276_C_X,
+            DeviceProfile::GARMIN_MOBILE_ANDROID,
         ];
     }
 }

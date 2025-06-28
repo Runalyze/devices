@@ -11,22 +11,17 @@
 
 namespace Runalyze\Devices\Device;
 
-class GarminForerunner570 extends AbstractDevice
+class GarminApproachS44 extends AbstractDevice
 {
     use GarminDeviceTrait;
 
     public function getEnum(): int
     {
-        return DeviceProfile::GARMIN_FORERUNNER_570;
+        return DeviceProfile::GARMIN_APPROACH_S_42;
     }
 
     public function getName(): string
     {
-        return 'Forerunner 570';
-    }
-
-    public function hasBarometer(): bool
-    {
-        return true;
+        return 'Approach S44';
     }
 }

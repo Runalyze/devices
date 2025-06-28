@@ -749,6 +749,15 @@ class DeviceProfile extends AbstractEnum
     public const POLAR_GRIT_X_2 = 724;
     public const GARMIN_FORERUNNER_970 = 725;
     public const GARMIN_FORERUNNER_570 = 726;
+    public const GARMIN_APPROACH_S_44 = 727;
+    public const MAGENE_GEOID_C_C_600 = 728;
+    public const GARMIN_VENU_X_1 = 729;
+    public const GARMIN_TACX_NEO_2_T = 730;
+    public const GARMIN_EDGE_MTB = 731;
+    public const GARMIN_CATALYST = 732;
+    public const GARMIN_MOBILE_ANDROID = 733;
+    public const GARMIN_ALPHA_300_I = 734;
+    public const GARMIN_GPSMAP_276_C_X = 735;
 
     public static function getSlugs(): array
     {
