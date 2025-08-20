@@ -38,6 +38,7 @@ class CorosFitSdkMapping
             822 => DeviceProfile::COROS_APEX_2_PRO,
             823 => DeviceProfile::KIPRUN_900,
             851 => DeviceProfile::COROS_DURA,
+            861 => DeviceProfile::COROS_NOMAD
         ];
         /*
          * Unknown:

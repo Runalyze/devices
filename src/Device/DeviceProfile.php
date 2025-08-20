@@ -762,6 +762,7 @@ class DeviceProfile extends AbstractEnum
     public const XPLOVA_NOZA_S = 737;
     public const GARMIN_FENIX_7_X_PRO_SAPPHIRE_SOLAR = 738;
     public const GARMIN_HRM_600 = 739;
+    public const COROS_NOMAD = 740;
 
     public static function getSlugs(): array
     {
