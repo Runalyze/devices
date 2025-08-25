@@ -763,6 +763,10 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_FENIX_7_X_PRO_SAPPHIRE_SOLAR = 738;
     public const GARMIN_HRM_600 = 739;
     public const COROS_NOMAD = 740;
+    public const APP_RUNNA = 741;
+    public const GARMIN_GPSMAP_67 = 742;
+    public const APP_TRAINING_PEAKS_VIRTUAL = 743;
+    public const HAMMERHEAD_KAROO_3 = 744;
 
     public static function getSlugs(): array
     {

@@ -84,6 +84,8 @@ class App extends AbstractDistributor
             DeviceProfile::APP_BREAKAWAY,
             DeviceProfile::APP_FITNESS_POINT,
             DeviceProfile::APP_IC_TRAINER,
+            DeviceProfile::APP_RUNNA,
+            DeviceProfile::APP_TRAINING_PEAKS_VIRTUAL,
         ];
     }
 }

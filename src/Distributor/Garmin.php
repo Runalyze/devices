@@ -283,6 +283,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_D_2_MACH_1,
             DeviceProfile::GARMIN_INSTINCT_CROSSOVER,
             DeviceProfile::GARMIN_GPSMAP_67_I,
+            DeviceProfile::GARMIN_GPSMAP_67,
             DeviceProfile::GARMIN_INSTINCT_2_X_SOLAR,
             DeviceProfile::GARMIN_ETREX_S_E,
             DeviceProfile::GARMIN_ETREX_10,
@@ -328,6 +329,7 @@ class Garmin extends AbstractDistributor
             DeviceProfile::GARMIN_ALPHA_300_I,
             DeviceProfile::GARMIN_GPSMAP_276_C_X,
             DeviceProfile::GARMIN_MOBILE_ANDROID,
+            DeviceProfile::GARMIN_HRM_600,
         ];
     }
 }

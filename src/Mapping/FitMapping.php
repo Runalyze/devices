@@ -47,6 +47,9 @@ class FitMapping
             case 'bryton':
                 return DeviceProfile::BRYTON_UNKNOWN;
                 break;
+            case 28:
+                return DeviceProfile::APP_TRAINING_PEAKS_VIRTUAL;
+                break;
             case 70:
             case 'sigmasport':
                 return (new SigmaSportFitSdkMapping())->toInternal($productId);

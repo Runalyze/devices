@@ -43,7 +43,7 @@ class Coros extends AbstractDistributor
             DeviceProfile::COROS_DURA,
             DeviceProfile::COROS_UNKNOWN,
             DeviceProfile::COROS_PACE_PRO,
-            DeviceProfile::COROS_NOMAD
+            DeviceProfile::COROS_NOMAD,
         ];
     }
 }

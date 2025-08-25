@@ -30,6 +30,7 @@ class Hammerhead extends AbstractDistributor
         return [
             DeviceProfile::HAMMERHEAD_KAROO,
             DeviceProfile::HAMMERHEAD_KAROO_2,
+            DeviceProfile::HAMMERHEAD_KAROO_3,
         ];
     }
 }

@@ -178,6 +178,7 @@ class GarminFitSdkMapping
             3284 => DeviceProfile::GARMIN_GPSMAP_66_I,
             3694 => DeviceProfile::GARMIN_GPSMAP_66_S_R,
             4336 => DeviceProfile::GARMIN_GPSMAP_67_I,
+            4473 => DeviceProfile::GARMIN_GPSMAP_67,
             2479 => DeviceProfile::GARMIN_GPSMAP_276_C_X,
             4270 => DeviceProfile::GARMIN_GPSMAP_276_C_X,
             3287 => DeviceProfile::GARMIN_FENIX_6_S,
@@ -442,7 +443,7 @@ class GarminFitSdkMapping
             1636 => DeviceProfile::GARMIN_MOBILE_ANDROID,
             4267 => DeviceProfile::GARMIN_TACX_NEO_2_T,
             4376 => DeviceProfile::GARMIN_FENIX_7_X_PRO_SAPPHIRE_SOLAR,
-            4607 => DeviceProfile::GARMIN_HRM_600
+            4607 => DeviceProfile::GARMIN_HRM_600,
         ];
     }
 

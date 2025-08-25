@@ -24,5 +24,4 @@ class GarminHrm600 extends AbstractDevice
     {
         return 'HRM 600';
     }
-
 }
