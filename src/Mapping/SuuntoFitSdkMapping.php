@@ -71,6 +71,7 @@ class SuuntoFitSdkMapping
             49 => DeviceProfile::SUUNTO_D_9,
             52 => DeviceProfile::SUUNTO_VYPER_NOVO,
             53 => DeviceProfile::SUUNTO_ZOOP_NOVO,
+            55 => DeviceProfile::SUUNTO_GPS_TRACK_POD,
             56 => DeviceProfile::SUUNTO_5_PEAK,
             58 => DeviceProfile::SUUNTO_9_PEAK_PRO,
             59 => DeviceProfile::SUUNTO_VERTICAL,
@@ -79,6 +80,7 @@ class SuuntoFitSdkMapping
             62 => DeviceProfile::SUUNTO_OCEAN,
             63 => DeviceProfile::SUUNTO_AQUA,
             65 => DeviceProfile::SUUNTO_RUN,
+            66 => DeviceProfile::SUUNTO_RACE_2,
             200 => DeviceProfile::SUUNTO_AMBIT_2,
         ];
     }

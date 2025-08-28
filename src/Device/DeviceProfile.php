@@ -767,6 +767,8 @@ class DeviceProfile extends AbstractEnum
     public const GARMIN_GPSMAP_67 = 742;
     public const APP_TRAINING_PEAKS_VIRTUAL = 743;
     public const HAMMERHEAD_KAROO_3 = 744;
+    public const SUUNTO_RACE_2 = 745;
+    public const SUUNTO_GPS_TRACK_POD = 746;
 
     public static function getSlugs(): array
     {

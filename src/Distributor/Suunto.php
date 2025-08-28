@@ -82,9 +82,11 @@ class Suunto extends AbstractDistributor
             DeviceProfile::SUUNTO_VERTICAL,
             DeviceProfile::SUUNTO_5,
             DeviceProfile::SUUNTO_RACE,
+            DeviceProfile::SUUNTO_RACE_2,
             DeviceProfile::SUUNTO_RACE_S,
             DeviceProfile::SUUNTO_AQUA,
             DeviceProfile::SUUNTO_RUN,
+            DeviceProfile::SUUNTO_GPS_TRACK_POD,
         ];
     }
 }
